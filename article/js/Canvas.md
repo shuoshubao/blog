@@ -1,8 +1,8 @@
 # 初始化
 
 ```
-const domEle = document.querySelector('#myCanvas')
-const ctx = domEle.getContext('2d')
+const canvasDomEle = document.querySelector('#myCanvas')
+const ctx = canvasDomEle.getContext('2d')
 ```
 
 # 颜色、样式和阴影
