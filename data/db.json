@@ -33,38 +33,6 @@
   ],
   "js": [
     {
-      "name": "Vue",
-      "title": "Vue文档"
-    },
-    {
-      "name": "Reduce",
-      "title": "Reduce的应用"
-    },
-    {
-      "name": "Yarn",
-      "title": "Yarn"
-    },
-    {
-      "name": "React",
-      "title": "React"
-    },
-    {
-      "name": "Redux",
-      "title": "Redux"
-    },
-    {
-      "name": "React-Native",
-      "title": "React Native"
-    },
-    {
-      "name": "RegExp",
-      "title": "RegExp"
-    },
-    {
-      "name": "Code",
-      "title": "JS代码片段"
-    },
-    {
       "name": "ES8",
       "title": "ES8"
     },
@@ -79,6 +47,46 @@
     {
       "name": "ES5",
       "title": "ES5"
+    },
+    {
+      "name": "Vue",
+      "title": "Vue文档"
+    },
+    {
+      "name": "React",
+      "title": "React"
+    },
+    {
+      "name": "Redux",
+      "title": "Redux"
+    },
+    {
+      "name": "React-Native",
+      "title": "React Native"
+    },
+    {
+      "name": "Angular",
+      "title": "Angular"
+    },
+    {
+      "name": "Reduce",
+      "title": "Reduce的应用"
+    },
+    {
+      "name": "Yarn",
+      "title": "Yarn"
+    },
+    {
+      "name": "RegExp",
+      "title": "RegExp"
+    },
+    {
+      "name": "Code",
+      "title": "JS代码片段"
+    },
+    {
+      "name": "Canvas",
+      "title": "Canvas"
     },
     {
       "name": "Ajax",
@@ -119,10 +127,6 @@
     {
       "name": "DOM",
       "title": "DOM"
-    },
-    {
-      "name": "Angular",
-      "title": "Angular"
     },
     {
       "name": "Storage",
