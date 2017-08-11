@@ -1,2 +1,3 @@
 # blog
-blog source markdown
+
+* npm run deploy // 将md编译成html
