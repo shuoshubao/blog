@@ -14,7 +14,7 @@
 <nav class="nav">
   <div class="inner">
     <div class="wrap">
-      <a class="home" href="/view/index/index.html">
+      <a class="home" href="/blog/view/index/index.html">
         <svg
           class="logo"
           aria-hidden="true"
@@ -30,7 +30,7 @@
       <ul>
         <% DATA_NAV.forEach(function(v){ %>
           <li class="<%= categories==v.categories ? 'active' : '' %>">
-            <a href="/view/<%= v.categories %>/index.html"><%= v.text %></a>
+            <a href="/blog/view/<%= v.categories %>/index.html"><%= v.text %></a>
           </li>
         <% }) %>
       </ul>
