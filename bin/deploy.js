@@ -25,7 +25,7 @@ const promiseLess = less.render(strLess, {
   })]
 })
 
-const tempEjs = fs.readFileSync('src/template/deploy.ejs').toString()
+const tempEjs = fs.readFileSync('src/template/index.ejs').toString()
 
 rimraf.sync('view')
 fs.mkdirSync('view')
