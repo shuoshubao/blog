@@ -15,6 +15,10 @@
     {
       "name": "Event",
       "title": "HTML事件属性"
+    },
+    {
+      "name": "Meta",
+      "title": "Meta"
     }
   ],
   "css": [
@@ -151,6 +155,10 @@
     {
       "name": "Prettier.js",
       "title": "Prettier.js"
+    },
+    {
+      "name": "Console",
+      "title": "Console"
     }
   ],
   "node": [
