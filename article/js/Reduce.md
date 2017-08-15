@@ -5,20 +5,20 @@
 ## 求和
 
 ```
-arr.reduce((prev, cur) => prev + cur)
+const sum = arr => arr.reduce((prev, cur) => prev + cur)
 ```
 
 ## 极值
 
 ```
-arr.reduce((prev, cur) => Math.min(prev, cur))
-arr.reduce((prev, cur) => Math.max(prev, cur))
+const min = arr => arr.reduce((prev, cur) => Math.min(prev, cur))
+const max = arr => arr.reduce((prev, cur) => Math.max(prev, cur))
 ```
 
 ## 阶乘
 
 ```
-const factorial = (N) => Array.from(Array(N), (v, i) => i + 1).reduce((prev, cur) => prev * cur)
+const factorial = N => Array.from(Array(N), (v, i) => i + 1).reduce((prev, cur) => prev * cur)
 
 factorial(5) // 120
 ```
