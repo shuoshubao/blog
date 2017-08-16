@@ -1,12 +1,12 @@
 # Prettier.js
 
 ```
-const fs = require('fs')
-const glob = require('glob')
-const chalk = require('chalk')
-const prettier = require('prettier')
+import fs from 'fs'
+import glob from 'glob'
+import chalk from 'chalk'
+import prettier from 'prettier'
 
-let files = glob.sync('src/**/*.js')
+let fileList = glob.sync('src/**/*.js')
 
 const prettierOptions = {
   useTabs: false,
@@ -20,7 +20,7 @@ const prettierOptions = {
   parser: 'babylon',
 }
 
-const timeInfo = `prettier 共处理${files.length}个文件, 共耗时`
+const timeInfo = `prettier 共处理${fileList.length}个文件, 共耗时`
 console.time(timeInfo)
 const prettierFile = src => new Promise((resolve, reject) => {
   fs.readFile(src, (err, buffer) => {
@@ -41,7 +41,7 @@ const prettierFile = src => new Promise((resolve, reject) => {
 })
 
 Promise
-  .all(files.map(v => prettierFile(v)))
+  .all(fileList.map(v => prettierFile(v)))
   .then(() => console.timeEnd(timeInfo))
   .catch(([e, src]) => {
     console.log(`${chalk.red('请检查文件: ')}${chalk.blue(src)}`)
