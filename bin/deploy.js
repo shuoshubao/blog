@@ -8,6 +8,8 @@ import {minify as minifyHtml} from 'html-minifier'
 import MarkdownIt from 'markdown-it'
 import hljs from '../src/util/highlight.js/lib'
 import {DATA_NAV, DATA_META} from '../data'
+import {exec} from 'child_process'
+
 
 const DATA_ARTICLE = require('../data/db')
 
@@ -29,6 +31,9 @@ const tempEjs = fs.readFileSync('src/template/index.ejs').toString()
 
 rimraf.sync('docs')
 fs.mkdirSync('docs')
+
+exec('cp index.html docs/index.html')
+
 DATA_NAV.forEach(v => fs.mkdirSync(`docs/${v.categories}`))
 
 const MarkdownItHighlight = MarkdownIt({
