@@ -85,7 +85,7 @@ const allDetail = Object.entries(DATA_ARTICLE).reduce((prev, cur) => {
 const promiseDoc = path => new Promise((resolve, reject) => {
   fs.readFile(`article/${path}.md`, (err, data) => {
     if(err) {
-      reject()
+      reject(err)
     }else {
       console.log(chalk.cyan(`生成文件: view/${path}.html`))
       resolve(data.toString())
