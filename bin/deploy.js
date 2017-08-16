@@ -136,7 +136,7 @@ Promise.all([
             return `<li><a href="/blog/${categories}/${name}.html">${title}</a></li>`
           }).join('')
         }else {
-          return DATA_ARTICLE[categories].map(v => `<li><a href="/docs/${categories}/${v.name}.html">${v.title}</a></li>`).join('')
+          return DATA_ARTICLE[categories].map(v => `<li><a href="/blog/${categories}/${v.name}.html">${v.title}</a></li>`).join('')
         }
       })()
     })
