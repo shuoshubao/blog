@@ -27,9 +27,9 @@ const promiseLess = less.render(strLess, {
 
 const tempEjs = fs.readFileSync('src/template/index.ejs').toString()
 
-rimraf.sync('view')
-fs.mkdirSync('view')
-DATA_NAV.forEach(v => fs.mkdirSync(`view/${v.categories}`))
+rimraf.sync('docs')
+fs.mkdirSync('docs')
+DATA_NAV.forEach(v => fs.mkdirSync(`docs/${v.categories}`))
 
 const MarkdownItHighlight = MarkdownIt({
   highlight: (str, language) => {
@@ -87,7 +87,7 @@ const promiseDoc = path => new Promise((resolve, reject) => {
     if(err) {
       reject(err)
     }else {
-      console.log(chalk.cyan(`生成文件: view/${path}.html`))
+      console.log(chalk.cyan(`生成文件: docs/${path}.html`))
       resolve(data.toString())
     }
   })
@@ -111,7 +111,7 @@ Promise.all([
       path: name,
       content: categories == 'assemble' ? docContent[i] : MarkdownItHighlight.render(docContent[i])
     })
-    fs.writeFileSync(`view/${v}.html`, minifyHtml(content, minifyHtmlOption))
+    fs.writeFileSync(`docs/${v}.html`, minifyHtml(content, minifyHtmlOption))
   })
   DATA_NAV.map(v => {
     const {categories} = v
@@ -128,14 +128,14 @@ Promise.all([
           return allDetail.map(v => {
             const [categories, name] = v.split('/')
             const {title} = DATA_ARTICLE[categories].find(v => v.name == name)
-            return `<li><a href="/view/${categories}/${name}.html">${title}</a></li>`
+            return `<li><a href="/docs/${categories}/${name}.html">${title}</a></li>`
           }).join('')
         }else {
-          return DATA_ARTICLE[categories].map(v => `<li><a href="/view/${categories}/${v.name}.html">${v.title}</a></li>`).join('')
+          return DATA_ARTICLE[categories].map(v => `<li><a href="/docs/${categories}/${v.name}.html">${v.title}</a></li>`).join('')
         }
       })()
     })
-    fs.writeFileSync(`view/${categories}/index.html`, minifyHtml(content, minifyHtmlOption))
+    fs.writeFileSync(`docs/${categories}/index.html`, minifyHtml(content, minifyHtmlOption))
   })
   console.timeEnd(timeInfo)
 })
