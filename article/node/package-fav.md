@@ -17,8 +17,10 @@
 * debug
 * core-js
 * fs-utils (fs 模块的封装)
+* fs-extra
 * chokidar (fs.watch的封装)
 * mkdirp (mkdir -p)
+* touch (touch)
 * rimraf (rm -rf)
 * yazl (zip)
 * yauzl (unzip)
@@ -78,11 +80,57 @@
 
 # babel
 
+* babel-cli
+* babel-core
+* babel-plugin-dynamic-import-node
 * babel-plugin-import
+* babel-plugin-minify-builtins
+* babel-plugin-minify-constant-folding
+* babel-plugin-minify-dead-code-elimination
+* babel-plugin-minify-guarded-expressions
+* babel-plugin-minify-infinity
+* babel-plugin-minify-mangle-names
+* babel-plugin-minify-numeric-literals
+* babel-plugin-minify-simplify
+* babel-plugin-minify-type-constructors
+* babel-plugin-syntax-function-bind
+* babel-plugin-syntax-trailing-function-commas
+* babel-plugin-transform-decorators-legacy
+* babel-plugin-transform-merge-sibling-variables
+* babel-plugin-transform-minify-booleans
 * babel-plugin-transform-object-rest-spread
+* babel-plugin-transform-remove-console
+* babel-plugin-transform-remove-undefined
 * babel-plugin-transform-runtime
+* babel-plugin-transform-undefined-to-void
+* babel-plugin-undeclared-variables-check
+* babel-polyfill
+* babel-preset-env
+* babel-preset-es2015
+* babel-preset-es2016
+* babel-preset-es2017
+* babel-preset-react
+* babel-preset-stage-0
+* babel-preset-stage-1
+* babel-preset-stage-2
+* babel-preset-stage-3
 * babel-register
 * babel-runtime
+
+# webpack
+
+* webpack
+* webpack-dashboard
+* webpack-dev-server
+* webpack-parallel-uglify-plugin
+* prepack-webpack-plugin
+* clean-webpack-plugin
+* copy-webpack-plugin
+* extract-text-webpack-plugin
+* assets-webpack-plugin
+* html-webpack-plugin
+* html-webpack-harddisk-plugin
+* webpack-spritesmith
 
 # 数据库
 
