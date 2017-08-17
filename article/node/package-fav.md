@@ -119,17 +119,18 @@
 
 # webpack
 
+* assets-webpack-plugin
+* clean-webpack-plugin
+* copy-webpack-plugin
+* extract-text-webpack-plugin
+* html-webpack-harddisk-plugin
+* html-webpack-include-assets-plugin
+* html-webpack-plugin
+* prepack-webpack-plugin
 * webpack
 * webpack-dashboard
 * webpack-dev-server
 * webpack-parallel-uglify-plugin
-* prepack-webpack-plugin
-* clean-webpack-plugin
-* copy-webpack-plugin
-* extract-text-webpack-plugin
-* assets-webpack-plugin
-* html-webpack-plugin
-* html-webpack-harddisk-plugin
 * webpack-spritesmith
 
 # 数据库
