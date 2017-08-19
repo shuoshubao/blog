@@ -13,7 +13,8 @@ import {exec} from 'child_process'
 
 const DATA_ARTICLE = require('../data/db')
 
-const timeInfo= chalk.green('构建完成, 耗时')
+const timeInfo= chalk.green('✨ 构建完成, 耗时')
+// const timeInfo= '✨'
 console.time(timeInfo)
 
 const strLess = ['base', 'markdown', 'highlight', 'highlight-table', 'app'].reduce((prev, cur) => {

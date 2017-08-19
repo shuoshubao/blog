@@ -2,6 +2,7 @@
 
 * axios
 * bluebird
+* request
 * isomorphic-fetch
 * whatwg-fetch
 * promise
@@ -26,8 +27,10 @@
 * yauzl (unzip)
 * execa (child_process 替代品)
 * forever (nodejs的守护进程, nohup)
+* pm2
 * formidable (form data解析器, 文件上传)
 * glob (读取目录)
+* minimatch
 * package (读取package.json数据)
 * esprima (javascript 语法解析器)
 * estraverse
