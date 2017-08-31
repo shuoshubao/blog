@@ -142,11 +142,6 @@
 * mongoose
 * sqlite3
 
-# webpack
-
-* webpack-spritesmith
-* webpack-dashboard
-
 # 第三方服务
 
 * aws-sdk (亚马逊云)
