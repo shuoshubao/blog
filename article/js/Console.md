@@ -1,6 +1,6 @@
 > Object.keys(console)
 
-# Chomre
+# Chrome
 
 * debug
 * error
