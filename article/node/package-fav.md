@@ -32,9 +32,12 @@
 * glob (读取目录)
 * minimatch
 * package (读取package.json数据)
+* config
 * esprima (javascript 语法解析器)
-* estraverse
-* babylon
+* estraverse (ast)
+* escope
+* babylon (javascript 语法解析器)
+* acorn (javascript 语法解析器)
 
 # 工具
 
@@ -58,6 +61,8 @@
 * cheerio (nodejs端的jq)
 * file-type
 * http-server (nodejs开启本地服务器)
+* ms (将时间转化为毫秒数)
+* filesize (将数字转化为 B Kb)
 
 # 图像处理
 
@@ -70,6 +75,8 @@
 # 命令行 cli
 
 * commander
+* yargs
+* yargs-parser
 * prompt
 * progress
 * chalk
