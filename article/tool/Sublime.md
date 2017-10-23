@@ -5,53 +5,19 @@
   "caret_style": "smooth",
   "detect_indentation": false,
   "draw_white_space": "all",
-  "ensure_newline_at_eof_on_save": false,
-  "file_exclude_patterns":
-  [
-    "*.pyc",
-    "*.pyo",
-    "*.exe",
-    "*.dll",
-    "*.obj",
-    "*.o",
-    "*.a",
-    "*.lib",
-    "*.so",
-    "*.dylib",
-    "*.ncb",
-    "*.sdf",
-    "*.suo",
-    "*.pdb",
-    "*.idb",
-    ".DS_Store",
-    "*.class",
-    "*.psd",
-    "*.db",
-    "*.sublime-workspace",
-    "._*"
-  ],
+  "file_exclude_patterns": ["*.pyc", "*.pyo", "*.exe", "*.dll", "*.obj", "*.o", "*.a", "*.lib", "*.so", "*.dylib", "*.ncb", "*.sdf", "*.suo", "*.pdb", "*.idb", ".DS_Store", "*.class", "*.psd", "*.db", "*.sublime-workspace", "._*"],
   "find_selected_text": true,
-  "folder_exclude_patterns":
-  [
-    ".svn",
-    ".git",
-    ".hg",
-    "CVS",
-    "node_modules"
-  ],
+  "folder_exclude_patterns": [".svn", ".git", ".hg", "CVS", "node_modules"],
   "font_size": 18,
   "highlight_line": true,
-  "ignored_packages":
-  [
-    "Vintage"
-  ],
+  "ignored_packages": ["Vintage"],
   "indent_to_bracket": true,
   "match_brackets_angle": false,
   "match_brackets_braces": false,
-  "tab_size": 2,
-  "theme": "Default.sublime-theme",
+  "tab_size": 4,
   "translate_tabs_to_spaces": true,
   "trim_trailing_white_space_on_save": true,
+  "ensure_newline_at_eof_on_save": true,
   "word_wrap": false
 }
 ```
@@ -71,6 +37,24 @@ import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc5
 ```
 
 # 注册码
+
+### sublime text 3 [new!!!]
+
+```
+—– BEGIN LICENSE —–
+TwitterInc
+200 User License
+EA7E-890007
+1D77F72E 390CDD93 4DCBA022 FAF60790
+61AA12C0 A37081C5 D0316412 4584D136
+94D7F7D4 95BC8C1C 527DA828 560BB037
+D1EDDD8C AE7B379F 50C9D69D B35179EF
+2FE898C4 8E4277A8 555CE714 E1FB0E43
+D5D52613 C3D12E98 BC49967F 7652EED2
+9D2D2E61 67610860 6D338B72 5CF95C69
+E36B85CC 84991F19 7575D828 470A92AB
+—— END LICENSE ——
+```
 
 ### sublime text 3
 
@@ -123,7 +107,7 @@ FCCC7561 8A4A1741 68FA4223 ADCEDE07
 * cmd+shift+p               打开命令面板
 * cmd+p                     搜索项目中的文件
 * ctrl+g                    跳到指定行
-* ctrl+`                    打开控制台
+* ctrl+\`                    打开控制台
 * cmd+k,b                   显示/隐藏文件目录
 
 ## 编辑
