@@ -41,7 +41,7 @@ var response = new Response(body, init);
 * redirect(url, status)
 * error()
 * clone()
-* [Body](/#js/Body)
+* [Body](#js/Body)
 
 # Reference
 

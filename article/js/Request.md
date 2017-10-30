@@ -31,7 +31,7 @@ var request = new Request(url, option)
 
 # Method
 
-[Body](/#js/Body)
+[Body](#js/Body)
 
 # Reference
 

@@ -18,7 +18,7 @@
 * top / right / bottom / left
 
 
-# [Selector](/#css/selector)
+# [Selector](#css/selector)
 
 # Typesetting
 

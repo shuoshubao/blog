@@ -15,8 +15,8 @@ fetch(url, request)
 # Reference
 
 
-* [Body](/#js/Body)
-* [Headers](/#js/Headers)
-* [Request](/#js/Request)
-* [Response](/#js/Response)
+* [Body](#js/Body)
+* [Headers](#js/Headers)
+* [Request](#js/Request)
+* [Response](#js/Response)
 * [https://developer.mozilla.org/en-US/docs/Web/API/Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch)
