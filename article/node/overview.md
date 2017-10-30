@@ -9,7 +9,6 @@
 * assert
 * debugger
 * path
-* util
 * url
 * querystring
 * http
