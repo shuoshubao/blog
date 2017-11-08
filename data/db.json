@@ -157,6 +157,10 @@
       "title": "Prettier.js"
     },
     {
+      "name": "js-beautify",
+      "title": "js-beautify"
+    },
+    {
       "name": "Console",
       "title": "Console"
     }
