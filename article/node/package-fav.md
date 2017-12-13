@@ -46,8 +46,6 @@
 * classnames
 * qs、querystring、querystringify (querystring解析器)
 * url-parse
-* markdown-it
-* markdown
 * blueimp-md5
 * crypto-js
 * base64-js
@@ -58,7 +56,6 @@
 * highlight.js (代码语法高亮)
 * prismjs (代码语法高亮)
 * prettier (代码格式化)
-* cheerio (nodejs端的jq)
 * file-type
 * http-server (nodejs开启本地服务器)
 * ms (将时间转化为毫秒数)
@@ -71,6 +68,8 @@
 * pngquant (图片压缩)
 * imagemin
 * image-size
+* tinify (Tinypng)
+* upng-js
 
 # 命令行 cli
 
@@ -87,6 +86,7 @@
 * cliui
 * text-table
 * cli-table2
+* child-process-promise
 
 # babel
 
@@ -143,6 +143,24 @@
 * webpack-parallel-uglify-plugin
 * webpack-spritesmith
 
+# html
+
+* parse5
+* cheerio (nodejs端的jq)
+* entities
+* html-entities
+* htmlparser
+* htmlparser2
+* domutils
+* css-what
+* css-select
+* domelementtype
+* dom-serializer
+* html-minifier
+* ejs
+* markdown-it
+* markdown
+
 # 数据库
 
 * mongodb
@@ -152,6 +170,5 @@
 # 第三方服务
 
 * aws-sdk (亚马逊云)
-* tinify (Tinypng)
 * qiniu (七牛)
 * upyun (又拍云)
