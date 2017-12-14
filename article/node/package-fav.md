@@ -1,4 +1,4 @@
-# 异步编程
+# fetch
 
 * axios
 * bluebird
@@ -25,6 +25,7 @@
 * rimraf (rm -rf)
 * yazl (zip)
 * yauzl (unzip)
+* node-fetch
 * execa (child_process 替代品)
 * forever (nodejs的守护进程, nohup)
 * pm2
