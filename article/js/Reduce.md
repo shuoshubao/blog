@@ -55,6 +55,24 @@ const convertArrayToJson = arr => arr.reduce((prev, cur) => {
 const ret = convertArrayToJson(data)
 ```
 
+```
+const data = {
+    a: {
+        b: {
+            c: 1,
+            d: 2
+        }
+    }
+}
+
+const keys = 'a.b.d'
+
+const ret = keys.split('.').reduce((prev, cur) => prev[cur], data)
+
+console.log(ret); // 2
+```
+
+
 # Object
 
 ## filter 筛选对象
