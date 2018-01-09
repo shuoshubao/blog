@@ -133,6 +133,18 @@
       "title": "Event"
     },
     {
+      "name": "Error",
+      "title": "Error"
+    },
+    {
+      "name": "KeyWord",
+      "title": "关键字"
+    },
+    {
+      "name": "ReservedWord",
+      "title": "保留字"
+    },
+    {
       "name": "JQ",
       "title": "JQ API"
     },

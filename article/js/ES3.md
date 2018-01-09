@@ -14,6 +14,13 @@
 * Number.prototype.toExponential(num)
 * Number.prototype.toPrecision(num)
 
+## spec
+
+* Number.prototype
+* Number.constructor
+* Number.prototype.toString()
+* Number.prototype.valueOf()
+
 
 # String
 
@@ -38,6 +45,13 @@
 * String.prototype.search(regexp)
 * String.prototype.match(searchval, regexp)
 
+## spec
+
+* String.prototype
+* String.constructor
+* String.prototype.toString()
+* String.prototype.valueOf()
+
 
 # Array
 
@@ -57,6 +71,13 @@
 * Array.prototype.sort([sortby])
 * Array.prototype.slice(start, end)
 * Array.prototype.splice(index, howmany[, ...newValX])
+
+## spec
+
+* Array.prototype
+* Array.constructor
+* Array.prototype.toString()
+* Array.prototype.valueOf()
 
 
 # Math
@@ -93,6 +114,10 @@
 * Math.atan(x)
 * Math.atan2(y, x)
 
+## spec
+
+* Math.prototype.valueOf()
+
 
 # Date
 
@@ -109,6 +134,13 @@
 * Date.prototype.getMinutes() // setMinutes()
 * Date.prototype.getSeconds() // setSeconds()
 * Date.prototype.getMilliseconds() // setMilliseconds()
+
+## spec
+
+* Date.prototype
+* Date.constructor
+* Date.prototype.toString()
+* Date.prototype.valueOf()
 
 
 # RegExp
@@ -128,6 +160,63 @@
 * RegExp.prototype.test(string)
 
 
+# Error
+
+## property
+
+* Error.prototype.name
+* Error.prototype.message
+
+## spec
+
+* Error.prototype.toString()
+
+## Derive Error
+
+* SyntaxError
+* ReferenceError
+* RangeError
+* TypeError
+* URIError
+* EvalError
+
+
+# Function
+
+## property
+
+* Function.prototype.name
+* Function.prototype.length
+
+## method
+
+* Function.prototype.call()
+* Function.prototype.apply()
+* Function.prototype.bind()
+
+## spec
+
+* Function.prototype.constructor
+* Function.prototype.toString()
+
+
+# Object
+
+## property
+
+* Object.prototype
+* Object.prototype.constructor
+* Object.prototype.__proto__
+
+## method
+
+* Object.prototype.hasOwnProperty()
+* Object.prototype.isPrototypeOf()
+* Object.prototype.propertyIsEnumerable()
+* Object.prototype.toString()
+* Object.prototype.valueOf()
+
+
 # Global
 
 ## property
@@ -145,7 +234,5 @@
 * isNaN()
 * parseInt()
 * parseFloat()
-* escape()
-* unescape()
 * decodeURIComponent()
 * encodeURIComponent()
