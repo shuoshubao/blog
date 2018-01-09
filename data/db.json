@@ -53,6 +53,10 @@
       "title": "ES5"
     },
     {
+      "name": "ES3",
+      "title": "ES3"
+    },
+    {
       "name": "Vue",
       "title": "Vue"
     },
