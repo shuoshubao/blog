@@ -61,10 +61,10 @@ git的核心作用有两个：文件管理，多人协作。
 * git config
   * git config --list 查看git配置列表
   * git config -e [--global] 查看编辑git配置文件
-  * git config user.name "YOUR_NAME" 查看/设置用户名(当前项目)
-  * git config user.email "YOUR_EMAIL" 查看/设置用户邮箱(当前项目)
-  * git config --global user.name "YOUR_NAME" 查看/设置用户名(全局)
-  * git config --global user.email "YOUR_EMAIL" 查看/设置用户邮箱(全局)
+  * git config user.name 'YOUR_NAME' 查看/设置用户名(当前项目)
+  * git config user.email 'YOUR_EMAIL' 查看/设置用户邮箱(当前项目)
+  * git config --global user.name 'YOUR_NAME' 查看/设置用户名(全局)
+  * git config --global user.email 'YOUR_EMAIL' 查看/设置用户邮箱(全局)
 
 * vim ~/.gitconfig：git配置文件
 

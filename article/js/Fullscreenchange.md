@@ -20,7 +20,7 @@
 * fullscreenchange
 
 ```
-document.addEventListener("fullscreenchange", function( event ) {
+document.addEventListener('fullscreenchange', function( event ) {
   if (document.fullscreenElement) {
     console.log('进入全屏');
   } else {
@@ -34,7 +34,7 @@ document.addEventListener("fullscreenchange", function( event ) {
 * fullscreenerror
 
 ```
-document.addEventListener("fullscreenerror", function( event ) {
+document.addEventListener('fullscreenerror', function( event ) {
   // dosomethings
 }, false);
 ```

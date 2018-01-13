@@ -37,7 +37,7 @@ onclick
 # Demo
 
 ```
-if(window.Notification && Notification.permission !== "denied") {
+if(window.Notification && Notification.permission !== 'denied') {
   Notification.requestPermission(function(status) {    // 请求权限
     if(status === 'granted') {
       var n = new Notification('标题', {

@@ -62,7 +62,7 @@ ctx.miterLimit = number // ctx.lineJoin = 'miter'
 ## 方法
 
 * rect()  // 创建矩形
-* fillRect()  // 绘制"被填充"的矩形
+* fillRect()  // 绘制被填充的矩形
 * strokeRect()  // 绘制矩形（无填充）
 * clearRect()  // 在给定的矩形内清除指定的像素
 
@@ -145,7 +145,7 @@ ctx.textBaseline = 'alphabetic | top | hanging | middle | ideographic | bottom'
 
 ## 方法
 
-* fillText()  // 在画布上绘制"被填充的"文本
+* fillText()  // 在画布上绘制被填充的文本
 * strokeText()  // 在画布上绘制文本（无填充）
 * measureText()  // 返回包含指定文本宽度的对象
 

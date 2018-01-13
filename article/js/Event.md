@@ -12,7 +12,7 @@ window.onbeforeunload = function() {
 # visibility
 
 ```
-document.addEventListener("visibilitychange", function() {
+document.addEventListener('visibilitychange', function() {
   // dosomethings
 }, false);
 ```
@@ -29,7 +29,7 @@ document.addEventListener("visibilitychange", function() {
 # fullscreenchange
 
 ```
-document.addEventListener("fullscreenchange", function( event ) {
+document.addEventListener('fullscreenchange', function( event ) {
   if (document.fullscreenElement) {
     console.log('进入全屏');
   } else {

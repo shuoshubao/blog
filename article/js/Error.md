@@ -28,17 +28,18 @@ new Error([message])
 
 ```
 function UserError(message) {
-  this.message = message || "默认信息";
-  this.name = "UserError";
+  this.message = message || '默认信息';
+  this.name = 'UserError';
 }
 
 UserError.prototype.toString = function (){
   return this.name + ': "' + this.message + '"';
 }
 
-throw new UserError("出错了！");
+throw new UserError('出错了！');
 ```
 
 # Referrence
 
 > [http://javascript.ruanyifeng.com/grammar/error.html](http://javascript.ruanyifeng.com/grammar/error.html)
+> [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error]https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error
