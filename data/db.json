@@ -57,6 +57,10 @@
       "title": "ES3"
     },
     {
+      "name": "Strict-Mode",
+      "title": "严格模式"
+    },
+    {
       "name": "Vue",
       "title": "Vue"
     },
