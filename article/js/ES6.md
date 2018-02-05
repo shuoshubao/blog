@@ -10,18 +10,18 @@
 
 # Number
 
+* Number.EPSILON
 * Number.isFinite()
 * Number.isNaN()
 * Number.parseInt()
 * Number.parseFloat()
 * Number.isInteger()
-* Number.EPSILON
 * Number.isSafeInteger()
 
 # Array
 
-* Array.from()
 * Array.of()
+* Array.from()
 * Array.prototype.copyWithin(target, start = 0, end = this.length)
 * Array.prototype.find()
 * Array.prototype.findIndex((value, index, arr) => {})
@@ -63,7 +63,6 @@
 * Object.setPrototypeOf()
 * Object.getPrototypeOf()
 * Object.prototype.__proto__
-* 扩展运算符(...)
 
 # Symbol
 
@@ -95,10 +94,6 @@
 * Set.prototype.entries()
 * Set.prototype.forEach()
 
-> Array.from(setInstance)  // Set -> Array
-> ...   // Set -> flat to parameter in Function or menber in Array
-
-
 # Map [WeakSet]
 
 ## property
@@ -119,7 +114,6 @@
 * Set.prototype.values()
 * Set.prototype.entries()
 * Set.prototype.forEach()
-
 
 # Proxy
 
@@ -143,7 +137,6 @@
 * Proxy.prototype.apply(target, object, args)
 * Proxy.prototype.construct(target, args)
 
-
 # Reflect
 
 ## static method
@@ -162,7 +155,6 @@
 * Reflect.getPrototypeOf(target)
 * Reflect.setPrototypeOf(target, prototype)
 
-
 # Promise
 
 ## static method
@@ -178,7 +170,6 @@
 * Promise.prototype.then()
 * Promise.prototype.catch()
 * Promise.prototype.finally()
-
 
 # Generator
 
@@ -271,12 +262,6 @@ new Float64Array()        // 64 位浮点数，长度 8 个字节
 
 ```
 `hi, ${name}`
-```
-
-## 指数运算符
-
-```
-2 ** 3   // 8
 ```
 
 ## 解构赋值
@@ -445,8 +430,6 @@ import(specifier)
     .then(module => {})
     .catch(e => {})
 ```
-
-
 
 # Referrence
 

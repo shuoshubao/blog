@@ -7,27 +7,27 @@ var request = new Request(url, option)
 ## option
 
 * method
-* headers
 * body
+* headers
 * mode
-* credentials
 * cache
 * redirect
 * referrer
 * integrity
+* credentials
 
 # Property
 
-* bodyUsed
+* url
+* method
+* headers
+* mode
 * cache
 * context
-* credentials
-* headers
-* method
-* mode
+* bodyUsed
 * referrer
+* credentials
 * referrerPolicy
-* url
 
 # Method
 

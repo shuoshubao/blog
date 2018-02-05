@@ -22,7 +22,6 @@
 * Date.prototype.toISOString()
 * Date.prototype.toJSON()
 
-
 # JSON
 
 * JSON.parse()
