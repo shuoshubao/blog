@@ -22,3 +22,7 @@ const asyncFunc = async () => {
 
 asyncFunc().then()
 ```
+
+# Funtion
+
+> 允许函数的最后一个参数有尾逗号
