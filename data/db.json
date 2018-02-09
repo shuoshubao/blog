@@ -311,6 +311,10 @@
   ],
   "assemble": [
     {
+      "name": "Talk",
+      "title": "深夜杂谈"
+    },
+    {
       "name": "Nav",
       "title": "前端资源导航"
     },
