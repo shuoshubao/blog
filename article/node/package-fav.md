@@ -161,6 +161,21 @@
 * ejs
 * markdown-it
 * markdown
+* marked
+* html-minifier
+
+# Chrome
+
+* puppeteer
+* phantomjs
+
+# JSON
+
+* json5
+* joi
+* ajv
+* ajv-keywords
+* json-stringify-safe
 
 # 数据库
 
