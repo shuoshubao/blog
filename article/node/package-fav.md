@@ -75,6 +75,7 @@
 # 命令行 cli
 
 * commander
+* inquirer
 * yargs
 * yargs-parser
 * prompt
