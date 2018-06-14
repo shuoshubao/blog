@@ -61,6 +61,7 @@
 * http-server (nodejs开启本地服务器)
 * ms (将时间转化为毫秒数)
 * filesize (将数字转化为 B Kb)
+* dotenv
 
 # 图像处理
 
@@ -80,9 +81,16 @@
 * yargs-parser
 * prompt
 * progress
+* ora
+* gauge
+* cli-spinners
+* listr
+* log-update
+* elegant-spinner
 * chalk
 * opn (调用系统应用打开指定文件, 还可以监听程序的退出)
 * download
+* node-notifier
 * colors
 * table
 * cliui
