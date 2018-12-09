@@ -11,27 +11,47 @@
 * co
 * superagent
 * fetch-jsonp
+* node-fetch
+* download
+* got
+* statuses
+* methods
+* morgan
+* http-proxy
+* content-type
+* etag
+* http-proxy-middleware
+* http-proxy-agent
+* har-validator
+* @har/cli
 
 # nodejs
 
 * n
+* pify
 * debug
 * core-js
-* fs-utils (fs 模块的封装)
-* fs-extra
+* fs-extra  (fs 模块的封装)
+* graceful-fs
+* path-dirname
+* is-dotfile
+* path-type
+* jsonfile
+* load-json-file
+* write-json-file
 * chokidar (fs.watch的封装)
 * mkdirp (mkdir -p)
 * touch (touch)
 * rimraf (rm -rf)
+* del
 * yazl (zip)
 * yauzl (unzip)
-* node-fetch
 * execa (child_process 替代品)
 * forever (nodejs的守护进程, nohup)
 * pm2
 * formidable (form data解析器, 文件上传)
-* glob (读取目录)
-* minimatch
+* uuid
+* winston
 * package (读取package.json数据)
 * config
 * esprima (javascript 语法解析器)
@@ -39,6 +59,16 @@
 * escope
 * babylon (javascript 语法解析器)
 * acorn (javascript 语法解析器)
+* glob (读取目录)
+* parse-glob
+* glob-base
+* globby
+* glob-parent
+* fast-glob
+* glob-stream
+* minimatch
+* anymatch
+* micromatch
 
 # 工具
 
@@ -76,9 +106,12 @@
 # 命令行 cli
 
 * commander
-* inquirer
+* minimist
 * yargs
 * yargs-parser
+* inquirer
+* inquirer-fuzzy-path
+* inquirer-path
 * prompt
 * progress
 * ora
@@ -137,33 +170,53 @@
 * babel-register
 * babel-runtime
 
+# @babel
+
+* @babel/core
+* @babel/helper-module-imports
+* @babel/plugin-proposal-export-default-from
+* @babel/plugin-proposal-export-namespace-from
+* @babel/plugin-syntax-export-namespace-from
+* @babel/plugin-syntax-jsx
+* @babel/plugin-transform-runtime
+* @babel/polyfill
+* @babel/preset-env
+* @babel/runtime
+* @babel/highlight
+
 # webpack
 
+* webpack
+* speed-measure-webpack-plugin
+* webpack-bundle-analyzer
+* webpack-dev-server
 * assets-webpack-plugin
 * clean-webpack-plugin
 * copy-webpack-plugin
-* extract-text-webpack-plugin
-* html-webpack-harddisk-plugin
 * html-webpack-include-assets-plugin
 * html-webpack-plugin
-* prepack-webpack-plugin
-* webpack
-* webpack-dashboard
-* webpack-dev-server
-* webpack-parallel-uglify-plugin
+* mini-css-extract-plugin
+* optimize-css-assets-webpack-plugin
+* lodash-webpack-plugin
 * webpack-spritesmith
+* webpack-dashboard
 
 # html
-
+* html-tags
 * parse5
 * cheerio (nodejs端的jq)
 * entities
 * html-entities
 * htmlparser
 * htmlparser2
+* jsdom
+* is-dom
 * domutils
 * css-what
 * css-select
+* domhandler
+* css-unit-converter
+* polished
 * domelementtype
 * dom-serializer
 * html-minifier
@@ -184,7 +237,40 @@
 * joi
 * ajv
 * ajv-keywords
+* ajv-errors
+* schema-utils
 * json-stringify-safe
+* fast-json-stringify
+* fast-json-parse
+
+# git
+
+* husky
+* pre-commit
+* lint-staged
+* commitizen
+* standard-version
+* cz-conventional-changelog
+
+# Eslint
+
+* eslint
+* babel-eslint
+* eslint-config-airbnb-base
+* eslint-loader
+* eslint-plugin-html
+* eslint-plugin-import
+* eslint-plugin-vue
+
+# Test
+
+* ava
+* jest
+* mocha
+* karma
+* chai
+* puppeteer
+* puttier
 
 # 数据库
 
