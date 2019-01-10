@@ -1,4 +1,4 @@
-# fetch
+# promise
 
 * axios
 * bluebird
@@ -8,6 +8,9 @@
 * promise
 * q
 * async
+* neo-async
+* pify
+* promisify
 * co
 * superagent
 * fetch-jsonp
@@ -32,6 +35,7 @@
 * debug
 * core-js
 * fs-extra  (fs 模块的封装)
+* memory-fs
 * graceful-fs
 * path-dirname
 * is-dotfile
@@ -55,6 +59,7 @@
 * package (读取package.json数据)
 * config
 * esprima (javascript 语法解析器)
+* espree (esprima 的进化版)
 * estraverse (ast)
 * escope
 * babylon (javascript 语法解析器)
@@ -231,17 +236,19 @@
 * puppeteer
 * phantomjs
 
-# JSON
+# JSON-validator
 
 * json5
 * joi
 * ajv
 * ajv-keywords
 * ajv-errors
+* async-validator
 * schema-utils
 * json-stringify-safe
 * fast-json-stringify
 * fast-json-parse
+* json-parse-better-errors
 
 # git
 
