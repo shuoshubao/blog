@@ -31,7 +31,6 @@
 # nodejs
 
 * n
-* pify
 * debug
 * core-js
 * fs-extra  (fs 模块的封装)
