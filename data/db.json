@@ -37,6 +37,14 @@
   ],
   "js": [
     {
+      "name": "ES10",
+      "title": "ES10"
+    },
+    {
+      "name": "ES9",
+      "title": "ES9"
+    },
+    {
       "name": "ES8",
       "title": "ES8"
     },
