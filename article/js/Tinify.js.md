@@ -8,7 +8,7 @@ const tinify = require('tinify')
 
 tinify.key = 'KckuU929qtv_nPK_czL6HKfcAJO9FCKm'
 
-let files = [...glob.sync('img/**/*.png'), ...glob.sync('img/**/*.jpg')]
+let files = glob.sync('img/**/*.{png,jpg,jpeg}')
 
 const timeInfo = `tinify 共处理${files.length}个文件, 共耗时`
 console.time(timeInfo)
