@@ -1,4 +1,5 @@
 * Job: FE
-* Mobile: 15901151120
-* Company: Meituan
-* Github: https://github.com/shuoshubao
+* Mobile: 16601107956
+* Company: 贝壳
+* Github: [https://github.com/shuoshubao](https://github.com/shuoshubao)
+* Npm: [https://www.npmjs.com/~shuoshubao]()
