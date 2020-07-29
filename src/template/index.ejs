@@ -49,15 +49,9 @@
       <%- content %>
     </ul>
   <% } else { %>
-    <% if (categories == 'assemble') { %>
-      <div class="p-<%= path.toLocaleLowerCase() %>">
-        <%- content %>
-      </div>
-    <% } else { %>
-      <div class="markdown">
-        <%- content %>
-      </div>
-    <% } %>
+    <div class="markdown">
+      <%- content %>
+    </div>
   <% } %>
 </article>
 

@@ -6,12 +6,10 @@ import chalk from 'chalk'
 import rimraf from 'rimraf'
 import {minify as minifyHtml} from 'html-minifier'
 import MarkdownIt from 'markdown-it'
+import {exec} from 'child_process'
 import hljs from '../src/util/highlight.js/lib'
 import {DATA_NAV, DATA_META} from '../data'
-import {exec} from 'child_process'
-
-
-const DATA_ARTICLE = require('../data/db')
+import DATA_ARTICLE from '../data/db'
 
 const timeInfo= chalk.green('✨ 构建完成, 耗时')
 // const timeInfo= '✨'
@@ -115,7 +113,7 @@ Promise.all([
       type: 'detail',
       categories,
       path: name,
-      content: categories == 'assemble' ? docContent[i] : MarkdownItHighlight.render(docContent[i])
+      content: MarkdownItHighlight.render(docContent[i])
     })
     fs.writeFileSync(`docs/${v}.html`, minifyHtml(content, minifyHtmlOption))
   })
