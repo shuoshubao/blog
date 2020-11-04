@@ -319,6 +319,10 @@
   ],
   "assemble": [
     {
+      "name": "code-review-share",
+      "title": "前端code-review经验总结"
+    },
+    {
       "name": "Talk",
       "title": "深夜杂谈"
     },
