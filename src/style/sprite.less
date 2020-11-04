@@ -87,30 +87,30 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 <i class="icon icon-home"></i>
 */
 .sprite-width(@sprite) {
-  width: extract(@sprite, 5);
+    width: extract(@sprite, 5);
 }
 
 .sprite-height(@sprite) {
-  height: extract(@sprite, 6);
+    height: extract(@sprite, 6);
 }
 
 .sprite-position(@sprite) {
-  @sprite-offset-x: extract(@sprite, 3);
-  @sprite-offset-y: extract(@sprite, 4);
-  background-position: @sprite-offset-x @sprite-offset-y;
+    @sprite-offset-x: extract(@sprite, 3);
+    @sprite-offset-y: extract(@sprite, 4);
+    background-position: @sprite-offset-x @sprite-offset-y;
 }
 
 .sprite-image(@sprite) {
-  @sprite-image: extract(@sprite, 9);
-  @sprite-image-bare: ~`"@{sprite-image}".slice(1, -1)`;
-  background-image: url(@sprite-image-bare);
+    @sprite-image: extract(@sprite, 9);
+    @sprite-image-bare: ~` '@{sprite-image}' .slice(1, -1) `;
+    background-image: url(@sprite-image-bare);
 }
 
 .sprite(@sprite) {
-  .sprite-image(@sprite);
-  .sprite-position(@sprite);
-  .sprite-width(@sprite);
-  .sprite-height(@sprite);
+    .sprite-image(@sprite);
+    .sprite-position(@sprite);
+    .sprite-width(@sprite);
+    .sprite-height(@sprite);
 }
 
 /*
@@ -123,10 +123,10 @@ This must be run when you have at least 2 sprites.
 .sprites(@spritesheet-sprites);
 */
 .sprites(@sprites, @i: 1) when (@i <= length(@sprites)) {
-  @sprite: extract(@sprites, @i);
-  @sprite-name: e(extract(@sprite, 10));
-  .@{sprite-name} {
-    .sprite(@sprite);
-  }
-  .sprites(@sprites, @i + 1);
+    @sprite: extract(@sprites, @i);
+    @sprite-name: e(extract(@sprite, 10));
+    .@{sprite-name} {
+        .sprite(@sprite);
+    }
+    .sprites(@sprites, @i + 1);
 }
