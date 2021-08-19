@@ -7,6 +7,7 @@ import rimraf from 'rimraf';
 import { minify as minifyHtml } from 'html-minifier';
 import MarkdownIt from 'markdown-it';
 import { exec } from 'child_process';
+import { createElement, generateTable } from '@nbfe/js2html';
 import hljs from '../src/util/highlight.js/lib';
 import { DATA_NAV, DATA_META } from '../data';
 import DATA_ARTICLE from '../data/db';
@@ -46,21 +47,31 @@ const MarkdownItHighlight = MarkdownIt({
         const { value } = hljs.highlight(lang, str);
         if (hljs.getLanguage(lang)) {
             try {
-                return [
-                    `<pre class="hljs language-${lang}">`,
-                    `<table>`,
-                    `<tbody>`,
-                    value
-                        .trim()
-                        .split(`\n`)
-                        .map((v, i) =>
-                            [`<tr>`, `<td data-line-number=${i + 1}></td>`, `<td>${v}</td>`, `</tr>`].join('')
-                        )
-                        .join(''),
-                    `</tbody>`,
-                    `</table>`,
-                    `</pre>`
-                ].join('');
+                const data = value
+                    .trim()
+                    .split('\n')
+                    .map((v, i) => {
+                        return {
+                            index: i + 1,
+                            text: v
+                        };
+                    });
+                const tableHtml = generateTable(
+                    [
+                        { prop: 'index', label: '索引' },
+                        { prop: 'text', label: '内容', attrs: {
+                        } }
+                    ],
+                    data
+                );
+                return createElement({
+                    tagName: 'pre',
+                    attrs: {
+                        className: `hljs language-${lang}`
+                    },
+                    text: tableHtml
+                });
+
             } catch (e) {
                 throw e;
             }
