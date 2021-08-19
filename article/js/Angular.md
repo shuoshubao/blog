@@ -1,43 +1,43 @@
 # 指令 ng-
 
-* ng-app
-* ng-model
-* ng-eventType
-* ng-controller
+-   ng-app
+-   ng-model
+-   ng-eventType
+-   ng-controller
 
-> 指令都写在html标签中
+> 指令都写在 html 标签中
 
 # 服务 $
 
-* $rootScope
-* $scope
+-   $rootScope
+-   $scope
 
 ```
 $scope.$watch(str, function(newVal, oldVal) {} [, ifWatchAll])
 $scope.$watch(function(){})
 ```
 
-* $timeout
-* $interval
-  * $interval.cancel()
-* $filter
+-   $timeout
+-   $interval
+    -   $interval.cancel()
+-   $filter
 
 > 依赖注入：需要什么服务，就在形参列表中添加服务名, 服务都写在函数中
 
-* $timeout(function() {});
-* $interval(function() {});
-* $filter('filterName')(arg1, arg2, arg3);
+-   $timeout(function() {});
+-   $interval(function() {});
+-   $filter('filterName')(arg1, arg2, arg3);
 
 # 过滤器 filter
 
-* currency
-* number
-* date
-* json
-* limitTo
-* filter
-* orderBy
-* lowercase/uppercase
+-   currency
+-   number
+-   date
+-   json
+-   limitTo
+-   filter
+-   orderBy
+-   lowercase/uppercase
 
 > 写在 \{ filter : arg1 : arg2 : arg3 \} 中
 
@@ -47,10 +47,10 @@ $scope.$watch(function(){})
 
 # 模块化
 
-* angular.module()
-* controller()
-* run()
-* filter()
+-   angular.module()
+-   controller()
+-   run()
+-   filter()
 
 ```
 var mod1 = angular.module('appName', [需要依赖的模块数组]);
@@ -65,164 +65,165 @@ mod1.filter('filterName', function(){
 
 # 工具方法
 
-* angular.module()
-* angular.bind()
-* angular.copy()
-* angular.extend()
-* angular.isNumber()
-* angular.isString()
-* angular.isUndefined()
-* angular.isDefined()
-* angular.isObject()
-* angular.isDate()
-* angular.isArray()
-* angular.isFunction()
-* angular.isElement()
-* angular.version
-* angular.equeals()
-* angular.forEach()
-* angular.element()
-* angular.identity()
-* angular.noop()
-* angular.lowercase()
-* angular.uppercase()
-* angular.bootstrap()
-* angular.injector()
+-   angular.module()
+-   angular.bind()
+-   angular.copy()
+-   angular.extend()
+-   angular.isNumber()
+-   angular.isString()
+-   angular.isUndefined()
+-   angular.isDefined()
+-   angular.isObject()
+-   angular.isDate()
+-   angular.isArray()
+-   angular.isFunction()
+-   angular.isElement()
+-   angular.version
+-   angular.equeals()
+-   angular.forEach()
+-   angular.element()
+-   angular.identity()
+-   angular.noop()
+-   angular.lowercase()
+-   angular.uppercase()
+-   angular.bootstrap()
+-   angular.injector()
 
-> angular.element() 底下有一堆的DOM操作函数，类似于jQuery
+> angular.element() 底下有一堆的 DOM 操作函数，类似于 jQuery
 
 # jqLite
 
-* angular.element()
-* prop()
-* attr() * Does not support functions as parameters
-* css() * Only retrieves inline-styles, does not call getComputedStyle()
-* hasClass()
-* addClass()
-* removeClass()
-* toggleClass()
-* clone()
-* after()
-* append()
-* prepend()
-* detach()
-* empty()
-* remove()
-* wrap()
-* replaceWith()
-* on() : Does not support namespaces, selectors or eventData
-* one() : Does not support namespaces or selectors
-* off() : Does not support namespaces or selectors
-* bind() : Does not support namespaces, selectors or eventData
-* unbind() : Does not support namespaces
-* triggerHandler() * Passes a dummy event object to handlers.
-* find() * Limited to lookups by tag name
-* eq()
-* children() * Does not support selectors
-* parent() * Does not support selectors
-* next() * Does not support selectors
-* ready()
-* contents()
-* data()
-* removeData()
-* val()
-* text()
-* html()
-* removeAttr()
+-   angular.element()
+-   prop()
+-   attr() \* Does not support functions as parameters
+-   css() \* Only retrieves inline-styles, does not call getComputedStyle()
+-   hasClass()
+-   addClass()
+-   removeClass()
+-   toggleClass()
+-   clone()
+-   after()
+-   append()
+-   prepend()
+-   detach()
+-   empty()
+-   remove()
+-   wrap()
+-   replaceWith()
+-   on() : Does not support namespaces, selectors or eventData
+-   one() : Does not support namespaces or selectors
+-   off() : Does not support namespaces or selectors
+-   bind() : Does not support namespaces, selectors or eventData
+-   unbind() : Does not support namespaces
+-   triggerHandler() \* Passes a dummy event object to handlers.
+-   find() \* Limited to lookups by tag name
+-   eq()
+-   children() \* Does not support selectors
+-   parent() \* Does not support selectors
+-   next() \* Does not support selectors
+-   ready()
+-   contents()
+-   data()
+-   removeData()
+-   val()
+-   text()
+-   html()
+-   removeAttr()
 
 # 迭代指令
-* $index
-* $first
-* $middle
-* $last
-* $even
-* $odd
-* ng-repeat-start
-* ng-repeat-end
+
+-   $index
+-   $first
+-   $middle
+-   $last
+-   $even
+-   $odd
+-   ng-repeat-start
+-   ng-repeat-end
 
 # 事件指令
 
-* ng-click/dblclick
-* ng-mousedown/up
-* ng-mouseenter/leave
-* ng-mousemove/over/out
-* ng-keydown/up/press
-* ng-focus/blur
-* ng-submit
-* ng-selected
-* ng-change
-* ng-copy
-* ng-cut
-* ng-paste
+-   ng-click/dblclick
+-   ng-mousedown/up
+-   ng-mouseenter/leave
+-   ng-mousemove/over/out
+-   ng-keydown/up/press
+-   ng-focus/blur
+-   ng-submit
+-   ng-selected
+-   ng-change
+-   ng-copy
+-   ng-cut
+-   ng-paste
 
 > `ng-change` 必须和 `ng-model` 同时存在
 
-# input指令
+# input 指令
 
-* ng-disabled
-* ng-readonly
-* ng-checked
-* ng-value
+-   ng-disabled
+-   ng-readonly
+-   ng-checked
+-   ng-value
 
-* ng-bind
-* ng-bind-template
-* ng-bind-html
-* ng-cloak
-* ng-non-bindable
+-   ng-bind
+-   ng-bind-template
+-   ng-bind-html
+-   ng-cloak
+-   ng-non-bindable
 
 # 属性指令
 
-* ng-class
-* ng-style
-* ng-href
-* ng-src
-* ng-attr-(suffix)
+-   ng-class
+-   ng-style
+-   ng-href
+-   ng-src
+-   ng-attr-(suffix)
 
 > 注：表达式必须在 `{}` 中，其他的指令必须是在字符串中
 
 # 样式指令
 
-* ng-show
-* ng-hide
-* ng-if
-* ng-swtich
-  * on
-  * default
-  * when
-* ng-open
+-   ng-show
+-   ng-hide
+-   ng-if
+-   ng-swtich
+    -   on
+    -   default
+    -   when
+-   ng-open
 
-# DOM指令
+# DOM 指令
 
-* ng-init
-* ng-include
-* ng-model
-  * ng-model-option
-  * updateOn
-* ng-controller
-  * as
+-   ng-init
+-   ng-include
+-   ng-model
+    -   ng-model-option
+    -   updateOn
+-   ng-controller
+    -   as
 
 > `ng-model-option` 的值 \{\} 中
 
 # 标签指令
 
-* \<a\>
-* \<select\>
-  * ng-options
-  * for in
-* \<textarea\>
-* \<input\>
-* \<form\>
+-   \<a\>
+-   \<select\>
+    -   ng-options
+    -   for in
+-   \<textarea\>
+-   \<input\>
+-   \<form\>
 
 # 表单验证
 
-* $valid
-* $invalid
-* $pristine
-* $dirty
-* $error
-* ng-minlength
-* ng-maxkength
-* ng-pattern
+-   $valid
+-   $invalid
+-   $pristine
+-   $dirty
+-   $error
+-   ng-minlength
+-   ng-maxkength
+-   ng-pattern
 
 ```
 ng-valid
@@ -254,105 +255,104 @@ mod.directive('directiveName', function() {
 });
 ```
 
-* restrict
-  * A: attribute
-  * E: element
-  * C: class
-  * M: comment
+-   restrict
 
-* transclude
+    -   A: attribute
+    -   E: element
+    -   C: class
+    -   M: comment
+
+-   transclude
 
 > 配合 `ng-transclude`
 
-* template / templateUrl : 模板
-* scope
-  * false
-  * true : 独立作用域
-  * {} : 隔离作用域 ： 传入数据
-    * 绑定策略
-    * @ : 绑定空字符串
-    * = : 绑定变量
-    * & : 绑定函数
-* controller : 定义共享属性和方法
-* link : DOM操作
+-   template / templateUrl : 模板
+-   scope
+    -   false
+    -   true : 独立作用域
+    -   {} : 隔离作用域 ： 传入数据
+        -   绑定策略
+        -   @ : 绑定空字符串
+        -   = : 绑定变量
+        -   & : 绑定函数
+-   controller : 定义共享属性和方法
+-   link : DOM 操作
 
+# $http 服务
 
+-   method : GET / POST / JSONP
+-   url : ''
+-   params: json
+-   data : string / json
+-   headers : object
+-   transformRequest : fn
+-   transformResponse : fn
+-   cache : boolean / Cache object
+-   timeout : number
+-   widthCredentials : boolean
 
-# $http服务
+# $location 服务
 
-* method : GET / POST / JSONP
-* url : ''
-* params: json
-* data : string / json
-* headers : object
-* transformRequest : fn
-* transformResponse : fn
-* cache : boolean / Cache object
-* timeout : number
-* widthCredentials : boolean
+-   absUrl()
+-   path()
+-   hash()
+-   search()
+-   replace()
+-   host
+-   port()
+-   protocol()
 
-# $location服务
+# $anchorScroll 服务
 
-* absUrl()
-* path()
-* hash()
-* search()
-* replace()
-* host
-* port()
-* protocol()
+-   $anchorScroll()
 
-# $anchorScroll服务
-
-* $anchorScroll()
-
-# $cacheFactory服务
+# $cacheFactory 服务
 
 ```
 var cache = $cacheFactory(name[, {capacity: num}])
 ```
 
-* info()
-  * id
-  * size
-  * [capacity]
-* put(name, value)
-* get(name)
-* remove()
+-   info()
+    -   id
+    -   size
+    -   [capacity]
+-   put(name, value)
+-   get(name)
+-   remove()
 
-# $log服务
+# $log 服务
 
-* log()
-* info()
-* warn()
-* error()
+-   log()
+-   info()
+-   warn()
+-   error()
 
-# $interpolate服务
+# $interpolate 服务
 
-# $q服务
+# $q 服务
 
-* defer()
-* resolve()
-* reject()
-* notify()
-* then()
-* promise
+-   defer()
+-   resolve()
+-   reject()
+-   notify()
+-   then()
+-   promise
 
-> promise的实现
+> promise 的实现
 
 # 供应商
 
 > 服务的相关初始配置操作
 
-* config()
-  * provider
-  * $interpolateProvider
-    * startSymbol()
-    * endSymbol()
-  * $logProvider
-    * debugEnabled()
-  * $anchorScrollProvider
-    * disableAutoScrolling()
+-   config()
+    -   provider
+    -   $interpolateProvider
+        -   startSymbol()
+        -   endSymbol()
+    -   $logProvider
+        -   debugEnabled()
+    -   $anchorScrollProvider
+        -   disableAutoScrolling()
 
 # factory 自定义服务
 
@@ -384,4 +384,4 @@ mod.provider('serviceName', [function() {
 
 # constant / value
 
-> 都是定义常量，但constant可以使用config, 且不用加Provider后缀
+> 都是定义常量，但 constant 可以使用 config, 且不用加 Provider 后缀

@@ -1,90 +1,86 @@
 # Node
 
-* document.documentElement
-* document.head
-* document.body
+-   document.documentElement
+-   document.head
+-   document.body
 
 ## 节点
-* Document
-* DocumentType
-* Element
-* Attribute
-* Text
-* DocumentFragment
+
+-   Document
+-   DocumentType
+-   Element
+-   Attribute
+-   Text
+-   DocumentFragment
 
 ## 属性
 
-* nodeName
-* nodeType
+-   nodeName
+-   nodeType
 
-* ownerDocument
-* baseURI
+-   ownerDocument
+-   baseURI
 
+-   childNodes
+-   firstNode
+-   lastChild
+-   nextSibling
+-   previousSibling
+-   parentNode
+-   parentElement
 
-* childNodes
-* firstNode
-* lastChild
-* nextSibling
-* previousSibling
-* parentNode
-* parentElement
-
-* textContent
-* nodeValue
+-   textContent
+-   nodeValue
 
 ## 方法
 
-* appendChild()
-* hasChildNodes()
-* insertBefore()
-* removeChild()
-* replaceChild()
-* cloneNode()
-* contains()
-* compareDocumentPosition()
-* isEqualNode()
+-   appendChild()
+-   hasChildNodes()
+-   insertBefore()
+-   removeChild()
+-   replaceChild()
+-   cloneNode()
+-   contains()
+-   compareDocumentPosition()
+-   isEqualNode()
 
-* normalize()
-
+-   normalize()
 
 # NodeList
 
-* Node.childNodes
-* document.querySelectorAll()
-* document.getElementsByTagName()
+-   Node.childNodes
+-   document.querySelectorAll()
+-   document.getElementsByTagName()
 
 ## 属性
 
-* length
-* 数字索引
+-   length
+-   数字索引
 
 ## 方法
 
-* item(i)
+-   item(i)
 
 > item(i) 等价于 NodeList[i]
 
-
 # HTMLCollection
 
-* docuement.anchors
-* document.images
-* document.links
-* document.scripts
-* docuement.forms
-* document.embeds
-
-
+-   docuement.anchors
+-   document.images
+-   document.links
+-   document.scripts
+-   docuement.forms
+-   document.embeds
 
 ## 属性
 
-* length
-* 数字索引
+-   length
+-   数字索引
 
 ## 方法
 
-* item(i)
-* namedItem(name / id)
+-   item(i)
+-   namedItem(name / id)
 
 > item(i) 等价于 NodeList[i]
 >
@@ -92,111 +88,110 @@
 
 # ParentNode, ChildNode
 
-* children
-* firstElementChild
-* lastElementChild
-* childElementCount
-* remove()
-* before()
-* after()
-* replaceWith()
+-   children
+-   firstElementChild
+-   lastElementChild
+-   childElementCount
+-   remove()
+-   before()
+-   after()
+-   replaceWith()
 
 # Element
 
 ## 属性
 
-* attributes
-* id
-* tagName
-* innerHTML
-* children
-* firstElementChild
-* lastElementChild
-* childElementCount
-* nextElementSibling
-* previousElementSibling
-* className
-* classList
-	* add()
-	* remove()
-	* contains()
-	* toggle()
-	* item()
-	* toString()
-* clientHeight
-* clientLeft
-* clientTop
-* clientWidth
-* scrollHeight
-* scrollWidth
-* scrollLeft
-* scrollTop
+-   attributes
+-   id
+-   tagName
+-   innerHTML
+-   children
+-   firstElementChild
+-   lastElementChild
+-   childElementCount
+-   nextElementSibling
+-   previousElementSibling
+-   className
+-   classList
+    -   add()
+    -   remove()
+    -   contains()
+    -   toggle()
+    -   item()
+    -   toString()
+-   clientHeight
+-   clientLeft
+-   clientTop
+-   clientWidth
+-   scrollHeight
+-   scrollWidth
+-   scrollLeft
+-   scrollTop
 
-* dataset
-* style
+-   dataset
+-   style
 
-* offsetParent
-* offsetTop
-* offsetLeft
-* tabindex
+-   offsetParent
+-   offsetTop
+-   offsetLeft
+-   tabindex
 
 ## 方法
-* 选择器
-	* querySelector()
-	* querySelectorAll()
-	* getElementsByTagName()
-	* getElementsByClassName()
-* 节点
-	* remove()
-	* before()
-	* after()
-	* replaceWith()
-	* closest()
-	* matches()
-* 属性
-	* hasAttribute()
-	* getAttribute()
-	* setAttribute()
-	* removeAttribute()
-* scrollIntoView()
-* focus()
-* elementFromPoint()
 
-# table元素
+-   选择器
+    -   querySelector()
+    -   querySelectorAll()
+    -   getElementsByTagName()
+    -   getElementsByClassName()
+-   节点
+    -   remove()
+    -   before()
+    -   after()
+    -   replaceWith()
+    -   closest()
+    -   matches()
+-   属性
+    -   hasAttribute()
+    -   getAttribute()
+    -   setAttribute()
+    -   removeAttribute()
+-   scrollIntoView()
+-   focus()
+-   elementFromPoint()
+
+# table 元素
 
 ## 属性
 
-* caption
-* tHead
-* tBodies
-* tFoot
-* rows
-* rows.cells
-
+-   caption
+-   tHead
+-   tBodies
+-   tFoot
+-   rows
+-   rows.cells
 
 ## 方法
 
-* createCaption
-* deleteCaption
-* createTHead
-* deleteTHead
-* insertRow
-* deleteRow
-* insertCell
-* deleteCell
-
+-   createCaption
+-   deleteCaption
+-   createTHead
+-   deleteTHead
+-   insertRow
+-   deleteRow
+-   insertCell
+-   deleteCell
 
 # EventTarget
 
 ## 部署
 
-* window对象
-* document节点
-* Element节点
-* XMLHttpRequest
+-   window 对象
+-   document 节点
+-   Element 节点
+-   XMLHttpRequest
 
 ## 方法
 
-* addEventListener()
-* removeEventListener()
-* dispatchEvent()
+-   addEventListener()
+-   removeEventListener()
+-   dispatchEvent()

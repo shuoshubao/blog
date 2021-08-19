@@ -2,22 +2,21 @@
 
 ### 输入
 
-* $ nano .inputrc
+-   $ nano .inputrc
 
 ### 粘贴
 
-* set completion-ignore-case on
-* set show-all-if-ambiguous on
-* TAB: menu-complete
+-   set completion-ignore-case on
+-   set show-all-if-ambiguous on
+-   TAB: menu-complete
 
 ### 保存
 
-* Control+O，回车保存
+-   Control+O，回车保存
 
 ### 重启
 
-* 重启终端生效
-
+-   重启终端生效
 
 # 2. 关闭/开启 Spotlight
 
@@ -29,20 +28,18 @@
 
 > sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist
 
-
 # 3. 快捷键
 
-* cmd+,                 打开当前app的设置
-* cmd+w                 关闭当前标签页
-* cmd+q                 退出当前程序
-* cmd+h                 隐藏除了当前窗口
-* cmd+alt+h             隐藏除了当前窗口以外的所有窗口
-* cmd+shift+delete      清空垃圾桶
-* cmd+alt+shift+delete  清空垃圾桶（无提示）
-* cmd+左右               行首/末
-* cmd+上下               顶/底部
-* fn+上下                    翻页
-
+-   cmd+, 打开当前 app 的设置
+-   cmd+w 关闭当前标签页
+-   cmd+q 退出当前程序
+-   cmd+h 隐藏除了当前窗口
+-   cmd+alt+h 隐藏除了当前窗口以外的所有窗口
+-   cmd+shift+delete 清空垃圾桶
+-   cmd+alt+shift+delete 清空垃圾桶（无提示）
+-   cmd+左右 行首/末
+-   cmd+上下 顶/底部
+-   fn+上下 翻页
 
 # 4. 关闭/开启 自动生成 .DS_Store 文件
 

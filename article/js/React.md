@@ -19,9 +19,9 @@ ReactDOM.findDOMNode(this.refs[refName])
 
 ## props
 
-* static defaultProps = {}
-* this.props[propsName]
-* this.props.children
+-   static defaultProps = {}
+-   this.props[propsName]
+-   this.props.children
 
 ## special props
 
@@ -34,9 +34,9 @@ dangerouslySetInnerHTML={{__html: ''}}
 
 ## state
 
-* this.state = {}
-* this.state[stateName]
-* this.setState({})
+-   this.state = {}
+-   this.state[stateName]
+-   this.setState({})
 
 > 1. 组件类的第一个字母必须大写
 > 2. 组件类只能包含一个顶层标签
@@ -45,40 +45,40 @@ dangerouslySetInnerHTML={{__html: ''}}
 
 ## Mounting [已插入真实 DOM]
 
-* constructor()
-* componentWillMount()
-* render()
-* componentDidMount()
+-   constructor()
+-   componentWillMount()
+-   render()
+-   componentDidMount()
 
 ## Updating [正在被重新渲染]
 
-* componentWillReceiveProps()
-* shouldComponentUpdate()
-* componentWillUpdate(object nextProps, object nextState)
-* render()
-* componentDidUpdate(object prevProps, object prevState)
+-   componentWillReceiveProps()
+-   shouldComponentUpdate()
+-   componentWillUpdate(object nextProps, object nextState)
+-   render()
+-   componentDidUpdate(object prevProps, object prevState)
 
 ## Unmounting [已移出真实 DOM]
 
-* componentWillUnmount()
+-   componentWillUnmount()
 
 # Other APIs
 
 ## Component APIs
 
-* setState()
-* forceUpdate()
+-   setState()
+-   forceUpdate()
 
 ## Class Properties
 
-* defaultProps
-* displayName
-* propTypes
+-   defaultProps
+-   displayName
+-   propTypes
 
 ## Instance Properties
 
-* props
-* state
+-   props
+-   state
 
 ```
 import React from 'react'
@@ -108,103 +108,102 @@ ReactDOM.render(
 
 # PropTypes
 
-* React.PropTypes.array
-* React.PropTypes.bool
-* React.PropTypes.func
-* React.PropTypes.number
-* React.PropTypes.object
-* React.PropTypes.string
-* React.PropTypes.node
-* React.PropTypes.element
-* React.PropTypes.instanceOf(Message)
-* React.PropTypes.oneOf([])
-* React.PropTypes.oneOfType([React.PropTypes.string, React.PropTypes.number, React.PropTypes.instanceOf(Message) ])
-* React.PropTypes.arrayOf(React.PropTypes.number)
-* React.PropTypes.objectOf(React.PropTypes.number)
-* React.PropTypes.shape({color: React.PropTypes.string, fontSize: React.PropTypes.number })
-* React.PropTypes.func.isRequired
-* React.PropTypes.any.isRequired
-* customProp: (props, propName, componentName) => {}
+-   React.PropTypes.array
+-   React.PropTypes.bool
+-   React.PropTypes.func
+-   React.PropTypes.number
+-   React.PropTypes.object
+-   React.PropTypes.string
+-   React.PropTypes.node
+-   React.PropTypes.element
+-   React.PropTypes.instanceOf(Message)
+-   React.PropTypes.oneOf([])
+-   React.PropTypes.oneOfType([React.PropTypes.string, React.PropTypes.number, React.PropTypes.instanceOf(Message) ])
+-   React.PropTypes.arrayOf(React.PropTypes.number)
+-   React.PropTypes.objectOf(React.PropTypes.number)
+-   React.PropTypes.shape({color: React.PropTypes.string, fontSize: React.PropTypes.number })
+-   React.PropTypes.func.isRequired
+-   React.PropTypes.any.isRequired
+-   customProp: (props, propName, componentName) => {}
 
 # Event
 
 > SyntheticEvent 、 nativeEvent
 
-* boolean bubbles
-* boolean cancelable
-* DOMEventTarget currentTarget
-* boolean defaultPrevented
-* number eventPhase
-* boolean isTrusted
-* DOMEvent nativeEvent
-* void preventDefault()
-* boolean isDefaultPrevented()
-* void stopPropagation()
-* boolean isPropagationStopped()
-* DOMEventTarget target
-* number timeStamp
-* string type
-
+-   boolean bubbles
+-   boolean cancelable
+-   DOMEventTarget currentTarget
+-   boolean defaultPrevented
+-   number eventPhase
+-   boolean isTrusted
+-   DOMEvent nativeEvent
+-   void preventDefault()
+-   boolean isDefaultPrevented()
+-   void stopPropagation()
+-   boolean isPropagationStopped()
+-   DOMEventTarget target
+-   number timeStamp
+-   string type
 
 | Event Type | Event names | Properties |
-| - | - | - |
-| Mouse | onClick onContextMenu onDoubleClick onDrag onDragEnd onDragEnter onDragExit onDragLeave onDragOver onDragStart onDrop onMouseDown onMouseEnter onMouseLeave onMouseMove onMouseOut onMouseOver onMouseUp |  altKey button buttons clientX clientY ctrlKey getModifierState(key) metaKey pageX pageY relatedTarget screenX screenY shiftKey |
+| --- | --- | --- |
+| Mouse | onClick onContextMenu onDoubleClick onDrag onDragEnd onDragEnter onDragExit onDragLeave onDragOver onDragStart onDrop onMouseDown onMouseEnter onMouseLeave onMouseMove onMouseOut onMouseOver onMouseUp | altKey button buttons clientX clientY ctrlKey getModifierState(key) metaKey pageX pageY relatedTarget screenX screenY shiftKey |
 | Wheel | onWheel | deltaMode deltaX deltaY deltaZ |
 | Keyboard | onKeyDown onKeyPress onKeyUp | altKey charCode ctrlKey getModifierState(key) key keyCode locale location metaKey repeat shiftKey which |
 | Focus | onFocus onBlur | DOMEventTarget relatedTarget |
-| Form | onChange onInput onSubmit ||
+| Form | onChange onInput onSubmit |  |
 | Touch | onTouchCancel onTouchEnd onTouchMove onTouchStart | altKey changedTouches ctrlKey getModifierState(key) metaKey shiftKey targetTouches touches |
-| Selection | onSelect ||
+| Selection | onSelect |  |
 | Clipboard | onCopy onCut onPaste | DOMDataTransfer clipboardData |
 | UI | onScroll | detail view |
-| Image | onLoad onError | |
-| Media | onAbort onCanPlay onCanPlayThrough onDurationChange onEmptied onEncrypted onEnded onError onLoadedData onLoadedMetadata onLoadStart onPause onPlay onPlaying onProgress onRateChange onSeeked onSeeking onStalled onSuspend onTimeUpdate onVolumeChange onWaiting | |
+| Image | onLoad onError |  |
+| Media | onAbort onCanPlay onCanPlayThrough onDurationChange onEmptied onEncrypted onEnded onError onLoadedData onLoadedMetadata onLoadStart onPause onPlay onPlaying onProgress onRateChange onSeeked onSeeking onStalled onSuspend onTimeUpdate onVolumeChange onWaiting |  |
 | Transition | onTransitionEnd | propertyName pseudoElement elapsedTime |
 | Animation | onAnimationStart onAnimationEnd onAnimationIteration | animationName pseudoElement elapsedTime |
 | Composition | onCompositionEnd onCompositionStart onCompositionUpdate | string data |
 
+# Form event
 
-#  Form event
-
-* event.target.value      input、textarea
-* event.target.checked    checkbox、radio
-* event.target.selected   option
+-   event.target.value input、textarea
+-   event.target.checked checkbox、radio
+-   event.target.selected option
 
 # Top-Level API
 
 ## React
 
-* React.Component
-* React.createClass
-* React.createElement
-* React.cloneElement
-* React.createFactory
-* React.isValidElement
-* React.DOM
-* React.PropTypes
-* React.Children
-  * React.Children.map
-  * React.Children.forEach
-  * React.Children.count
-  * React.Children.only
-  * React.Children.toArray
+-   React.Component
+-   React.createClass
+-   React.createElement
+-   React.cloneElement
+-   React.createFactory
+-   React.isValidElement
+-   React.DOM
+-   React.PropTypes
+-   React.Children
+    -   React.Children.map
+    -   React.Children.forEach
+    -   React.Children.count
+    -   React.Children.only
+    -   React.Children.toArray
 
 ## ReactDOM
 
-* ReactDOM.render
-* ReactDOM.findDOMNode
-* ReactDOM.unmountComponentAtNode
+-   ReactDOM.render
+-   ReactDOM.findDOMNode
+-   ReactDOM.unmountComponentAtNode
 
 ## ReactDOMServer
-* ReactDOMServer.renderToString
-* ReactDOMServer.renderToStaticMarkup
+
+-   ReactDOMServer.renderToString
+-   ReactDOMServer.renderToStaticMarkup
 
 ## Term
 
-* React Elements
-* Factories
-* React Nodes
-* React Components
+-   React Elements
+-   Factories
+-   React Nodes
+-   React Components
 
 # DOM Elements [#](https://facebook.github.io/react/docs/dom-elements.html#all-supported-html-attributes)
 

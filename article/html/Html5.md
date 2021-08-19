@@ -1,89 +1,88 @@
 # 语义化标签
 
-* header
-* main
-* footer
-* article
-* section
-* aside
-* menu
-* nav
-* dialog
-* figure
-* figcaption
+-   header
+-   main
+-   footer
+-   article
+-   section
+-   aside
+-   menu
+-   nav
+-   dialog
+-   figure
+-   figcaption
 
-# JS加载
+# JS 加载
 
-* defer
-* async
+-   defer
+-   async
 
 # 输入类型
 
-* number
-* tel
-* url
-* email
-* search
-* range
+-   number
+-   tel
+-   url
+-   email
+-   search
+-   range
 
 # 表单属性
 
-* required
-* placeholder
-* autocomplete
-* pattern
-* formcation
+-   required
+-   placeholder
+-   autocomplete
+-   pattern
+-   formcation
 
 # 音频、视频
 
-* audio
-* vedio
+-   audio
+-   vedio
 
 # querySelector
 
-* querySelector()
-* querySelectorAll()
-* getElementsByClassName()
+-   querySelector()
+-   querySelectorAll()
+-   getElementsByClassName()
 
 # classList
 
-* length
-* item
-* add()
-* remove()
-* toggle()
-* contains()
+-   length
+-   item
+-   add()
+-   remove()
+-   toggle()
+-   contains()
 
 # dataset
 
 # JSON
 
-* JSON.parse()
-* JSON.stringify()
-
+-   JSON.parse()
+-   JSON.stringify()
 
 # 历史管理
 
-* window.onhashchange
-* window.onpopstate
-* history.pushState()
-* history.replaceState()
+-   window.onhashchange
+-   window.onpopstate
+-   history.pushState()
+-   history.replaceState()
 
 # Storage
 
-* window.onstorage
-* window.sessionStorage
-* window.localStorage
-* getItem()
-* setItem()
-* removeItem()
-* clear()
+-   window.onstorage
+-   window.sessionStorage
+-   window.localStorage
+-   getItem()
+-   setItem()
+-   removeItem()
+-   clear()
 
 # Geolocation
 
-* navigator.geolocation.getCurrentPosition()
-* navigator.geolocation.watchPosition()
-* navigator.geolocation.clearWatch()
+-   navigator.geolocation.getCurrentPosition()
+-   navigator.geolocation.watchPosition()
+-   navigator.geolocation.clearWatch()
 
 # FormData
 
@@ -107,6 +106,6 @@
 
 # 离线应用
 
-* AddType text/cache-manifest .manifest
-* manifest="xxxxx.manifest"
-* CACHE MANIFEST
+-   AddType text/cache-manifest .manifest
+-   manifest="xxxxx.manifest"
+-   CACHE MANIFEST

@@ -1,6 +1,5 @@
 # 日期格式化
 
-
 ## Date.prototype.toISOString
 
 ```

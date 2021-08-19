@@ -1,35 +1,19 @@
 # 关键字
 
-var
-typeof
+var typeof
 
-new
-this
-void
-return
-function
-instanceof
+new this void return function instanceof
 
-if
-else
+if else
 
-for
-break
-continue
+for break continue
 
-do
-while
+do while
 
-in
-delete
+in delete
 
-switch
-case
-default
+switch case default
 
-try
-catch
-finally
-throw
+try catch finally throw
 
 with

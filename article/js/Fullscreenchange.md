@@ -2,8 +2,8 @@
 
 # 方法
 
-* requestFullscreen()
-* exitFullscreen()
+-   requestFullscreen()
+-   exitFullscreen()
 
 > document 和 element 部署了 requestFullscreen()
 >
@@ -11,13 +11,12 @@
 
 # 属性
 
-* document.fullscreenElement 返回正处于全屏状态的Element节点,如果没有则返回null
-* document.fullscreenEnableds 返回一个布尔值,表示当前文档是否可以切换到全屏状态
-
+-   document.fullscreenElement 返回正处于全屏状态的 Element 节点,如果没有则返回 null
+-   document.fullscreenEnableds 返回一个布尔值,表示当前文档是否可以切换到全屏状态
 
 # 事件
 
-* fullscreenchange
+-   fullscreenchange
 
 ```
 document.addEventListener('fullscreenchange', function( event ) {
@@ -31,7 +30,7 @@ document.addEventListener('fullscreenchange', function( event ) {
 
 > 浏览器进入或离开全屏时触发
 
-* fullscreenerror
+-   fullscreenerror
 
 ```
 document.addEventListener('fullscreenerror', function( event ) {
@@ -41,14 +40,13 @@ document.addEventListener('fullscreenerror', function( event ) {
 
 > 浏览器无法进入全屏时触发，可能是技术原因，也可能是用户拒绝
 
-
-# 全屏状态的CSS
+# 全屏状态的 CSS
 
 ```css
 :-webkit-full-screen {
-  // properties
+    // properties
 }
 :full-screen {
-  // properties
+    // properties
 }
 ```

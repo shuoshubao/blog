@@ -1,4 +1,4 @@
-> 虽然你去百度上搜索 `reduce`, 发现只给了一个求和这一个demo, 但别以为reduce的作用就止于求和
+> 虽然你去百度上搜索 `reduce`, 发现只给了一个求和这一个 demo, 但别以为 reduce 的作用就止于求和
 
 # Number
 
@@ -71,7 +71,6 @@ const ret = keys.split('.').reduce((prev, cur) => prev[cur], data)
 
 console.log(ret); // 2
 ```
-
 
 # Object
 

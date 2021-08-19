@@ -1,39 +1,39 @@
 # Introduce
 
-* [官网](https://www.mongodb.com/)
-* [下载](https://www.mongodb.com/download-center)
-* [GUI - robomongo](https://robomongo.org/)
+-   [官网](https://www.mongodb.com/)
+-   [下载](https://www.mongodb.com/download-center)
+-   [GUI - robomongo](https://robomongo.org/)
 
 # Install
 
-* brew update
-* brew install mongodb
-* export PATH=`<mongodb-install-directory>`/bin:$PATH
-> export PATH=/usr/local/mongodb/bin:$PATH
-* mkdir -p /data/db
-* mongod --dbpath `<path to data directory>`
-* [Referrence](https://docs.mongodb.com/getting-started/shell/tutorial/install-mongodb-on-os-x/)
+-   brew update
+-   brew install mongodb
+-   export PATH=`<mongodb-install-directory>`/bin:$PATH
+    > export PATH=/usr/local/mongodb/bin:$PATH
+-   mkdir -p /data/db
+-   mongod --dbpath `<path to data directory>`
+-   [Referrence](https://docs.mongodb.com/getting-started/shell/tutorial/install-mongodb-on-os-x/)
 
 # Concept
 
-| SQL | MongoDB | explain |
-|---|---|---|
-| database | database | 数据库 |
-| table | collection | 数据库表/集合 |
-| row | document | 数据记录行/文档 |
-| column | field | 数据字段/域 |
-| index | index | 索引 |
-| table joins | | 表连接,MongoDB不支持 |
-| primary key | primary key | 主键,MongoDB自动将_id字段设置为主键 |
+| SQL         | MongoDB     | explain                                |
+| ----------- | ----------- | -------------------------------------- |
+| database    | database    | 数据库                                 |
+| table       | collection  | 数据库表/集合                          |
+| row         | document    | 数据记录行/文档                        |
+| column      | field       | 数据字段/域                            |
+| index       | index       | 索引                                   |
+| table joins |             | 表连接,MongoDB 不支持                  |
+| primary key | primary key | 主键,MongoDB 自动将\_id 字段设置为主键 |
 
-| RDBMS | MongoDB |
-|-|-|
-| 数据库 | 数据库 |
-| 表格 | 集合 |
-| 行 | 文档 |
-| 列 | 字段 |
-| 表联合 | 嵌入文档 |
-| 主键 |  主键 (MongoDB 提供了 key 为 _id ) |
+| RDBMS  | MongoDB                            |
+| ------ | ---------------------------------- |
+| 数据库 | 数据库                             |
+| 表格   | 集合                               |
+| 行     | 文档                               |
+| 列     | 字段                               |
+| 表联合 | 嵌入文档                           |
+| 主键   | 主键 (MongoDB 提供了 key 为 \_id ) |
 
 # Shell
 
@@ -71,7 +71,7 @@ db.dropDatabase()
 db.collection_name.drop()
 ```
 
-#  MongoDB Package Components
+# MongoDB Package Components
 
 ## mongod
 

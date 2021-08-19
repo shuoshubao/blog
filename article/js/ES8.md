@@ -1,13 +1,13 @@
 # String
 
-* String.prototype.padStart()
-* String.prototype.padEnd()
+-   String.prototype.padStart()
+-   String.prototype.padEnd()
 
 # Object
 
-* Object.values()
-* Object.entries()
-* Object.getOwnPropertyDescriptors()
+-   Object.values()
+-   Object.entries()
+-   Object.getOwnPropertyDescriptors()
 
 # async
 

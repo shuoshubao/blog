@@ -1,4 +1,4 @@
-* 使用 ReadStream对象 读取文件
+-   使用 ReadStream 对象 读取文件
 
 ```
 const file = fs.createReadStream(path, [options])
@@ -12,7 +12,7 @@ file.pause()
 file.resume()
 ```
 
-* 使用 WriteStream对象 写入文件
+-   使用 WriteStream 对象 写入文件
 
 ```
 const writable = fs.createWriteStream(path, [options])

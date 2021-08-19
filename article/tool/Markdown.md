@@ -1,14 +1,13 @@
 #链接/图片
 
-* 链接 ： [文字](http://shuoshubao.github.io)
-* 图片 ： ![文字](https://assets-cdn.github.com/favicon.ico)
+-   链接 ： [文字](http://shuoshubao.github.io)
+-   图片 ： ![文字](https://assets-cdn.github.com/favicon.ico)
 
 # 标题
 
-#  一级标题
+# 一级标题
 
 ## 二级标题
-
 
 # 引用
 
@@ -16,31 +15,31 @@
 
 # 斜体/粗体/分隔线
 
-* \*斜体*
-* \*\* 粗体 **
-* \*\*\*
+-   \*斜体\*
+-   \*\* 粗体 \*\*
+-   \*\*\*
 
 # 代码框
 
-* \`\`\`
-* \`\`\`language-name(eg:css, html, js ...)
+-   \`\`\`
+-   \`\`\`language-name(eg:css, html, js ...)
 
 # 列表
 
-- 无序列表1
-- 无序列表2
+-   无序列表 1
+-   无序列表 2
 
-***
+---
 
-* 无序列表1
-* 无序列表2
+-   无序列表 1
+-   无序列表 2
 
-***
+---
 
-1. 有序列表1
-2. 有序列表2
+1. 有序列表 1
+2. 有序列表 2
 
-***
+---
 
 # 表格
 
@@ -52,12 +51,11 @@
 | zebra stripes | are neat      |    $1 |
 ```
 
-
-|Tables|Are|Cool|
-|-|:-:|-:|
+| Tables        |      Are      |  Cool |
+| ------------- | :-----------: | ----: |
 | col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| col 2 is      |   centered    |   $12 |
+| zebra stripes |   are neat    |    $1 |
 
 # 反斜杠
 

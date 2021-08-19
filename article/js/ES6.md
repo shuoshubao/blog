@@ -1,194 +1,194 @@
 # String
 
-* String.raw()
-* String.prototype.includes()
-* String.prototype.startsWith()
-* String.prototype.endsWith()
-* String.prototype.repeat()
-* String.prototype.at()
-* String.prototype.normalize()
+-   String.raw()
+-   String.prototype.includes()
+-   String.prototype.startsWith()
+-   String.prototype.endsWith()
+-   String.prototype.repeat()
+-   String.prototype.at()
+-   String.prototype.normalize()
 
 # Number
 
-* Number.EPSILON
-* Number.isFinite()
-* Number.isNaN()
-* Number.parseInt()
-* Number.parseFloat()
-* Number.isInteger()
-* Number.isSafeInteger()
+-   Number.EPSILON
+-   Number.isFinite()
+-   Number.isNaN()
+-   Number.parseInt()
+-   Number.parseFloat()
+-   Number.isInteger()
+-   Number.isSafeInteger()
 
 # Array
 
-* Array.of()
-* Array.from()
-* Array.prototype.copyWithin(target, start = 0, end = this.length)
-* Array.prototype.find()
-* Array.prototype.findIndex((value, index, arr) => {})
-* Array.prototype.fill()
-* Array.prototype.keys()
-* Array.prototype.values()
-* Array.prototype.entries()
+-   Array.of()
+-   Array.from()
+-   Array.prototype.copyWithin(target, start = 0, end = this.length)
+-   Array.prototype.find()
+-   Array.prototype.findIndex((value, index, arr) => {})
+-   Array.prototype.fill()
+-   Array.prototype.keys()
+-   Array.prototype.values()
+-   Array.prototype.entries()
 
 # Math
 
-* Math.trunc()
-* Math.sign()
-* Math.cbrt()
-* Math.clz32()
-* Math.imul()
-* Math.fround()
-* Math.hypot()
-* Math.expm1()
-* Math.log1p()
-* Math.log10()
-* Math.log2()
-* Math.sinh()
-* Math.cosh()
-* Math.tanh()
-* Math.asinh()
-* Math.acosh()
-* Math.atanh()
+-   Math.trunc()
+-   Math.sign()
+-   Math.cbrt()
+-   Math.clz32()
+-   Math.imul()
+-   Math.fround()
+-   Math.hypot()
+-   Math.expm1()
+-   Math.log1p()
+-   Math.log10()
+-   Math.log2()
+-   Math.sinh()
+-   Math.cosh()
+-   Math.tanh()
+-   Math.asinh()
+-   Math.acosh()
+-   Math.atanh()
 
 # Function
 
-* Function.prototype.name
+-   Function.prototype.name
 
 # Object
 
-* obj[method].name
-* Object.is()    // +0 != 0, NaN == NaN
-* Object.assign()
-* Object.getOwnPropertyDescriptor()
-* Object.setPrototypeOf()
-* Object.getPrototypeOf()
-* Object.prototype.__proto__
+-   obj[method].name
+-   Object.is() // +0 != 0, NaN == NaN
+-   Object.assign()
+-   Object.getOwnPropertyDescriptor()
+-   Object.setPrototypeOf()
+-   Object.getPrototypeOf()
+-   Object.prototype.**proto**
 
 # Symbol
 
 ## static method
 
-* Symbol.for()
-* Symbol.keyFor()
+-   Symbol.for()
+-   Symbol.keyFor()
 
 # Set [WeakSet]
 
-* new Set()
-* new Set([]) // array or array-like
+-   new Set()
+-   new Set([]) // array or array-like
 
 ## property
 
-* Set.prototype.size
+-   Set.prototype.size
 
 ## method
 
-* Set.prototype.add(value)
-* Set.prototype.delete(value)
-* Set.prototype.has(value)
-* Set.prototype.clear()
+-   Set.prototype.add(value)
+-   Set.prototype.delete(value)
+-   Set.prototype.has(value)
+-   Set.prototype.clear()
 
 ## Iterator
 
-* Set.prototype.keys()
-* Set.prototype.values()
-* Set.prototype.entries()
-* Set.prototype.forEach()
+-   Set.prototype.keys()
+-   Set.prototype.values()
+-   Set.prototype.entries()
+-   Set.prototype.forEach()
 
 # Map [WeakSet]
 
 ## property
 
-* Map.prototype.size
+-   Map.prototype.size
 
 ## method
 
-* Map.prototype.get(key)
-* Map.prototype.set(key, value)
-* Map.prototype.has(key)
-* Map.prototype.delete(key)
-* Map.prototype.clear()
+-   Map.prototype.get(key)
+-   Map.prototype.set(key, value)
+-   Map.prototype.has(key)
+-   Map.prototype.delete(key)
+-   Map.prototype.clear()
 
 ## Iterator
 
-* Set.prototype.keys()
-* Set.prototype.values()
-* Set.prototype.entries()
-* Set.prototype.forEach()
+-   Set.prototype.keys()
+-   Set.prototype.values()
+-   Set.prototype.entries()
+-   Set.prototype.forEach()
 
 # Proxy
 
 ## static method
 
-* Proxy.revocable(target, handler)
+-   Proxy.revocable(target, handler)
 
 ## method
 
-* Proxy.prototype.get(target, propKey, receiver)
-* Proxy.prototype.set(target, propKey, value, receiver)
-* Proxy.prototype.has(target, propKey)
-* Proxy.prototype.deleteProperty(target, propKey)
-* Proxy.prototype.ownKeys(target)
-* Proxy.prototype.getOwnPropertyDescriptor(target, propKey)
-* Proxy.prototype.defineProperty(target, propKey, propDesc)
-* Proxy.prototype.preventExtensions(target)
-* Proxy.prototype.getPrototypeOf(target)
-* Proxy.prototype.isExtensible(target)
-* Proxy.prototype.setPrototypeOf(target, proto)
-* Proxy.prototype.apply(target, object, args)
-* Proxy.prototype.construct(target, args)
+-   Proxy.prototype.get(target, propKey, receiver)
+-   Proxy.prototype.set(target, propKey, value, receiver)
+-   Proxy.prototype.has(target, propKey)
+-   Proxy.prototype.deleteProperty(target, propKey)
+-   Proxy.prototype.ownKeys(target)
+-   Proxy.prototype.getOwnPropertyDescriptor(target, propKey)
+-   Proxy.prototype.defineProperty(target, propKey, propDesc)
+-   Proxy.prototype.preventExtensions(target)
+-   Proxy.prototype.getPrototypeOf(target)
+-   Proxy.prototype.isExtensible(target)
+-   Proxy.prototype.setPrototypeOf(target, proto)
+-   Proxy.prototype.apply(target, object, args)
+-   Proxy.prototype.construct(target, args)
 
 # Reflect
 
 ## static method
 
-* Reflect.apply(target, thisArg, args)
-* Reflect.construct(target, args)
-* Reflect.get(target, name, receiver)
-* Reflect.set(target, name, value, receiver)
-* Reflect.defineProperty(target, name, desc)
-* Reflect.deleteProperty(target, name)
-* Reflect.has(target, name)
-* Reflect.ownKeys(target)
-* Reflect.isExtensible(target)
-* Reflect.preventExtensions(target)
-* Reflect.getOwnPropertyDescriptor(target, name)
-* Reflect.getPrototypeOf(target)
-* Reflect.setPrototypeOf(target, prototype)
+-   Reflect.apply(target, thisArg, args)
+-   Reflect.construct(target, args)
+-   Reflect.get(target, name, receiver)
+-   Reflect.set(target, name, value, receiver)
+-   Reflect.defineProperty(target, name, desc)
+-   Reflect.deleteProperty(target, name)
+-   Reflect.has(target, name)
+-   Reflect.ownKeys(target)
+-   Reflect.isExtensible(target)
+-   Reflect.preventExtensions(target)
+-   Reflect.getOwnPropertyDescriptor(target, name)
+-   Reflect.getPrototypeOf(target)
+-   Reflect.setPrototypeOf(target, prototype)
 
 # Promise
 
 ## static method
 
-* Promise.resolve()
-* Promise.rejecr()
-* Promise.all()
-* Promise.race()
-* Promise.try()
+-   Promise.resolve()
+-   Promise.rejecr()
+-   Promise.all()
+-   Promise.race()
+-   Promise.try()
 
 ## method
 
-* Promise.prototype.then()
-* Promise.prototype.catch()
-* Promise.prototype.finally()
+-   Promise.prototype.then()
+-   Promise.prototype.catch()
+-   Promise.prototype.finally()
 
 # Generator
 
-* Generator.prototype.throw()
-* Generator.prototype.return()
+-   Generator.prototype.throw()
+-   Generator.prototype.return()
 
 # ArrayBuffer
 
 ## property
 
-* ArrayBuffer.prototype.byteLength
+-   ArrayBuffer.prototype.byteLength
 
 ## static method
 
-* ArrayBuffer.isView()
+-   ArrayBuffer.isView()
 
 ## method
 
-* ArrayBuffer.prototype.slice()
+-   ArrayBuffer.prototype.slice()
 
 ## TypedArray
 
@@ -209,54 +209,52 @@ new Float64Array()        // 64 位浮点数，长度 8 个字节
 
 ### property
 
-* TypedArray.prototype.BYTES_PER_ELEMENT
-* TypedArray.prototype.byteLength
-* TypedArray.prototype.byteOffset
-* TypedArray.prototype.length
+-   TypedArray.prototype.BYTES_PER_ELEMENT
+-   TypedArray.prototype.byteLength
+-   TypedArray.prototype.byteOffset
+-   TypedArray.prototype.length
 
 ### static method
 
-* TypedArray.from()
+-   TypedArray.from()
 
 ### method
 
-* TypedArray.prototype.join(separator)
-* TypedArray.prototype.slice(start=0, end=this.length)
-* TypedArray.prototype.sort(comparefn)
-* TypedArray.prototype.reverse()
-* TypedArray.prototype.indexOf(searchElement, fromIndex=0)
-* TypedArray.prototype.lastIndexOf(searchElement, fromIndex?)
-* TypedArray.prototype.findIndex(predicate, thisArg?)
-* TypedArray.prototype.forEach(callbackfn, thisArg?)
-* TypedArray.prototype.map(callbackfn, thisArg?)
-* TypedArray.prototype.filter(callbackfn, thisArg?)
-* TypedArray.prototype.reduce(callbackfn, initialValue?)
-* TypedArray.prototype.reduceRight(callbackfn, initialValue?)
-* TypedArray.prototype.some(callbackfn, thisArg?)
-* TypedArray.prototype.every(callbackfn, thisArg?)
-* TypedArray.prototype.find(predicate, thisArg?)
-* TypedArray.prototype.fill(value, start=0, end=this.length)
-* TypedArray.prototype.entries()
-* TypedArray.prototype.values()
-* TypedArray.prototype.keys()
-* TypedArray.prototype.copyWithin(target, start[, end = this.length])
-* TypedArray.prototype.toString()
-* TypedArray.prototype.toLocaleString(reserved1?, reserved2?)
-* TypedArray.prototype.set()
-* TypedArray.prototype.subarray()
+-   TypedArray.prototype.join(separator)
+-   TypedArray.prototype.slice(start=0, end=this.length)
+-   TypedArray.prototype.sort(comparefn)
+-   TypedArray.prototype.reverse()
+-   TypedArray.prototype.indexOf(searchElement, fromIndex=0)
+-   TypedArray.prototype.lastIndexOf(searchElement, fromIndex?)
+-   TypedArray.prototype.findIndex(predicate, thisArg?)
+-   TypedArray.prototype.forEach(callbackfn, thisArg?)
+-   TypedArray.prototype.map(callbackfn, thisArg?)
+-   TypedArray.prototype.filter(callbackfn, thisArg?)
+-   TypedArray.prototype.reduce(callbackfn, initialValue?)
+-   TypedArray.prototype.reduceRight(callbackfn, initialValue?)
+-   TypedArray.prototype.some(callbackfn, thisArg?)
+-   TypedArray.prototype.every(callbackfn, thisArg?)
+-   TypedArray.prototype.find(predicate, thisArg?)
+-   TypedArray.prototype.fill(value, start=0, end=this.length)
+-   TypedArray.prototype.entries()
+-   TypedArray.prototype.values()
+-   TypedArray.prototype.keys()
+-   TypedArray.prototype.copyWithin(target, start[, end = this.length])
+-   TypedArray.prototype.toString()
+-   TypedArray.prototype.toLocaleString(reserved1?, reserved2?)
+-   TypedArray.prototype.set()
+-   TypedArray.prototype.subarray()
 
+---
 
-***
-
-***
-
+---
 
 # 语法糖
 
 ## const let
 
-* const
-* let
+-   const
+-   let
 
 ## template string
 
@@ -266,12 +264,12 @@ new Float64Array()        // 64 位浮点数，长度 8 个字节
 
 ## 解构赋值
 
-* String
-* Number
-* Boolean
-* Array
-* 函数参数
-* 对象
+-   String
+-   Number
+-   Boolean
+-   Array
+-   函数参数
+-   对象
 
 ```
 const {Component} = React
@@ -298,12 +296,12 @@ Promise.all([a, b].map(v => pro))
 
 ## Iterator
 
-* for...of
-* String、Array、array-like、Set、Map、WeakSet、WeakMap
+-   for...of
+-   String、Array、array-like、Set、Map、WeakSet、WeakMap
 
 ## typeof
 
-* number、string、boolean、undefined、function、object、`symbol`
+-   number、string、boolean、undefined、function、object、`symbol`
 
 ## 数组 spread ...
 

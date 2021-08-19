@@ -1,11 +1,12 @@
 > const path = require('path')
 
-* path.basename(path[, ext])
-* path.delimiter
-* path.sep
-* path.dirname(path)
-* path.extname(path)
-* path.format(pathObject)
+-   path.basename(path[, ext])
+-   path.delimiter
+-   path.sep
+-   path.dirname(path)
+-   path.extname(path)
+-   path.format(pathObject)
+
 ```
 pathObject: {
     root,
@@ -15,10 +16,12 @@ pathObject: {
     ext
 }
 ```
-* path.isAbsolute(path)
-* path.join([...paths])
-* path.normalize(path)
-* path.parse(path)
+
+-   path.isAbsolute(path)
+-   path.join([...paths])
+-   path.normalize(path)
+-   path.parse(path)
+
 ```
 Returns: {
     root,
@@ -28,7 +31,8 @@ Returns: {
     ext
 }
 ```
-* path.posix
-* path.win32
-* path.relative(from, to)
-* path.resolve([...paths])
+
+-   path.posix
+-   path.win32
+-   path.relative(from, to)
+-   path.resolve([...paths])

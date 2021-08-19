@@ -6,9 +6,9 @@
 
 > Notification.permission
 
-* default
-* denied
-* granted
+-   default
+-   denied
+-   granted
 
 # 询问
 

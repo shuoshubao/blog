@@ -10,8 +10,8 @@ async function process(array) {
 
 # Promise
 
-* Promise.prototype.finally()
+-   Promise.prototype.finally()
 
 # Object
 
-* Rest/Spread
+-   Rest/Spread

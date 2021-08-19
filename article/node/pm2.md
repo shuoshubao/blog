@@ -35,36 +35,36 @@ apps:
 
 # Listing
 
-* pm2 list
-* pm2 jlist
-* pm2 prettylist
-* pm2 describe [id]
-* pm2 monit
+-   pm2 list
+-   pm2 jlist
+-   pm2 prettylist
+-   pm2 describe [id]
+-   pm2 monit
 
 # Logs
 
-* pm2 logs [--raw]
-* pm2 flush
-* pm2 reloadLogs
+-   pm2 logs [--raw]
+-   pm2 flush
+-   pm2 reloadLogs
 
 # Actions
 
-* pm2 stop all
-* pm2 restart all
-* pm2 reload all 
-* pm2 gracefulReload all
+-   pm2 stop all
+-   pm2 restart all
+-   pm2 reload all
+-   pm2 gracefulReload all
 
-* pm2 stop [id]
-* pm2 restart [id]
+-   pm2 stop [id]
+-   pm2 restart [id]
 
-* pm2 delete [id]
-* pm2 delete all
+-   pm2 delete [id]
+-   pm2 delete all
 
 # Misc
 
-* pm2 reset <process>
-* pm2 updatePM2
-* pm2 ping
-* pm2 start app.js --no-daemon
-* pm2 start app.js --no-vizion
-* pm2 start app.js --no-autorestart
+-   pm2 reset <process>
+-   pm2 updatePM2
+-   pm2 ping
+-   pm2 start app.js --no-daemon
+-   pm2 start app.js --no-vizion
+-   pm2 start app.js --no-autorestart

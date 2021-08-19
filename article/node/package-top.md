@@ -69,6 +69,7 @@ Promise.all(Array.from(Array(5), (v, i) => i).map(v => task(36 * v))).then(rs =>
     );
 });
 ```
+
 # data.json
 
 ```

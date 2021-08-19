@@ -1,30 +1,30 @@
 # HTML
 
-* \! 文档
-* \# id
-* \. class
-* \[\] 属性
-* \{\} 文本
-* \> 子元素
-* \+ 兄弟元素
-* ^ 后退(类似jq的end)
-* \(\) 分组
-* $ 自增
-* @ 起点(跟在$之后,后跟'-'表示降序)
-* \* 批量
+-   \! 文档
+-   \# id
+-   \. class
+-   \[\] 属性
+-   \{\} 文本
+-   \> 子元素
+-   \+ 兄弟元素
+-   ^ 后退(类似 jq 的 end)
+-   \(\) 分组
+-   $ 自增
+-   @ 起点(跟在$之后,后跟'-'表示降序)
+-   \* 批量
 
 ### 隐式标签 (Implicit TagNames)
 
-* 块元素 → div
-* 行间元素 → span
-* ul, ol → li
-* select, optgroup → option
-* table, thead ,tbody, tfoot → tr
-* tr → td
+-   块元素 → div
+-   行间元素 → span
+-   ul, ol → li
+-   select, optgroup → option
+-   table, thead ,tbody, tfoot → tr
+-   tr → td
 
 # CSS
 
-* 单值/负值/多值/多命令
+-   单值/负值/多值/多命令
 
 ```
 m100 → margin: 100px;
@@ -35,14 +35,14 @@ m1-2-3-4 → margin: 1px 2px 3px 4px;
 w100+c#3 → width: 100px; color: #333;
 ```
 
-* 缺省单位
+-   缺省单位
 
 ```
 m10 → margin: 10px;
 m10em → margin: 10em;
 ```
 
-* 单位别名
+-   单位别名
 
 ```
 p → %
@@ -55,7 +55,7 @@ w100p → width: 100%
 m10p30e5x → margin: 10% 30em 5ex
 ```
 
-* 色值
+-   色值
 
 ```
 c → color: #000;
@@ -68,7 +68,7 @@ c#12345 → color: #123451;
 c#123456 → color: #123456;
 ```
 
-* 没有单位的属性
+-   没有单位的属性
 
 ```
 * z-index
@@ -77,13 +77,13 @@ c#123456 → color: #123456;
 * font-weight
 ```
 
-* !important
+-   !important
 
 ```
 ! → !important
 ```
 
-* 厂商前缀
+-   厂商前缀
 
 ```
 w: webkit
@@ -99,7 +99,7 @@ o: o
 box-shadow: inset hoff voff blur color;
 ```
 
-* 渐变
+-   渐变
 
 ```
 lg()
@@ -112,7 +112,6 @@ background-image: -webkit-linear-gradient(left, #123 30%, #456);
 background-image: -o-linear-gradient(left, #123 30%, #456);
 background-image: linear-gradient(to right, #123 30%, #456);
 ```
-
 
 # Referrence
 

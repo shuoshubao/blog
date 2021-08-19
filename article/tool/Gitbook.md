@@ -14,44 +14,41 @@
 
 > gitbook build
 
-
 # book.json 书的信息
 
 ```json
 {
-  "gitbook": "2.x.x",
-  "title": "ES6入门指南",
-  "description": "This is such a great book!",
-  "isbn": "978-3-16-148410-0",
-  "language": "en, ar, bn, ca, cs, de, en, es, fa, fi, fr, he, it, ja, ko, no, pl, pt, ro, ru, sv, tr, uk, vi, zh-hans, zh-tw",
-  "direction": "ltr",
-  "structure": {
-    "readme": "README.md"
-  },
-  "variables": {
-    "myTest": "Hello World"
-  },
-  "styles": {
-    "website": "styles/website.css",
-    "ebook": "styles/ebook.css",
-    "pdf": "styles/pdf.css",
-    "mobi": "sty  les/mobi.css",
-    "epub": "styles/epub.css"
-  },
-  "plugins": ["myplugin"],
-  "pluginsConfig": {
-    "myPlugin": {
-      "message": "Hello World"
+    "gitbook": "2.x.x",
+    "title": "ES6入门指南",
+    "description": "This is such a great book!",
+    "isbn": "978-3-16-148410-0",
+    "language": "en, ar, bn, ca, cs, de, en, es, fa, fi, fr, he, it, ja, ko, no, pl, pt, ro, ru, sv, tr, uk, vi, zh-hans, zh-tw",
+    "direction": "ltr",
+    "structure": {
+        "readme": "README.md"
+    },
+    "variables": {
+        "myTest": "Hello World"
+    },
+    "styles": {
+        "website": "styles/website.css",
+        "ebook": "styles/ebook.css",
+        "pdf": "styles/pdf.css",
+        "mobi": "sty  les/mobi.css",
+        "epub": "styles/epub.css"
+    },
+    "plugins": ["myplugin"],
+    "pluginsConfig": {
+        "myPlugin": {
+            "message": "Hello World"
+        }
+    },
+    "pdf": {
+        "headerTemplate": "Header of the PDF with _TITLE_",
+        "footerTemplate": "Footer HTML template. Available variables: _PAGENUM_, _TITLE_, _AUTHOR_ and _SECTION_."
     }
-  },
-  "pdf": {
-    "headerTemplate": "Header of the PDF with _TITLE_",
-    "footerTemplate": "Footer HTML template. Available variables: _PAGENUM_, _TITLE_, _AUTHOR_ and _SECTION_."
-  }
 }
 ```
-
-
 
 # SUMMARY.md 目录
 

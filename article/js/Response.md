@@ -8,12 +8,12 @@ var response = new Response(body, init);
 
 ### body
 
-* Blob
-* BufferSource
-* FormData
-* ReadableStream
-* URLSearchParams
-* USVString
+-   Blob
+-   BufferSource
+-   FormData
+-   ReadableStream
+-   URLSearchParams
+-   USVString
 
 ### init
 
@@ -27,22 +27,22 @@ var response = new Response(body, init);
 
 # Properties
 
-* bodyUsed
-* headers
-* ok
-* redirected
-* status
-* statusText
-* type
-* url
+-   bodyUsed
+-   headers
+-   ok
+-   redirected
+-   status
+-   statusText
+-   type
+-   url
 
 # Method
 
-* redirect(url, status)
-* error()
-* clone()
-* [Body](#js/Body)
+-   redirect(url, status)
+-   error()
+-   clone()
+-   [Body](#js/Body)
 
 # Reference
 
-* [https://developer.mozilla.org/en-US/docs/Web/API/Response](https://developer.mozilla.org/en-US/docs/Web/API/Response)
+-   [https://developer.mozilla.org/en-US/docs/Web/API/Response](https://developer.mozilla.org/en-US/docs/Web/API/Response)

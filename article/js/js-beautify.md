@@ -58,6 +58,6 @@ beautify_js('code...', jsbeautifyrc)
 
 # Referrence
 
-* http://jsbeautifier.org/
-* https://github.com/beautify-web/js-beautify
-* https://www.npmjs.com/package/js-beautify
+-   http://jsbeautifier.org/
+-   https://github.com/beautify-web/js-beautify
+-   https://www.npmjs.com/package/js-beautify

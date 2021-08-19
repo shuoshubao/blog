@@ -2,29 +2,29 @@
 
 ## Vue.config
 
-* silent
-* optionMergeStrategies
-* devtools
-* errorHandler
-* warnHandler
-* ignoredElements
-* keyCodes
-* performance
-* productionTip
+-   silent
+-   optionMergeStrategies
+-   devtools
+-   errorHandler
+-   warnHandler
+-   ignoredElements
+-   keyCodes
+-   performance
+-   productionTip
 
-# 全局API
+# 全局 API
 
-* Vue.component
-* Vue.nextTick
-* Vue.directive
-* Vue.filter
-* Vue.mixin
-* Vue.extend
-* Vue.set
-* Vue.delete
-* Vue.use
-* Vue.compile
-* Vue.version
+-   Vue.component
+-   Vue.nextTick
+-   Vue.directive
+-   Vue.filter
+-   Vue.mixin
+-   Vue.extend
+-   Vue.set
+-   Vue.delete
+-   Vue.use
+-   Vue.compile
+-   Vue.version
 
 # 选项
 
@@ -84,57 +84,57 @@ new Vue({
 
 # 实例属性
 
-* .$refs
-* .$data
-* .$props
-* .$el
-* .$options
-* .$root
-* .$parent
-* .$children
-* .$attrs
-* .$listeners
-* .$slots
-* .$scopedSlots
-* .$isServer
+-   .$refs
+-   .$data
+-   .$props
+-   .$el
+-   .$options
+-   .$root
+-   .$parent
+-   .$children
+-   .$attrs
+-   .$listeners
+-   .$slots
+-   .$scopedSlots
+-   .$isServer
 
 # 实例方法
 
 ## 数据
 
-* .watch()
-* .set()
-* .delete()
+-   .watch()
+-   .set()
+-   .delete()
 
 ## 事件
 
-* .$on()
-* .$once()
-* .$off()
-* .$emit()
+-   .$on()
+-   .$once()
+-   .$off()
+-   .$emit()
 
 ## 生命周期
 
-* .$mount()
-* .$forceUpdate()
-* .$nextTick()
-* .$destroy()
+-   .$mount()
+-   .$forceUpdate()
+-   .$nextTick()
+-   .$destroy()
 
 ## 指令 directive
 
-* v-text
-* v-html
-* v-show
-* v-if
-* v-else
-* v-else-if
-* v-for
-* v-on -> `@`
-* v-bind => `:`
-* v-model
-* v-once
-* v-pre
-* v-cloak
+-   v-text
+-   v-html
+-   v-show
+-   v-if
+-   v-else
+-   v-else-if
+-   v-for
+-   v-on -> `@`
+-   v-bind => `:`
+-   v-model
+-   v-once
+-   v-pre
+-   v-cloak
 
 # 事件
 

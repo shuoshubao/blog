@@ -1,15 +1,15 @@
 # Getting Started
 
 > brew install node
-> 
+>
 > brew install watchman
-> 
+>
 > $ npm install -g react-native-cli
 >
 > react-native init AwesomeProject
-> 
+>
 > cd AwesomeProject
-> 
+>
 > react-native run-ios
 
 # Hello world
@@ -33,20 +33,20 @@ AppRegistry.registerComponent('AwesomeProject', () => Hello);
 
 ## react-native
 
-* AppRegistry
-* StyleSheet
+-   AppRegistry
+-   StyleSheet
 
 # base
 
-* View
-* ListView
-* ScrollView
-* Navigator
-* Text
-* Image
-* TextInput
-* TouchableHighlight
+-   View
+-   ListView
+-   ScrollView
+-   Navigator
+-   Text
+-   Image
+-   TextInput
+-   TouchableHighlight
 
-* Animated
-* LayoutAnimation
-* TouchableOpacity
+-   Animated
+-   LayoutAnimation
+-   TouchableOpacity

@@ -4,10 +4,10 @@
 
 ## 方法
 
-* getItem()
-* setItem()
-* removeItem()
-* clear()
+-   getItem()
+-   setItem()
+-   removeItem()
+-   clear()
 
 ## 事件
 
