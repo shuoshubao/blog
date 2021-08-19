@@ -32,7 +32,6 @@
 
 * n
 * debug
-* core-js
 * fs-extra  (fs 模块的封装)
 * memory-fs
 * graceful-fs
@@ -135,58 +134,20 @@
 * cli-table2
 * child-process-promise
 
-# babel
-
-* babel-cli
-* babel-core
-* babel-plugin-dynamic-import-node
-* babel-plugin-import
-* babel-plugin-minify-builtins
-* babel-plugin-minify-constant-folding
-* babel-plugin-minify-dead-code-elimination
-* babel-plugin-minify-guarded-expressions
-* babel-plugin-minify-infinity
-* babel-plugin-minify-mangle-names
-* babel-plugin-minify-numeric-literals
-* babel-plugin-minify-simplify
-* babel-plugin-minify-type-constructors
-* babel-plugin-syntax-function-bind
-* babel-plugin-syntax-trailing-function-commas
-* babel-plugin-transform-decorators-legacy
-* babel-plugin-transform-merge-sibling-variables
-* babel-plugin-transform-minify-booleans
-* babel-plugin-transform-object-rest-spread
-* babel-plugin-transform-remove-console
-* babel-plugin-transform-remove-undefined
-* babel-plugin-transform-runtime
-* babel-plugin-transform-undefined-to-void
-* babel-plugin-undeclared-variables-check
-* babel-polyfill
-* babel-preset-env
-* babel-preset-es2015
-* babel-preset-es2016
-* babel-preset-es2017
-* babel-preset-react
-* babel-preset-stage-0
-* babel-preset-stage-1
-* babel-preset-stage-2
-* babel-preset-stage-3
-* babel-register
-* babel-runtime
-
 # @babel
 
+* core-js
 * @babel/core
+* @babel/preset-env
+* @babel/runtime
+* @babel/highlight
+* @babel/polyfill
 * @babel/helper-module-imports
 * @babel/plugin-proposal-export-default-from
 * @babel/plugin-proposal-export-namespace-from
 * @babel/plugin-syntax-export-namespace-from
 * @babel/plugin-syntax-jsx
 * @babel/plugin-transform-runtime
-* @babel/polyfill
-* @babel/preset-env
-* @babel/runtime
-* @babel/highlight
 
 # webpack
 
@@ -267,6 +228,17 @@
 * eslint-plugin-html
 * eslint-plugin-import
 * eslint-plugin-vue
+
+# Stylelint
+
+* stylelint
+* stylelint-config-prettier
+* stylelint-config-rational-order
+* stylelint-config-recommended
+* stylelint-config-standard
+* stylelint-formatters-html
+* stylelint-order
+* stylelint-prettier
 
 # Test
 
