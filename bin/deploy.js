@@ -13,7 +13,6 @@ import { DATA_NAV, DATA_META } from '../data';
 import DATA_ARTICLE from '../data/db';
 
 const timeInfo = chalk.green('✨ 构建完成, 耗时');
-// const timeInfo= '✨'
 console.time(timeInfo);
 
 const strLess = ['base', 'markdown', 'highlight', 'highlight-table', 'app']
@@ -59,19 +58,17 @@ const MarkdownItHighlight = MarkdownIt({
                 const tableHtml = generateTable(
                     [
                         { prop: 'index', label: '索引' },
-                        { prop: 'text', label: '内容', attrs: {
-                        } }
+                        { prop: 'text', label: '内容', attrs: {} }
                     ],
                     data
                 );
                 return createElement({
                     tagName: 'pre',
                     attrs: {
-                        className: `hljs language-${lang}`
+                        class: `highlight language-${lang}`
                     },
                     text: tableHtml
                 });
-
             } catch (e) {
                 throw e;
             }

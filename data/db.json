@@ -36,25 +36,37 @@
         }
     ],
     "js": [
-        {
-            "name": "ES10",
-            "title": "ES10"
+      {
+            "name": "ES2022",
+            "title": "ES2022"
         },
         {
-            "name": "ES9",
-            "title": "ES9"
+            "name": "ES2021",
+            "title": "ES2021"
         },
         {
-            "name": "ES8",
-            "title": "ES8"
+            "name": "ES2020",
+            "title": "ES2020"
         },
         {
-            "name": "ES7",
-            "title": "ES7"
+            "name": "ES2019",
+            "title": "ES2019"
         },
         {
-            "name": "ES6",
-            "title": "ES6"
+            "name": "ES2018",
+            "title": "ES2018"
+        },
+        {
+            "name": "ES2017",
+            "title": "ES2017"
+        },
+        {
+            "name": "ES2016",
+            "title": "ES2016"
+        },
+        {
+            "name": "ES2015",
+            "title": "ES2015"
         },
         {
             "name": "ES5",
