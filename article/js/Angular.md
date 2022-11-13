@@ -7,26 +7,26 @@
 
 > 指令都写在 html 标签中
 
-# 服务 $
+# 服务 \$
 
--   $rootScope
--   $scope
+-   \$rootScope
+-   \$scope
 
 ```
 $scope.$watch(str, function(newVal, oldVal) {} [, ifWatchAll])
 $scope.$watch(function(){})
 ```
 
--   $timeout
--   $interval
-    -   $interval.cancel()
--   $filter
+-   \$timeout
+-   \$interval
+    -   \$interval.cancel()
+-   \$filter
 
 > 依赖注入：需要什么服务，就在形参列表中添加服务名, 服务都写在函数中
 
--   $timeout(function() {});
--   $interval(function() {});
--   $filter('filterName')(arg1, arg2, arg3);
+-   \$timeout(function() {});
+-   \$interval(function() {});
+-   \$filter('filterName')(arg1, arg2, arg3);
 
 # 过滤器 filter
 
@@ -132,12 +132,12 @@ mod1.filter('filterName', function(){
 
 # 迭代指令
 
--   $index
--   $first
--   $middle
--   $last
--   $even
--   $odd
+-   \$index
+-   \$first
+-   \$middle
+-   \$last
+-   \$even
+-   \$odd
 -   ng-repeat-start
 -   ng-repeat-end
 
@@ -216,11 +216,11 @@ mod1.filter('filterName', function(){
 
 # 表单验证
 
--   $valid
--   $invalid
--   $pristine
--   $dirty
--   $error
+-   \$valid
+-   \$invalid
+-   \$pristine
+-   \$dirty
+-   \$error
 -   ng-minlength
 -   ng-maxkength
 -   ng-pattern
@@ -278,7 +278,7 @@ mod.directive('directiveName', function() {
 -   controller : 定义共享属性和方法
 -   link : DOM 操作
 
-# $http 服务
+# \$http 服务
 
 -   method : GET / POST / JSONP
 -   url : ''
@@ -291,7 +291,7 @@ mod.directive('directiveName', function() {
 -   timeout : number
 -   widthCredentials : boolean
 
-# $location 服务
+# \$location 服务
 
 -   absUrl()
 -   path()
@@ -302,11 +302,11 @@ mod.directive('directiveName', function() {
 -   port()
 -   protocol()
 
-# $anchorScroll 服务
+# \$anchorScroll 服务
 
--   $anchorScroll()
+-   \$anchorScroll()
 
-# $cacheFactory 服务
+# \$cacheFactory 服务
 
 ```
 var cache = $cacheFactory(name[, {capacity: num}])
@@ -320,16 +320,16 @@ var cache = $cacheFactory(name[, {capacity: num}])
 -   get(name)
 -   remove()
 
-# $log 服务
+# \$log 服务
 
 -   log()
 -   info()
 -   warn()
 -   error()
 
-# $interpolate 服务
+# \$interpolate 服务
 
-# $q 服务
+# \$q 服务
 
 -   defer()
 -   resolve()
@@ -346,12 +346,12 @@ var cache = $cacheFactory(name[, {capacity: num}])
 
 -   config()
     -   provider
-    -   $interpolateProvider
+    -   \$interpolateProvider
         -   startSymbol()
         -   endSymbol()
-    -   $logProvider
+    -   \$logProvider
         -   debugEnabled()
-    -   $anchorScrollProvider
+    -   \$anchorScrollProvider
         -   disableAutoScrolling()
 
 # factory 自定义服务
@@ -378,7 +378,7 @@ mod.provider('serviceName', [function() {
 }]);
 ```
 
-> $get
+> \$get
 >
 > 可以使用供应商
 

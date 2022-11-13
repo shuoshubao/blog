@@ -110,7 +110,7 @@
 -   注释独占一行
 -   注释采用 DocBlockr 风格
 
-> Reference [usejsdoc](http://usejsdoc.org/) [JSDoc Guide](http://yuri4ever.github.io/jsdoc/)
+> Reference [usejsdoc](http://usejsdoc.org) [JSDoc Guide](http://yuri4ever.github.io/jsdoc)
 
 ```
 // 单行注释
@@ -167,7 +167,7 @@ for(var i = 0; i < 1; i++) {
 -   标准变量采用驼峰式命名
 -   常量全大写, 用下划线连接
 -   构造函数, 首字母大写
--   jquery 对象以'$'开头命名
+-   jquery 对象以'\$'开头命名
 
 ## 变量声明
 

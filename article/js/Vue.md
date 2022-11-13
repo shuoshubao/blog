@@ -84,19 +84,19 @@ new Vue({
 
 # 实例属性
 
--   .$refs
--   .$data
--   .$props
--   .$el
--   .$options
--   .$root
--   .$parent
--   .$children
--   .$attrs
--   .$listeners
--   .$slots
--   .$scopedSlots
--   .$isServer
+-   .\$refs
+-   .\$data
+-   .\$props
+-   .\$el
+-   .\$options
+-   .\$root
+-   .\$parent
+-   .\$children
+-   .\$attrs
+-   .\$listeners
+-   .\$slots
+-   .\$scopedSlots
+-   .\$isServer
 
 # 实例方法
 
@@ -108,17 +108,17 @@ new Vue({
 
 ## 事件
 
--   .$on()
--   .$once()
--   .$off()
--   .$emit()
+-   .\$on()
+-   .\$once()
+-   .\$off()
+-   .\$emit()
 
 ## 生命周期
 
--   .$mount()
--   .$forceUpdate()
--   .$nextTick()
--   .$destroy()
+-   .\$mount()
+-   .\$forceUpdate()
+-   .\$nextTick()
+-   .\$destroy()
 
 ## 指令 directive
 

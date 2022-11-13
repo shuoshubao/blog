@@ -2,7 +2,7 @@
 
 ### 输入
 
--   $ nano .inputrc
+-   \$ nano .inputrc
 
 ### 粘贴
 

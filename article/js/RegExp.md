@@ -47,7 +47,7 @@ var patt = /pattern/modifiers;
 | n{x}   | x            |
 | n{x,y} | [x,y]        |
 | n{x,}  | [x,+)        |
-| n$     | 以 n 结尾    |
+| n\$    | 以 n 结尾    |
 | ^n     | 以 n 开头    |
 | ?=n    | 其后紧接 n   |
 | ?!n    | 其后没紧接 n |

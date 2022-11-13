@@ -5,7 +5,7 @@
 -   Git 是一个分布式版本控制软件, 2005 年发布
 -   之前的版本管理工具: CVS、Subversion、SVN
 -   通过 Git 进行版本控制的软件源代码托管服务的主流网站有: Github、Gitlab、Bitbucket
--   国产代码托管平台: [码云](https://git.oschina.net/)、[Coding](https://coding.net/)
+-   国产代码托管平台: [码云](https://git.oschina.net)、[Coding](https://coding.net)
 -   Git 工具: 命令行、编辑器集成、Github 客户端、Bitbucket 客户端(SourceTree)
 
 > Git 很强大，也很简单。全部命令非常多，但完成日常工作只需要掌握 **极其少数** 的命令即可。其他的可以在工作中遇到调整再去学习。
@@ -14,7 +14,7 @@
 
 ## 安装
 
--   [Git 客户端](https://git-scm.com/download/)
+-   [Git 客户端](https://git-scm.com/download)
 -   Mac 用户安装 XCode 之后执行 git 命令会提示安装
 
 ## 作用
@@ -79,14 +79,14 @@ git 的核心作用有两个：文件管理，多人协作。
 
 -   git add：添加文件或文件夹
     -   git add .
-    -   git add [file1] [file2]
-    -   git add [dir1] [dir2]
+    -   git add [file1][file2]
+    -   git add [dir1][dir2]
 -   git rm：删除文件或文件夹
     -   git rm .
-    -   git rm [file1] [file2]
-    -   git rm --cached [file1] [file2] 从版本控制中移除但保留文件
+    -   git rm [file1][file2]
+    -   git rm --cached [file1][file2] 从版本控制中移除但保留文件
 -   git mv：重命名
-    -   git mv [file1] [file2]
+    -   git mv [file1][file2]
 
 > 有一个很普遍的误解是以为 git add `.` 中的 `.` 是指所有的意思。其实 `.` 是指相对路径，即当前目录。
 
@@ -94,7 +94,7 @@ git 的核心作用有两个：文件管理，多人协作。
 
 -   git commit：提交指定文件或目录到本地仓库
     -   git commit -m '注释'
-    -   git commit [file] [folder] -m '注释'
+    -   git commit [file][folder] -m '注释'
     -   git commit -am '注释'：提交工作区自上次 commit 之后的变化，直接到仓库区
     -   git commit --amend -m [message]：使用一次新的 commit，替代上一次提交
 
@@ -102,10 +102,10 @@ git 的核心作用有两个：文件管理，多人协作。
 
 -   git checkout
     -   git checkout .
-    -   git checkout [file1] [file2]
-    -   git checkout [commit_id] [file]
+    -   git checkout [file1][file2]
+    -   git checkout [commit_id][file]
 -   git reset
-    -   git reset [file1] [file2]
+    -   git reset [file1][file2]
     -   git reset --hard
     -   git reset [commit_id]
     -   git reset --hard [commit_id]
@@ -133,7 +133,7 @@ git 的核心作用有两个：文件管理，多人协作。
     -   git log -[number] --pretty --oneline：显示最近 number 次的 log
 -   git show
     -   git show [commit_id]：显示指定 commit_id 的 diff
-    -   git show [commit_id] [file]：显示指定 commit_id 下指定文件的 diff
+    -   git show [commit_id][file]：显示指定 commit_id 下指定文件的 diff
 
 ### 分支
 
@@ -142,7 +142,7 @@ git 的核心作用有两个：文件管理，多人协作。
     -   git branch -r：显示远程分支列表
     -   git branch -a：显示本地分支列表+远程分支列表
     -   git branch [branch_name]：新建分支，不切换分支
-    -   git branch [branch_name] [commit_id]：新建分支，并指向指定 commit_id
+    -   git branch [branch_name][commit_id]：新建分支，并指向指定 commit_id
     -   git branch -d [branch_name]：删除分支
 -   git checkout
     -   git checkout [branch_name]：切换分支
@@ -156,7 +156,7 @@ git 的核心作用有两个：文件管理，多人协作。
 ### 远程同步
 
 -   git pull
-    -   git pull [remote] [branch_name]：拉取远程仓库的指定分支的代码与当前分支合并
+    -   git pull [remote][branch_name]：拉取远程仓库的指定分支的代码与当前分支合并
 -   git push
     -   git push origin [branch_name]：提交当前分支与远程指定分支合并
     -   git push origin :[branch_name]：删除远程分支

@@ -9,8 +9,8 @@
 -   \+ 兄弟元素
 -   ^ 后退(类似 jq 的 end)
 -   \(\) 分组
--   $ 自增
--   @ 起点(跟在$之后,后跟'-'表示降序)
+-   \$ 自增
+-   @ 起点(跟在\$之后,后跟'-'表示降序)
 -   \* 批量
 
 ### 隐式标签 (Implicit TagNames)
@@ -115,6 +115,6 @@ background-image: linear-gradient(to right, #123 30%, #456);
 
 # Referrence
 
-1. [http://emmet.io/](http://emmet.io/)
-2. [http://docs.emmet.io/](http://docs.emmet.io/)
+1. [http://emmet.io/](http://emmet.io)
+2. [http://docs.emmet.io/](http://docs.emmet.io)
 3. [https://github.com/emmetio/emmet/blob/master/lib/snippets.json](https://github.com/emmetio/emmet/blob/master/lib/snippets.json)

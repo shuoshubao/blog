@@ -141,5 +141,5 @@ JavaScript 之父 `Brendan Eich` 为 `Netscape Navigator 2.0` 开发名为 `Live
 # 参考资料
 
 -   [ECMA-262](http://www.ecma-international.org/default.htm)
--   [TC39 流程文档](https://tc39.github.io/process-document/) [中文版](http://www.zcfy.cc/article/the-tc39-process-for-ecmascript-features-1515.html)
+-   [TC39 流程文档](https://tc39.github.io/process-document) [中文版](http://www.zcfy.cc/article/the-tc39-process-for-ecmascript-features-1515.html)
 -   [Javascript 维基百科](https://zh.wikipedia.org/wiki/JavaScript)
