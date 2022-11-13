@@ -67,7 +67,7 @@
 -   dt
 -   dd
 
-# Never Use
+# Never Used
 
 -   hgroup
 -   summary

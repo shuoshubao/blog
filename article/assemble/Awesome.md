@@ -118,15 +118,9 @@
 # Company
 
 -   [腾讯](http://www.alloyteam.com/)
--   [淘宝](http://taobaofed.org/)
--   [百度](http://fex.baidu.com/)
+-   [淘宝](https://fed.taobao.org/)
 -   [京东](https://aotu.io/)
 -   [去哪儿](http://ued.qunar.com/)
--   [齐舞团](http://www.75team.com/)
--   [滴滴](http://mofang.xiaojukeji.com/)
--   [网易](http://nec.netease.com/)
--   [携程](http://ued.ctrip.com/blog/)
--   [大搜车](http://f2e.souche.com/)
 
 # 用户体验
 

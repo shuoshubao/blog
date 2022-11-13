@@ -1,3 +1,5 @@
-# blog
+# 前端博客
 
--   npm run deploy // 将 md 编译成 html
+网址: https://shuoshubao.github.io
+
+本仓库为文章数据库

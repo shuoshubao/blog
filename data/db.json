@@ -1,11 +1,11 @@
 {
     "html": [
         {
-            "name": "Label",
-            "title": "HTML标签"
+            "name": "HtmlElement",
+            "title": "HTML 标签"
         },
         {
-            "name": "Html_entity",
+            "name": "HtmlEntity",
             "title": "HTML 字符实体"
         },
         {
@@ -14,7 +14,7 @@
         },
         {
             "name": "Event",
-            "title": "HTML事件属性"
+            "title": "HTML 事件属性"
         },
         {
             "name": "Meta",
