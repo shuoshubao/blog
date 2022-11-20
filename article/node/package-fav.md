@@ -121,6 +121,7 @@
 -   minimist
 -   yargs
 -   yargs-parser
+-   arg
 -   inquirer
 -   inquirer-fuzzy-path
 -   inquirer-path

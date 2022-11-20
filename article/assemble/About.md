@@ -4,7 +4,7 @@
 -   Mobile: 16601107956
 -   Company: 美团
 -   Github: [https://github.com/shuoshubao](https://github.com/shuoshubao)
--   Npm: [https://www.npmjs.com/~shuoshubao]()
+-   Npm: [https://www.npmjs.com/~shuoshubao](https://www.npmjs.com/~shuoshubao)
 
 # 作品
 
