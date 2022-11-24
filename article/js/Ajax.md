@@ -1,10 +1,10 @@
 # XMLHttpRequest
 
-```
+```js
 var xhr = new XMLHttpRequest();
 xhr.open(method, url, asyn);
-xhr.onreadystatechange = () => {}
-xhr.send()
+xhr.onreadystatechange = () => {};
+xhr.send();
 ```
 
 ## XMLHttpRequest.prototype

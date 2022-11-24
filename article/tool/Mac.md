@@ -69,7 +69,7 @@
 
 > vim ~/.bash_profile
 
-```
+```sh
 alias dev = ssh root@172.34.56
 alias gst = git status
 alias gpl = git pull

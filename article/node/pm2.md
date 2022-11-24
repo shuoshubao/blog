@@ -1,12 +1,12 @@
 # Installation
 
-```
+```sh
 npm i -g pm2@latest
 ```
 
 # Usage
 
-```
+```sh
 pm2 start app.js
 ```
 
@@ -14,17 +14,17 @@ pm2 start app.js
 
 > process.yml
 
-```
+```yaml
 apps:
-  - script   : app.js
-    instances: 4
-    exec_mode: cluster
-  - script : worker.js
-    watch  : true
-    env    :
-      NODE_ENV: development
-    env_production:
-      NODE_ENV: production
+    - script: app.js
+      instances: 4
+      exec_mode: cluster
+    - script: worker.js
+      watch: true
+      env:
+          NODE_ENV: development
+      env_production:
+          NODE_ENV: production
 ```
 
 > pm2 start process.yml

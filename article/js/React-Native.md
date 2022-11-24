@@ -14,16 +14,14 @@
 
 # Hello world
 
-```
-import React, {Component} from 'react';
-import {AppRegistry, Text} from 'react-native';
+```js
+import React, { Component } from 'react';
+import { AppRegistry, Text } from 'react-native';
 
 class Hello extends Component {
-  render() {
-    return (
-      <Text>Hello world!</Text>
-    );
-  }
+    render() {
+        return <Text>Hello world!</Text>;
+    }
 }
 
 AppRegistry.registerComponent('AwesomeProject', () => Hello);

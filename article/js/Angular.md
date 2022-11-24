@@ -12,7 +12,7 @@
 -   \$rootScope
 -   \$scope
 
-```
+```js
 $scope.$watch(str, function(newVal, oldVal) {} [, ifWatchAll])
 $scope.$watch(function(){})
 ```
@@ -52,14 +52,14 @@ $scope.$watch(function(){})
 -   run()
 -   filter()
 
-```
+```js
 var mod1 = angular.module('appName', [需要依赖的模块数组]);
-mod1.controller('Aaa', ['$scope', '$rootScope', function($scope, $rootScope) {}]);
-mod1.run(['$rootScope', function($rootScope) {}]);
-mod1.filter('filterName', function(){
-  return function(str) {
-    return str
-  }
+mod1.controller('Aaa', ['$scope', '$rootScope', function ($scope, $rootScope) {}]);
+mod1.run(['$rootScope', function ($rootScope) {}]);
+mod1.filter('filterName', function () {
+    return function (str) {
+        return str;
+    };
 });
 ```
 
@@ -225,11 +225,8 @@ mod1.filter('filterName', function(){
 -   ng-maxkength
 -   ng-pattern
 
-```
-ng-valid
-ng-invalid
-ng-pristine
-ng-dirty
+```html
+ng-valid ng-invalid ng-pristine ng-dirty
 ```
 
 > 1. novalidate
@@ -240,18 +237,18 @@ ng-dirty
 
 directive (angular.module)
 
-```
-mod.directive('directiveName', function() {
-  return {
-    restrict: 'AECM',
-    replace: false | true,
-    transclude: false | true,
-    template: 'str',
-    templateUrl: 'url',
-    scope: false | true | {},
-    controller: ['$scope', function($scope) {}],
-    link: function(scope, element, attr, reController) {}
-  }
+```js
+mod.directive('directiveName', function () {
+    return {
+        restrict: 'AECM',
+        replace: false | true,
+        transclude: false | true,
+        template: 'str',
+        templateUrl: 'url',
+        scope: false | true | {},
+        controller: ['$scope', function ($scope) {}],
+        link: function (scope, element, attr, reController) {}
+    };
 });
 ```
 
@@ -308,8 +305,8 @@ mod.directive('directiveName', function() {
 
 # \$cacheFactory 服务
 
-```
-var cache = $cacheFactory(name[, {capacity: num}])
+```js
+var cache = $cacheFactory(name[, { capacity: num }])
 ```
 
 -   info()
@@ -356,26 +353,28 @@ var cache = $cacheFactory(name[, {capacity: num}])
 
 # factory 自定义服务
 
-```
-mod.factory('serviceName', ['', '', function() {
-  return {
-
-  }
-}]);
+```js
+mod.factory('serviceName', [
+    '',
+    '',
+    function () {
+        return {};
+    }
+]);
 ```
 
 > 不能进行初始化配置，即没有供应商
 
 # provider 自定义服务
 
-```
-mod.provider('serviceName', [function() {
-  return {
-    $get: function() {
-
+```js
+mod.provider('serviceName', [
+    function () {
+        return {
+            $get: function () {}
+        };
     }
-  }
-}]);
+]);
 ```
 
 > \$get

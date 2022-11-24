@@ -112,7 +112,7 @@
 
 > Reference [usejsdoc](http://usejsdoc.org) [JSDoc Guide](http://yuri4ever.github.io/jsdoc)
 
-```
+```js
 // 单行注释
 
 /**
@@ -125,37 +125,30 @@
 
 -   运算符与操作值之间加空格
 
-```
+```js
 // []
 var a = [1, 2, 3];
 // {}
 var a = {
-  a: 1,
-  b: 2
+    a: 1,
+    b: 2
 };
 // ()
 var a = (1 + 2) * 3;
 // function
-function a() {
-
-}
+function a() {}
 // 二元运算符
 x++;
 ++x;
 // 三目运算符
 var x = a > b ? c : d;
 // if else while catch finally switch case try catch
-if(a > b) {
-
-}else if(c > d) {
-
-}else {
-
+if (a > b) {
+} else if (c > d) {
+} else {
 }
 // for while
-for(var i = 0; i < 1; i++) {
-
-}
+for (var i = 0; i < 1; i++) {}
 ```
 
 ## 引号

@@ -43,7 +43,7 @@
 
 # 表格
 
-```
+```text
 |Tables|Are|Cool|
 |-|:-:|-:|
 | col 3 is      | right-aligned | $1600 |
@@ -59,7 +59,7 @@
 
 # 反斜杠
 
-```
+```text
 \   反斜线
 `   反引号
 *   星号

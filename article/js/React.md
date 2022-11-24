@@ -2,17 +2,14 @@
 
 ## ReactDOM.render()
 
-```
-ReactDOM.render(
-  <h1>Hello, world!</h1>,
-  document.getElementById('app')
-);
+```js
+ReactDOM.render(<h1>Hello, world!</h1>, document.getElementById('app'));
 ```
 
 ## ReactDOM.findDOMNode()
 
-```
-ReactDOM.findDOMNode(this.refs[refName])
+```js
+ReactDOM.findDOMNode(this.refs[refName]);
 ```
 
 # React
@@ -25,7 +22,7 @@ ReactDOM.findDOMNode(this.refs[refName])
 
 ## special props
 
-```
+```text
 key
 ref
 dangerouslySetInnerHTML={{__html: ''}}
@@ -80,30 +77,23 @@ dangerouslySetInnerHTML={{__html: ''}}
 -   props
 -   state
 
-```
-import React from 'react'
-import ReactDOM from 'react-dom'
-import PropTypes from 'prop-types'
+```js
+import React from 'react';
+import ReactDOM from 'react-dom';
+import PropTypes from 'prop-types';
 
 export default class extends React.Component {
-  static defaultProps = {
-
-  }
-  static propTypes = {
-    visible: propTypes.bool.isRequired
-  }
-  constructor(props) {
-    super(props)
-    this.state = {
-
+    static defaultProps = {};
+    static propTypes = {
+        visible: propTypes.bool.isRequired
+    };
+    constructor(props) {
+        super(props);
+        this.state = {};
     }
-  }
 }
 
-ReactDOM.render(
-  <App />,
-  document.querySelector('#root')
-)
+ReactDOM.render(<App />, document.querySelector('#root'));
 ```
 
 # PropTypes
@@ -209,32 +199,28 @@ ReactDOM.render(
 
 ## Differences In Attributes
 
-```
-style
-className
-htmlFor
-onChange
-dangerouslySetInnerHTML
-value defaultValue
-checked defaultChecked
-selected
-```
+-   style
+-   className
+-   htmlFor
+-   onChange
+-   dangerouslySetInnerHTML
+-   value defaultValue
+-   checked defaultChecked
+-   selected
 
 ## HTML Attributes
 
-```
-className
-htmlFor
-formAction
-formMethod
-readOnly
-autoComplete
-autoFocus
-maxLength
-minLength
-contentEditable
-colSpan
-rowSpan
-marginHeight
-marginWidth
-```
+-   className
+-   htmlFor
+-   formAction
+-   formMethod
+-   readOnly
+-   autoComplete
+-   autoFocus
+-   maxLength
+-   minLength
+-   contentEditable
+-   colSpan
+-   rowSpan
+-   marginHeight
+-   marginWidth

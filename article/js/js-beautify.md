@@ -2,29 +2,25 @@
 
 ### install
 
-```
+```sh
 npm i -D js-beautify
 ```
 
 ### use
 
-```
-const beautify = require('js-beautify')
+```js
+const beautify = require('js-beautify');
 
-const {
-    html: beautify_html,
-    css: beautify_css,
-    js: beautify_js
-} = require('js-beautify')
+const { html: beautify_html, css: beautify_css, js: beautify_js } = require('js-beautify');
 
-beautify_js('code...', jsbeautifyrc)
+beautify_js('code...', jsbeautifyrc);
 ```
 
 # Config
 
 > CLI Options
 
-```
+```json
 {
     "indent_size": 4,
     "indent_char": " ",
@@ -51,10 +47,6 @@ beautify_js('code...', jsbeautifyrc)
 ```
 
 > .jsbeautifyrc
-
-```
-
-```
 
 # Referrence
 

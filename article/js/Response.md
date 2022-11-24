@@ -1,6 +1,6 @@
 # Syntax
 
-```
+```js
 var response = new Response(body, init);
 ```
 
@@ -17,11 +17,9 @@ var response = new Response(body, init);
 
 ### init
 
-```
+```js
 {
-  status,
-  statusText,
-  headers
+    status, statusText, headers;
 }
 ```
 

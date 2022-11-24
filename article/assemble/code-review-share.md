@@ -16,7 +16,7 @@
 
 **bad-code**
 
-```javascript
+```js
 colums.indexOf(item) === -1 ? colums.concat(item) : colums;
 
 if (piLiangChuLiDaiBanDict.indexOf(taskKey) !== -1) {}
@@ -34,7 +34,7 @@ if (/税/.test(qiItem.NAME) {}
 
 **good-code**
 
-```javascript
+```js
 <div disabled={[2, 3].includes(contractStatus)} />;
 
 if (qiItem.NAME.includes('税')) {
@@ -49,13 +49,13 @@ indexOf 的本意是返回子项在数组或字符串中第一次出现的索引
 
 **bad-code**
 
-```javascript
+```js
 const { label } = (reallyOptions || []).filter(item => item.value == val)[0];
 ```
 
 **good-code**
 
-```javascript
+```js
 const { label } = (reallyOptions || []).find(item => item.value == val);
 ```
 
@@ -65,7 +65,7 @@ const { label } = (reallyOptions || []).find(item => item.value == val);
 
 **bad-code**
 
-```javascript
+```js
 const options = [];
 daiban.map(item => {
     options.push({ value: item, label: item.taskDescription });
@@ -74,7 +74,7 @@ daiban.map(item => {
 
 **good-code**
 
-```javascript
+```js
 const options = [];
 daiban.forEach(item => {
     options.push({ value: item, label: item.taskDescription });
@@ -96,7 +96,7 @@ map 可以理解为 初始值 + forEach + push 的结合体。
 
 **bad-code**
 
-```javascript
+```js
 if (
     this.state.buyer &&
     this.state.buyer.length &&
@@ -111,7 +111,7 @@ if (
 
 **good-code**
 
-```javascript
+```js
 const { buyer, seller, participants } = this.state;
 const isValidate = [buyer, seller, participants].every(v => v && v.length);
 if (isValidate) {
@@ -125,14 +125,14 @@ if (isValidate) {
 
 **bad-code**
 
-```javascript
+```js
 !op.noTips && Toast.offline(data.msg || '数据请求异常', 2);
 op.noTips && Toast.hide();
 ```
 
 **good-code**
 
-```javascript
+```js
 if (op.noTips) {
     Toast.hide();
 } else {
@@ -146,13 +146,13 @@ if (op.noTips) {
 
 **bad-code**
 
-```javascript
+```js
 const backgroundImageUrl = item.avatar || (item.sex ? (item.sex == 'F' ? Female : Male) : Male);
 ```
 
 **good-code**
 
-```javascript
+```js
 const { avatar, sex } = item;
 let backgroundImageUrl = avatar;
 if (!avatar) {
@@ -172,7 +172,7 @@ if (!avatar) {
 
 **bad-code**
 
-```javascript
+```js
 const AllInfo =
     hasInfo && allMessahe ? (
         <div className="all-info">
@@ -184,7 +184,7 @@ const AllInfo =
 
 **good-code**
 
-```javascript
+```js
 let allInfo = null;
 if (hasInfo && allMessahe) {
     allInfo = (
@@ -198,7 +198,7 @@ if (hasInfo && allMessahe) {
 
 **bad-code**
 
-```javascript
+```js
 {
     appAuditStatus == 1 && message ? (
         <div styleName="messageContainer">
@@ -215,7 +215,7 @@ if (hasInfo && allMessahe) {
 
 **bad-code**
 
-```javascript
+```js
 {
     appAuditStatus == 1 && message && (
         <div styleName="messageContainer">
@@ -236,7 +236,7 @@ if (hasInfo && allMessahe) {
 
 **bad-code**
 
-```javascript
+```js
 {
     data && data.length
         ? data.map((item, index) => {
@@ -257,7 +257,7 @@ if (hasInfo && allMessahe) {
 
 **good-code**
 
-```javascript
+```js
 {
     (data || []).map((item, index) => {
         return <div>{item}</div>;
@@ -271,7 +271,7 @@ if (hasInfo && allMessahe) {
 
 **bad-code**
 
-```javascript
+```js
 this.props.history.push(
     `/tradeschedule?businessId=${getUrlParam('businessId')}` +
         `&eBusinessId=${getUrlParam('eBusinessId')}` +
@@ -284,7 +284,7 @@ this.props.history.push(
 
 **good-code**
 
-```javascript
+```js
 import { pick } from 'lodash';
 import { Util } from '@jiaoyi/tangram';
 
@@ -299,13 +299,13 @@ this.props.history.push(stringifyUrl('/tradeschedule', params));
 
 **bad-code**
 
-```javascript
+```js
 <div styleName={['second', second.disabled ? 'disabled' : '', second.using ? 'isUsing' : ''].join(' ')} />
 ```
 
 **good-code**
 
-```javascript
+```js
 import classnames form 'classnames';
 
 <div styleName={classnames('second', { disabled: second.disabled, isUsing: second.using })} />

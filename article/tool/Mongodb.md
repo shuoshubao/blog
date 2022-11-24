@@ -37,7 +37,7 @@
 
 # Shell
 
-```
+```sh
 if 设置了环境变量
   mongo
 else
@@ -45,7 +45,7 @@ else
   ./mongo
 ```
 
-```
+```text
 # 显示当前数据库名
 db
 
@@ -75,7 +75,7 @@ db.collection_name.drop()
 
 ## mongod
 
-```
+```sh
 --help, -h
 --version
 --verbose, -v

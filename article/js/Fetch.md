@@ -2,20 +2,20 @@
 
 ## base
 
-```
-fetch(url)
-fetch(request)
-fetch(url, request)
+```js
+fetch(url);
+fetch(request);
+fetch(url, request);
 ```
 
-```
+```js
 // GET
-fetch('a/b')
-fetch('a/b?a=b&c=d')
-fetch('a/b?${qs.stringify({a: b, c: d})}')
+fetch('a/b');
+fetch('a/b?a=b&c=d');
+fetch('a/b?${qs.stringify({a: b, c: d})}');
 fetch('a/b?${qs.stringify({a: b, c: d})}', {
     headers: {}
-})
+});
 
 // POST
 fetch('a/b', {
@@ -23,8 +23,8 @@ fetch('a/b', {
     headers: {
         'Content-Type': 'application/x-www-form-urlencoded'
     },
-    body: qs.stringify({a: b, c: d})
-})
+    body: qs.stringify({ a: b, c: d })
+});
 ```
 
 ## stream 数据流

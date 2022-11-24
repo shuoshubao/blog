@@ -7,7 +7,7 @@
 -   path.extname(path)
 -   path.format(pathObject)
 
-```
+```text
 pathObject: {
     root,
     dir,
@@ -22,7 +22,7 @@ pathObject: {
 -   path.normalize(path)
 -   path.parse(path)
 
-```
+```text
 Returns: {
     root,
     dir,

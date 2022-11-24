@@ -101,7 +101,7 @@
 -   prettier (代码格式化)
 -   file-type
 -   http-server (nodejs 开启本地服务器)
--   ms (将时间转化为毫秒数)
+-   ms (时间戳与时间格式相互转换)
 -   filesize (将数字转化为 B Kb)
 -   dotenv
 

@@ -12,7 +12,7 @@
 
 -   Buffer.alloc(size[, fill[, encoding]])
 
-```
+```text
 size <Integer>
 fill <Integer> | <String> | <Buffer>; default: 0
 encoding <String>; default: 'utf-8'

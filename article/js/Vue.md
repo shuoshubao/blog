@@ -28,7 +28,7 @@
 
 # 选项
 
-```
+```js
 new Vue({
     // DOM
     el: '#el',
@@ -138,42 +138,13 @@ new Vue({
 
 # 事件
 
-```
+```html
 // 传参
 <button v-on:click="hi">button</button>
 <button @click="hi">button</button>
 <button @click="hi('a')">button</button>
 <button @click="hi('a', $event)">button</button>
 
-> 事件对象: `$event`
-
-// 事件修饰符
-.stop
-.prevent
-.capture
-.self
-.once
-
-// 按键
-.enter
-.tab
-.delete
-.esc
-.space
-.up
-.down
-.left
-.right
-
-// 修饰键
-.ctrl
-.alt
-.shift
-.meta
-
-// 滑鼠按键修饰符
-.left
-.right
-.middle
-
+> 事件对象: `$event` // 事件修饰符 .stop .prevent .capture .self .once // 按键 .enter .tab .delete .esc .space .up .down
+.left .right // 修饰键 .ctrl .alt .shift .meta // 滑鼠按键修饰符 .left .right .middle
 ```

@@ -52,7 +52,7 @@
 
 # SUMMARY.md 目录
 
-```
+```text
 Summary
 
 [Chapter 1](chapter1.md)
@@ -62,14 +62,14 @@ Summary
 
 # Cover 封面
 
-```
+```text
 big     cover.jpg           1800x2360
 small   cover_small.jpg     200x262
 ```
 
 # GLOSSARY.md 词汇表
 
-```
+```text
 term
 Definition for this term
 
@@ -79,7 +79,7 @@ With it's definition, this can contain bold text and all other kinds of inline m
 
 # Templating 模板
 
-```
+```text
 // 模板语言 Nunjucks + Jinja2
 {% raw %}
   this will {{ not be processed }}
@@ -106,13 +106,13 @@ include
 
 # ignoring 忽略的文件和文件夹
 
-```
+```text
 .gitignore, .bookignore .ignore
 ```
 
 # github
 
-```
+```text
 // webhook
 https://www.gitbook.com/book/shuoshubao/es6/settings/github
 Username/Repo

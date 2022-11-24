@@ -1,7 +1,7 @@
 # Syntax
 
-```
-var headers = new Headers(init)
+```js
+var headers = new Headers(init);
 ```
 
 # Method

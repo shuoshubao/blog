@@ -26,7 +26,7 @@
 
 -   单值/负值/多值/多命令
 
-```
+```text
 m100 → margin: 100px;
 m-100 → margin: -100px;
 m0-a → margin: 0 auto;
@@ -37,27 +37,27 @@ w100+c#3 → width: 100px; color: #333;
 
 -   缺省单位
 
-```
+```text
 m10 → margin: 10px;
 m10em → margin: 10em;
 ```
 
 -   单位别名
 
-```
+```text
 p → %
 e → em
 x → ex
 ```
 
-```
+```text
 w100p → width: 100%
 m10p30e5x → margin: 10% 30em 5ex
 ```
 
 -   色值
 
-```
+```text
 c → color: #000;
 c# → color: #000;
 c#1 → color: #111;
@@ -70,7 +70,7 @@ c#123456 → color: #123456;
 
 -   没有单位的属性
 
-```
+```text
 * z-index
 * line-height
 * opacity
@@ -79,20 +79,20 @@ c#123456 → color: #123456;
 
 -   !important
 
-```
+```text
 ! → !important
 ```
 
 -   厂商前缀
 
-```
+```text
 w: webkit
 m: moz
 s: ms
 o: o
 ```
 
-```
+```text
 -wm-bx-s
 -webkit-box-shadow: inset hoff voff blur color;
 -moz-box-shadow: inset hoff voff blur color;
@@ -101,7 +101,7 @@ box-shadow: inset hoff voff blur color;
 
 -   渐变
 
-```
+```text
 lg()
 background-image: -webkit-linear-gradient();
 background-image: -o-linear-gradient();

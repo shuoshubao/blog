@@ -1,7 +1,7 @@
 # 语法
 
-```
-new Error([message])
+```js
+new Error([message]);
 ```
 
 # 构造函数
@@ -26,15 +26,15 @@ new Error([message])
 
 # 自定义错误
 
-```
+```js
 function UserError(message) {
-  this.message = message || '默认信息';
-  this.name = 'UserError';
+    this.message = message || '默认信息';
+    this.name = 'UserError';
 }
 
-UserError.prototype.toString = function (){
-  return this.name + ': "' + this.message + '"';
-}
+UserError.prototype.toString = function () {
+    return this.name + ': "' + this.message + '"';
+};
 
 throw new UserError('出错了！');
 ```
