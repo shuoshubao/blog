@@ -2,13 +2,17 @@
 
 ### 输入
 
--   \$ nano .inputrc
+```sh
+nano .inputrc
+```
 
 ### 粘贴
 
--   set completion-ignore-case on
--   set show-all-if-ambiguous on
--   TAB: menu-complete
+````text
+set completion-ignore-case on
+set show-all-if-ambiguous on
+TAB: menu-complete
+```
 
 ### 保存
 
