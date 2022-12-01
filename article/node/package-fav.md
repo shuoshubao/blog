@@ -58,6 +58,14 @@
 -   config
 -   escope
 
+# Source
+
+-   source-map
+-   source-map-js
+-   convert-source-map
+-   recast
+-   source-map-explorer
+
 # 原生模块辅助
 
 -   fs-extra (fs 模块的封装)
@@ -96,14 +104,17 @@
 -   semver (版本号校验)
 -   qrcode (生成二维码)
 -   copy-to-clipboard
--   highlight.js (代码语法高亮)
--   prismjs (代码语法高亮)
 -   prettier (代码格式化)
 -   file-type
 -   http-server (nodejs 开启本地服务器)
 -   ms (时间戳与时间格式相互转换)
 -   filesize (将数字转化为 B Kb)
 -   dotenv
+
+# Highlight
+
+-   highlight.js
+-   prismjs
 
 # 图像处理
 
@@ -163,27 +174,37 @@
 
 -   webpack
 -   webpack-cli
--   webpack-merge
--   webpack-chain
 -   webpack-dev-server
+-   webpack-chain
+-   webpack-merge
 -   html-webpack-plugin
 -   css-minimizer-webpack-plugin
--   add-asset-html-webpack-plugin
--   webpack-bundle-analyzer
+-   node-polyfill-webpack-plugin
 -   webpack-manifest-plugin
 -   copy-webpack-plugin
+-   webpack-bundle-analyzer
 
 # Rollup
 
 -   rollup
 -   @rollup/plugin-babel
+-   @rollup/plugin-commonjs
 -   @rollup/plugin-json
+-   @rollup/plugin-node-resolve
+-   @rollup/plugin-replace
+-   rollup-plugin-terser
 
 # Markdown
 
--   markdown-it
--   markdown
 -   marked
+-   markdown-it
+-   remark-parse
+-   remark-gfm
+-   remark-mdx
+-   markdown-table
+-   [@mdx-js/mdx](https://mdxjs.com/)
+-   gray-matter
+-   micromark
 
 # html
 
@@ -197,16 +218,49 @@
 -   jsdom
 -   is-dom
 -   domutils
--   css-what
--   css-select
 -   domhandler
--   css-unit-converter
+-   dom-helpers
 -   polished
 -   domelementtype
 -   dom-serializer
 -   html-minifier
 -   ejs
--   html-minifier
+
+# CSS
+
+-   css
+-   cssom
+-   cssnano
+-   csso
+-   css-tree
+-   cssstyle
+-   csstype
+-   sass
+-   less
+-   stylus
+-   autoprefixer
+-   postcss
+-   css-unit-converter
+-   css-what
+-   css-select
+-   nth-check
+-   polished https://polished.js.org/
+-   tailwindcss
+-   normalize.css
+-   sanitize.css
+
+# Math
+
+-   decimal.js
+-   mathjs
+-   bignumber.js
+-   big.js
+
+# 编辑器
+
+-   monaco-editor
+-   codemirror
+-   slate.js
 
 # Validator
 
@@ -255,6 +309,7 @@
 # Test
 
 -   ava
+-   uvu
 -   jest
 -   mocha
 -   karma
