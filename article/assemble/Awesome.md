@@ -57,16 +57,25 @@
 
 # 构建工具
 
--   [less](http://www.bootcss.com/p/lesscss)
--   [sass](http://www.sasschina.com)
--   [stylus](http://stylus-lang.com)
--   [postcss](http://postcss.org)
--   [gulp](http://www.gulpjs.com.cn)
--   [grunt](http://www.gruntjs.net)
--   [fis](http://fis.baidu.com)
--   [browserify](http://browserify.org)
 -   [webpack](http://webpack.github.io)
+-   [rollup](https://rollupjs.org)
 -   [babel](http://babeljs.io)
+-   [browserify](https://browserify.org)
+-   [less](https://lesscss.org)
+-   [sass](https://sass-lang.com)
+-   [stylus](https://stylus-lang.com)
+-   [postcss](https://postcss.org)
+-   [gulp](https://gulpjs.com)
+-   [grunt](https://gruntjs.com)
+-   [fis](http://fis.baidu.com)
+
+## new
+
+-   [vite](https://vitejs.dev)
+-   [esbuild](https://esbuild.github.io)
+-   [swc](https://swc.rs)
+-   [wmr](https://wmr.dev)
+-   [snowpack](https://www.snowpack.dev)
 
 # Grunt / Gulp 插件
 
@@ -101,16 +110,13 @@
 
 # 学习网站
 
+-   [掘金](https://juejin.cn)
 -   [阮一峰](http://javascript.ruanyifeng.com)
 -   [MDN](https://developer.mozilla.org/zh-CN/docs/Web)
 -   [w3cfuns](http://www.w3cfuns.com)
 -   [w3cplus](http://www.w3cplus.com)
--   [aralejs](http://aralejs.org)
--   [aliceui](http://aliceui.org)
--   [推酷](http://www.tuicool.com)
+-   [思否](http://segmentfault.com)
 -   [开源中国](http://www.oschina.net)
--   [segmentfault](http://segmentfault.com)
--   [愚人码头](http://www.css88.com)
 -   [司徒正美](http://www.cnblogs.com/rubylouvre)
 -   [慕课网](http://www.imooc.com)
 
@@ -120,6 +126,7 @@
 -   [淘宝](https://fed.taobao.org)
 -   [京东](https://aotu.io)
 -   [去哪儿](http://ued.qunar.com)
+-   [蚂蚁体验科技](https://xtech.antfin.com)
 
 # 用户体验
 

@@ -8,7 +8,7 @@ nano .inputrc
 
 ### 粘贴
 
-````text
+```text
 set completion-ignore-case on
 set show-all-if-ambiguous on
 TAB: menu-complete
@@ -71,7 +71,7 @@ TAB: menu-complete
 
 # 7. Alias
 
-> vim ~/.bash_profile
+> vim \~/.bash_profile
 
 ```sh
 alias dev = ssh root@172.34.56
