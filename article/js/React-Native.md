@@ -15,36 +15,36 @@
 # Hello world
 
 ```js
-import React, { Component } from 'react';
-import { AppRegistry, Text } from 'react-native';
+import React, { Component } from 'react'
+import { AppRegistry, Text } from 'react-native'
 
 class Hello extends Component {
-    render() {
-        return <Text>Hello world!</Text>;
-    }
+  render() {
+    return <Text>Hello world!</Text>
+  }
 }
 
-AppRegistry.registerComponent('AwesomeProject', () => Hello);
+AppRegistry.registerComponent('AwesomeProject', () => Hello)
 ```
 
 # Component
 
 ## react-native
 
--   AppRegistry
--   StyleSheet
+- AppRegistry
+- StyleSheet
 
 # base
 
--   View
--   ListView
--   ScrollView
--   Navigator
--   Text
--   Image
--   TextInput
--   TouchableHighlight
+- View
+- ListView
+- ScrollView
+- Navigator
+- Text
+- Image
+- TextInput
+- TouchableHighlight
 
--   Animated
--   LayoutAnimation
--   TouchableOpacity
+- Animated
+- LayoutAnimation
+- TouchableOpacity

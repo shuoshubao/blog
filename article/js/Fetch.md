@@ -3,28 +3,28 @@
 ## base
 
 ```js
-fetch(url);
-fetch(request);
-fetch(url, request);
+fetch(url)
+fetch(request)
+fetch(url, request)
 ```
 
 ```js
 // GET
-fetch('a/b');
-fetch('a/b?a=b&c=d');
-fetch('a/b?${qs.stringify({a: b, c: d})}');
+fetch('a/b')
+fetch('a/b?a=b&c=d')
+fetch('a/b?${qs.stringify({a: b, c: d})}')
 fetch('a/b?${qs.stringify({a: b, c: d})}', {
-    headers: {}
-});
+  headers: {}
+})
 
 // POST
 fetch('a/b', {
-    method: 'POST',
-    headers: {
-        'Content-Type': 'application/x-www-form-urlencoded'
-    },
-    body: qs.stringify({ a: b, c: d })
-});
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/x-www-form-urlencoded'
+  },
+  body: qs.stringify({ a: b, c: d })
+})
 ```
 
 ## stream 数据流
@@ -33,8 +33,8 @@ fetch('a/b', {
 
 # Reference
 
--   [Body](#js/Body)
--   [Headers](#js/Headers)
--   [Request](#js/Request)
--   [Response](#js/Response)
--   [https://developer.mozilla.org/en-US/docs/Web/API/Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch)
+- [Body](#js/Body)
+- [Headers](#js/Headers)
+- [Request](#js/Request)
+- [Response](#js/Response)
+- [https://developer.mozilla.org/en-US/docs/Web/API/Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch)

@@ -1,33 +1,33 @@
 # Syntax
 
 ```js
-var request = new Request(url, option);
+var request = new Request(url, option)
 ```
 
 ## option
 
--   method
--   body
--   headers
--   mode
--   cache
--   redirect
--   referrer
--   integrity
--   credentials
+- method
+- body
+- headers
+- mode
+- cache
+- redirect
+- referrer
+- integrity
+- credentials
 
 # Property
 
--   url
--   method
--   headers
--   mode
--   cache
--   context
--   bodyUsed
--   referrer
--   credentials
--   referrerPolicy
+- url
+- method
+- headers
+- mode
+- cache
+- context
+- bodyUsed
+- referrer
+- credentials
+- referrerPolicy
 
 # Method
 
@@ -35,4 +35,4 @@ var request = new Request(url, option);
 
 # Reference
 
--   [https://developer.mozilla.org/en-US/docs/Web/API/Request](https://developer.mozilla.org/en-US/docs/Web/API/Request)
+- [https://developer.mozilla.org/en-US/docs/Web/API/Request](https://developer.mozilla.org/en-US/docs/Web/API/Request)

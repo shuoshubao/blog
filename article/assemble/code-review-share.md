@@ -4,11 +4,11 @@
 
 可读性差的代码虽然很多，但是究其原因，还是可以进行以下简单的分类：
 
--   js-api 的使用
--   js 语法相关
--   jsx 相关的问题
--   工具库的使用
--   js 设计的糟粕
+- js-api 的使用
+- js 语法相关
+- jsx 相关的问题
+- 工具库的使用
+- js 设计的糟粕
 
 ## js-api 的使用
 
@@ -35,7 +35,7 @@ if (/税/.test(qiItem.NAME) {}
 **good-code**
 
 ```js
-<div disabled={[2, 3].includes(contractStatus)} />;
+;<div disabled={[2, 3].includes(contractStatus)} />
 
 if (qiItem.NAME.includes('税')) {
 }
@@ -50,13 +50,13 @@ indexOf 的本意是返回子项在数组或字符串中第一次出现的索引
 **bad-code**
 
 ```js
-const { label } = (reallyOptions || []).filter(item => item.value == val)[0];
+const { label } = (reallyOptions || []).filter(item => item.value == val)[0]
 ```
 
 **good-code**
 
 ```js
-const { label } = (reallyOptions || []).find(item => item.value == val);
+const { label } = (reallyOptions || []).find(item => item.value == val)
 ```
 
 当你需要的是过滤的所有项时，应使用 filter, 而 find 就是 filter[0] 的快捷方式。当然两者还有其他区别，这里不展开讲。
@@ -66,24 +66,24 @@ const { label } = (reallyOptions || []).find(item => item.value == val);
 **bad-code**
 
 ```js
-const options = [];
+const options = []
 daiban.map(item => {
-    options.push({ value: item, label: item.taskDescription });
-});
+  options.push({ value: item, label: item.taskDescription })
+})
 ```
 
 **good-code**
 
 ```js
-const options = [];
+const options = []
 daiban.forEach(item => {
-    options.push({ value: item, label: item.taskDescription });
-});
+  options.push({ value: item, label: item.taskDescription })
+})
 
 // 当然，这样写才是最好的
 const options = daiban.map(item => {
-    return { value: item, label: item.taskDescription };
-});
+  return { value: item, label: item.taskDescription }
+})
 ```
 
 map 和 forEach 的作用非常相似, 但区别也很明显。当迭代器里的代码有返回值时, 应使用 map, 否则应使用 forEach。
@@ -98,24 +98,24 @@ map 可以理解为 初始值 + forEach + push 的结合体。
 
 ```js
 if (
-    this.state.buyer &&
-    this.state.buyer.length &&
-    this.state.seller &&
-    this.state.seller.length &&
-    this.state.participants &&
-    this.state.participants.length
+  this.state.buyer &&
+  this.state.buyer.length &&
+  this.state.seller &&
+  this.state.seller.length &&
+  this.state.participants &&
+  this.state.participants.length
 ) {
-    // code
+  // code
 }
 ```
 
 **good-code**
 
 ```js
-const { buyer, seller, participants } = this.state;
-const isValidate = [buyer, seller, participants].every(v => v && v.length);
+const { buyer, seller, participants } = this.state
+const isValidate = [buyer, seller, participants].every(v => v && v.length)
 if (isValidate) {
-    // code
+  // code
 }
 ```
 
@@ -126,17 +126,17 @@ if (isValidate) {
 **bad-code**
 
 ```js
-!op.noTips && Toast.offline(data.msg || '数据请求异常', 2);
-op.noTips && Toast.hide();
+!op.noTips && Toast.offline(data.msg || '数据请求异常', 2)
+op.noTips && Toast.hide()
 ```
 
 **good-code**
 
 ```js
 if (op.noTips) {
-    Toast.hide();
+  Toast.hide()
 } else {
-    Toast.offline(data.msg || '数据请求异常', 2);
+  Toast.offline(data.msg || '数据请求异常', 2)
 }
 ```
 
@@ -147,20 +147,20 @@ if (op.noTips) {
 **bad-code**
 
 ```js
-const backgroundImageUrl = item.avatar || (item.sex ? (item.sex == 'F' ? Female : Male) : Male);
+const backgroundImageUrl = item.avatar || (item.sex ? (item.sex == 'F' ? Female : Male) : Male)
 ```
 
 **good-code**
 
 ```js
-const { avatar, sex } = item;
-let backgroundImageUrl = avatar;
+const { avatar, sex } = item
+let backgroundImageUrl = avatar
 if (!avatar) {
-    if (sex) {
-        backgroundImageUrl = sex == 'F' ? Female : Male;
-    } else {
-        backgroundImageUrl = Male;
-    }
+  if (sex) {
+    backgroundImageUrl = sex == 'F' ? Female : Male
+  } else {
+    backgroundImageUrl = Male
+  }
 }
 ```
 
@@ -174,25 +174,25 @@ if (!avatar) {
 
 ```js
 const AllInfo =
-    hasInfo && allMessahe ? (
-        <div className="all-info">
-            <img src={Sigh} alt="icon" />
-            <span>{allMessahe}</span>
-        </div>
-    ) : null;
+  hasInfo && allMessahe ? (
+    <div className="all-info">
+      <img src={Sigh} alt="icon" />
+      <span>{allMessahe}</span>
+    </div>
+  ) : null
 ```
 
 **good-code**
 
 ```js
-let allInfo = null;
+let allInfo = null
 if (hasInfo && allMessahe) {
-    allInfo = (
-        <div className="all-info">
-            <img src={Sigh} alt="icon" />
-            <span>{allMessahe}</span>
-        </div>
-    );
+  allInfo = (
+    <div className="all-info">
+      <img src={Sigh} alt="icon" />
+      <span>{allMessahe}</span>
+    </div>
+  )
 }
 ```
 
@@ -200,16 +200,16 @@ if (hasInfo && allMessahe) {
 
 ```js
 {
-    appAuditStatus == 1 && message ? (
-        <div styleName="messageContainer">
-            <div styleName="iconContainer">
-                <span>!</span>
-            </div>
-            <div styleName="reasonContainer">
-                <span>不通过：{message}</span>
-            </div>
-        </div>
-    ) : null;
+  appAuditStatus == 1 && message ? (
+    <div styleName="messageContainer">
+      <div styleName="iconContainer">
+        <span>!</span>
+      </div>
+      <div styleName="reasonContainer">
+        <span>不通过：{message}</span>
+      </div>
+    </div>
+  ) : null
 }
 ```
 
@@ -217,16 +217,16 @@ if (hasInfo && allMessahe) {
 
 ```js
 {
-    appAuditStatus == 1 && message && (
-        <div styleName="messageContainer">
-            <div styleName="iconContainer">
-                <span>!</span>
-            </div>
-            <div styleName="reasonContainer">
-                <span>不通过：{message}</span>
-            </div>
-        </div>
-    );
+  appAuditStatus == 1 && message && (
+    <div styleName="messageContainer">
+      <div styleName="iconContainer">
+        <span>!</span>
+      </div>
+      <div styleName="reasonContainer">
+        <span>不通过：{message}</span>
+      </div>
+    </div>
+  )
 }
 ```
 
@@ -238,20 +238,20 @@ if (hasInfo && allMessahe) {
 
 ```js
 {
-    data && data.length
-        ? data.map((item, index) => {
-              return <div>{item}</div>;
-          })
-        : null;
+  data && data.length
+    ? data.map((item, index) => {
+        return <div>{item}</div>
+      })
+    : null
 }
 
 // 或者这么写
 {
-    data &&
-        data.length &&
-        data.map((item, index) => {
-            return <div>{item}</div>;
-        });
+  data &&
+    data.length &&
+    data.map((item, index) => {
+      return <div>{item}</div>
+    })
 }
 ```
 
@@ -259,9 +259,9 @@ if (hasInfo && allMessahe) {
 
 ```js
 {
-    (data || []).map((item, index) => {
-        return <div>{item}</div>;
-    });
+  ;(data || []).map((item, index) => {
+    return <div>{item}</div>
+  })
 }
 ```
 
@@ -273,26 +273,26 @@ if (hasInfo && allMessahe) {
 
 ```js
 this.props.history.push(
-    `/tradeschedule?businessId=${getUrlParam('businessId')}` +
-        `&eBusinessId=${getUrlParam('eBusinessId')}` +
-        `&ucid=${getUrlParam('ucid')}` +
-        `&roleName=${getUrlParam('roleName')}` +
-        `&docKey=${getUrlParam('docKey')}`,
-    { nodeInfo }
-);
+  `/tradeschedule?businessId=${getUrlParam('businessId')}` +
+    `&eBusinessId=${getUrlParam('eBusinessId')}` +
+    `&ucid=${getUrlParam('ucid')}` +
+    `&roleName=${getUrlParam('roleName')}` +
+    `&docKey=${getUrlParam('docKey')}`,
+  { nodeInfo }
+)
 ```
 
 **good-code**
 
 ```js
-import { pick } from 'lodash';
-import { Util } from '@jiaoyi/tangram';
+import { pick } from 'lodash'
+import { Util } from '@jiaoyi/tangram'
 
-const { getAllUrlParam, stringifyUrl } = Util;
+const { getAllUrlParam, stringifyUrl } = Util
 
-const params = pick(getAllUrlParam(), ['businessId', 'eBusinessId', 'ucid', 'roleName', 'docKey']);
+const params = pick(getAllUrlParam(), ['businessId', 'eBusinessId', 'ucid', 'roleName', 'docKey'])
 
-this.props.history.push(stringifyUrl('/tradeschedule', params));
+this.props.history.push(stringifyUrl('/tradeschedule', params))
 ```
 
 > 字符串拼接参数这种明显属于高频操作，如果团队中没有封装对应的工具函数，写的次数多了也应该想着去封装下，或者给负责工具库的人提需求。
@@ -321,11 +321,11 @@ lodash, classnames, query-string 等等这些都是非常好用的工具库，�
 
 JavaScript 作为一门在 7 天内设计成的语言，存在许多糟糕的设计。下面列举的是一些代码风格相关的设计，（其实很多语言在设计之初，为了让更多的程序员使用自己的语言，就兼容各种各样的语法习惯，这或许是作者的无奈之举），比如：
 
--   一条语句，分号是可选的
--   if 后面的花括号可缺省
--   es6 里的箭头函数
-    -   参数的括号
-    -   返回值的简写
+- 一条语句，分号是可选的
+- if 后面的花括号可缺省
+- es6 里的箭头函数
+  - 参数的括号
+  - 返回值的简写
 
 这一类型的就不举例具体代码了，相信大家都能从文字上理解。
 

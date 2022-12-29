@@ -1,10 +1,10 @@
 # status
 
--   pending
--   resolved | fulfilled
--   rejected
+- pending
+- resolved | fulfilled
+- rejected
 
 # Promise.prototype
 
--   .then()
--   .catch()
+- .then()
+- .catch()

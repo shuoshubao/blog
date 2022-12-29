@@ -35,8 +35,7 @@
 # 360
 
 ```html
-<meta name="renderer" content="webkit" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="renderer" content="webkit" /> <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 ```
 
 # 百度禁止转码

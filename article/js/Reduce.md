@@ -5,22 +5,22 @@
 ## 求和
 
 ```js
-const sum = arr => arr.reduce((prev, cur) => prev + cur);
+const sum = arr => arr.reduce((prev, cur) => prev + cur)
 ```
 
 ## 极值
 
 ```js
-const min = arr => arr.reduce((prev, cur) => Math.min(prev, cur));
-const max = arr => arr.reduce((prev, cur) => Math.max(prev, cur));
+const min = arr => arr.reduce((prev, cur) => Math.min(prev, cur))
+const max = arr => arr.reduce((prev, cur) => Math.max(prev, cur))
 ```
 
 ## 阶乘
 
 ```js
-const factorial = N => Array.from(Array(N), (v, i) => i + 1).reduce((prev, cur) => prev * cur);
+const factorial = N => Array.from(Array(N), (v, i) => i + 1).reduce((prev, cur) => prev * cur)
 
-factorial(5); // 120
+factorial(5) // 120
 ```
 
 # Array
@@ -57,19 +57,19 @@ const ret = convertArrayToJson(data)
 
 ```js
 const data = {
-    a: {
-        b: {
-            c: 1,
-            d: 2
-        }
+  a: {
+    b: {
+      c: 1,
+      d: 2
     }
-};
+  }
+}
 
-const keys = 'a.b.d';
+const keys = 'a.b.d'
 
-const ret = keys.split('.').reduce((prev, cur) => prev[cur], data);
+const ret = keys.split('.').reduce((prev, cur) => prev[cur], data)
 
-console.log(ret); // 2
+console.log(ret) // 2
 ```
 
 # Object
@@ -78,18 +78,18 @@ console.log(ret); // 2
 
 ```js
 const filter = (json, attrs) =>
-    attrs.reduce((prev, cur) => {
-        prev[cur] = json[cur];
-        return prev;
-    }, {});
+  attrs.reduce((prev, cur) => {
+    prev[cur] = json[cur]
+    return prev
+  }, {})
 
 const data = {
-    name: 'shuoshubao',
-    age: 25,
-    sex: 1
-};
+  name: 'shuoshubao',
+  age: 25,
+  sex: 1
+}
 
-const filterData = filter(data, ['name', 'age']);
+const filterData = filter(data, ['name', 'age'])
 // {name: 'shuoshubao', age: 25}
 ```
 
@@ -97,19 +97,19 @@ const filterData = filter(data, ['name', 'age']);
 
 ```js
 const omit = (json, attrs) =>
-    Object.keys(data)
-        .filter(v => !attrs.includes(v))
-        .reduce((prev, cur) => {
-            prev[cur] = json[cur];
-            return prev;
-        }, {});
+  Object.keys(data)
+    .filter(v => !attrs.includes(v))
+    .reduce((prev, cur) => {
+      prev[cur] = json[cur]
+      return prev
+    }, {})
 
 const data = {
-    name: 'shuoshubao',
-    age: 25,
-    sex: 1
-};
+  name: 'shuoshubao',
+  age: 25,
+  sex: 1
+}
 
-const omitData = omit(data, ['name', 'age']);
+const omitData = omit(data, ['name', 'age'])
 // {sex: 1}
 ```

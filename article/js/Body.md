@@ -2,16 +2,16 @@
 
 # Properties
 
--   bodyUsed (Read only)
+- bodyUsed (Read only)
 
 # Methods
 
--   arrayBuffer()
--   blob()
--   formData()
--   json()
--   text()
+- arrayBuffer()
+- blob()
+- formData()
+- json()
+- text()
 
 # Reference
 
--   [https://developer.mozilla.org/en-US/docs/Web/API/Body](https://developer.mozilla.org/en-US/docs/Web/API/Body)
+- [https://developer.mozilla.org/en-US/docs/Web/API/Body](https://developer.mozilla.org/en-US/docs/Web/API/Body)

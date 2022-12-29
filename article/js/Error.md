@@ -1,42 +1,42 @@
 # 语法
 
 ```js
-new Error([message]);
+new Error([message])
 ```
 
 # 构造函数
 
--   Error
--   SyntaxError
--   ReferenceError
--   RangeError
--   TypeError
--   URIError
--   EvalError
+- Error
+- SyntaxError
+- ReferenceError
+- RangeError
+- TypeError
+- URIError
+- EvalError
 
 # 属性
 
--   Error.prototype.message // 当不传时, 为 undefined
--   Error.prototype.name // 非标准; 构造函数的名称 'Error', 'SyntaxError', 'ReferenceError' ...
--   Error.prototype.stack // 非标准; 错误的堆栈
+- Error.prototype.message // 当不传时, 为 undefined
+- Error.prototype.name // 非标准; 构造函数的名称 'Error', 'SyntaxError', 'ReferenceError' ...
+- Error.prototype.stack // 非标准; 错误的堆栈
 
 # 方法
 
--   Error.prototype.toString()
+- Error.prototype.toString()
 
 # 自定义错误
 
 ```js
 function UserError(message) {
-    this.message = message || '默认信息';
-    this.name = 'UserError';
+  this.message = message || '默认信息'
+  this.name = 'UserError'
 }
 
 UserError.prototype.toString = function () {
-    return this.name + ': "' + this.message + '"';
-};
+  return this.name + ': "' + this.message + '"'
+}
 
-throw new UserError('出错了！');
+throw new UserError('出错了！')
 ```
 
 # Referrence

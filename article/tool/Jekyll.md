@@ -1,15 +1,15 @@
 # 安装
 
--   gem install jekyll
+- gem install jekyll
 
 # 初始化
 
--   jekyll new siteName
+- jekyll new siteName
 
 # 开启服务
 
--   cd siteName
--   jekyll serve
+- cd siteName
+- jekyll serve
 
 > http://localhost:4000
 
@@ -17,27 +17,27 @@
 
 ## jekyll build
 
--   jekyll build
+- jekyll build
 
 > 当前文件夹中的内容将会生成到 ./site 文件夹中
 
--   jekyll build --destination <destination>
+- jekyll build --destination <destination>
 
 > 当前文件夹中的内容将会生成到目标文件夹<destination>中
 
--   jekyll build --source <source> --destination <destination>
+- jekyll build --source <source> --destination <destination>
 
 > 指定源文件夹<source>中的内容将会生成到目标文件夹<destination>中
 
--   jekyll build --watch
+- jekyll build --watch
 
 > 当前文件夹中的内容将会生成到 ./site 文件夹中
 
 ## jekyll serve
 
--   jekyll serve
--   jekyll serve --detach
--   jekyll serve --watch
+- jekyll serve
+- jekyll serve --detach
+- jekyll serve --watch
 
 # Github
 

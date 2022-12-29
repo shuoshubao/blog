@@ -1,8 +1,8 @@
 # 语法
 
 ```js
-var patt = new RegExp(pattern, modifiers);
-var patt = /pattern/defiimors;
+var patt = new RegExp(pattern, modifiers)
+var patt = /pattern/defiimors
 ```
 
 | 修饰符 | 描述       |

@@ -1,7 +1,7 @@
 #链接/图片
 
--   链接 ： [文字](http://shuoshubao.github.io)
--   图片 ： ![文字](https://assets-cdn.github.com/favicon.ico)
+- 链接 ： [文字](http://shuoshubao.github.io)
+- 图片 ： ![文字](https://assets-cdn.github.com/favicon.ico)
 
 # 标题
 
@@ -15,24 +15,24 @@
 
 # 斜体/粗体/分隔线
 
--   \*斜体\*
--   \*\* 粗体 \*\*
--   \*\*\*
+- \*斜体\*
+- \*\* 粗体 \*\*
+- \*\*\*
 
 # 代码框
 
--   \`\`\`
--   \`\`\`language-name(eg:css, html, js ...)
+- \`\`\`
+- \`\`\`language-name(eg:css, html, js ...)
 
 # 列表
 
--   无序列表 1
--   无序列表 2
+- 无序列表 1
+- 无序列表 2
 
 ---
 
--   无序列表 1
--   无序列表 2
+- 无序列表 1
+- 无序列表 2
 
 ---
 

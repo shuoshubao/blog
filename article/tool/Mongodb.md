@@ -1,18 +1,18 @@
 # Introduce
 
--   [官网](https://www.mongodb.com)
--   [下载](https://www.mongodb.com/download-center)
--   [GUI - robomongo](https://robomongo.org)
+- [官网](https://www.mongodb.com)
+- [下载](https://www.mongodb.com/download-center)
+- [GUI - robomongo](https://robomongo.org)
 
 # Install
 
--   brew update
--   brew install mongodb
--   export PATH=`<mongodb-install-directory>`/bin:\$PATH
-    > export PATH=/usr/local/mongodb/bin:\$PATH
--   mkdir -p /data/db
--   mongod --dbpath `<path to data directory>`
--   [Referrence](https://docs.mongodb.com/getting-started/shell/tutorial/install-mongodb-on-os-x)
+- brew update
+- brew install mongodb
+- export PATH=`<mongodb-install-directory>`/bin:\$PATH
+  > export PATH=/usr/local/mongodb/bin:\$PATH
+- mkdir -p /data/db
+- mongod --dbpath `<path to data directory>`
+- [Referrence](https://docs.mongodb.com/getting-started/shell/tutorial/install-mongodb-on-os-x)
 
 # Concept
 

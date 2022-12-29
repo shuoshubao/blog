@@ -1,92 +1,92 @@
--   读取文件
+- 读取文件
 
 ```js
-fs.readFile(filename, [options], callback);
-fs.readFileSync(filename, [options]);
+fs.readFile(filename, [options], callback)
+fs.readFileSync(filename, [options])
 ```
 
--   写入文件
+- 写入文件
 
 ```js
-fs.writeFile(filename, data, [options], callback);
-fs.writeFile(filename, data, [options]);
+fs.writeFile(filename, data, [options], callback)
+fs.writeFile(filename, data, [options])
 ```
 
--   创建目录
+- 创建目录
 
 ```js
-fs.mkdir(path, [mode], callback);
+fs.mkdir(path, [mode], callback)
 ```
 
--   读取目录
+- 读取目录
 
 ```js
-fs.readdir(path, (err, files) => {});
+fs.readdir(path, (err, files) => {})
 ```
 
--   查看文件/目录信息
+- 查看文件/目录信息
 
 ```js
-fs.stat(path, (err, stats) => {});
+fs.stat(path, (err, stats) => {})
 ```
 
--   检查文件/目录是否存在
+- 检查文件/目录是否存在
 
 ```js
-fs.exists(path, exists => {});
+fs.exists(path, exists => {})
 ```
 
--   获取文件的绝对路径
+- 获取文件的绝对路径
 
 ```js
-fs.realpath(path, (err, resolvedPath) => {});
+fs.realpath(path, (err, resolvedPath) => {})
 ```
 
--   修改文件时间
+- 修改文件时间
 
 ```js
-fs.utimes(path, atime, mtime, callback);
+fs.utimes(path, atime, mtime, callback)
 ```
 
--   修改文件/目录的读取权限
+- 修改文件/目录的读取权限
 
 ```js
-fs.chmod(path, mode, callback);
+fs.chmod(path, mode, callback)
 ```
 
--   修改文件/目录的读取权限
+- 修改文件/目录的读取权限
 
 ```js
-fs.chmod(path, mode, callback);
+fs.chmod(path, mode, callback)
 ```
 
--   移动/重命名文件
+- 移动/重命名文件
 
 ```js
-fs.rename(oldPath, newPath, callback);
+fs.rename(oldPath, newPath, callback)
 ```
 
--   创建和删除硬连接
+- 创建和删除硬连接
 
 ```js
-fs.link(srcPath, dstPath, callback);
+fs.link(srcPath, dstPath, callback)
 ```
 
--   截断文件
+- 截断文件
 
 ```js
-fs.truncate(filename, len, callback);
+fs.truncate(filename, len, callback)
 ```
 
--   删除空目录
+- 删除空目录
 
 ```js
-fs.rmdir(path, callback);
+fs.rmdir(path, callback)
 ```
 
--   监视文件/目录
+- 监视文件/目录
 
 ```js
-fs.watchFile(filename, [options], listener);
-fs.unwatchFile(filename, [listener]);
+fs.watchFile(filename, [options], listener)
+fs.unwatchFile(filename, [listener])
 ```
