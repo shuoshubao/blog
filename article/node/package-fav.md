@@ -106,7 +106,9 @@
 -   copy-to-clipboard
 -   prettier (代码格式化)
 -   file-type
--   http-server (nodejs 开启本地服务器)
+-   http-server
+-   serve
+-   portfinder
 -   ms (时间戳与时间格式相互转换)
 -   filesize (将数字转化为 B Kb)
 -   dotenv
@@ -146,6 +148,8 @@
 -   elegant-spinner
 -   chalk
 -   opn (调用系统应用打开指定文件, 还可以监听程序的退出)
+-   open
+-   opener
 -   download
 -   node-notifier
 -   colors
@@ -154,6 +158,8 @@
 -   text-table
 -   cli-table2
 -   child-process-promise
+-   sirv
+-   ws
 
 # @babel
 
@@ -188,11 +194,12 @@
 
 -   rollup
 -   @rollup/plugin-babel
--   @rollup/plugin-commonjs
+-   @rollup/plugin-terser
 -   @rollup/plugin-json
+-   @rollup/plugin-commonjs
 -   @rollup/plugin-node-resolve
 -   @rollup/plugin-replace
--   rollup-plugin-terser
+-   @rollup/plugin-alias
 
 # Markdown
 
@@ -216,6 +223,7 @@
 -   htmlparser
 -   htmlparser2
 -   jsdom
+-   domify
 -   is-dom
 -   domutils
 -   domhandler
