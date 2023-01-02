@@ -1,54 +1,174 @@
-#链接/图片
+# 格式
 
-- 链接 ： [文字](http://shuoshubao.github.io)
-- 图片 ： ![文字](https://assets-cdn.github.com/favicon.ico)
+## 斜体
+
+```md
+_italic_
+```
+
+_italic_
+
+## 加粗
+
+```md
+**bold**
+```
+
+**bold**
+
+## 加粗+斜体
+
+```md
+**_bold+italic_**
+```
+
+**_bold+italic_**
+
+## 删除线
+
+```md
+~~strikethrough~~
+```
+
+~~strikethrough~~
+
+## html 标签
+
+```html
+<sup>sup</sup>
+<sub>sub</sub>
+<mark>mark</mark>
+<u>underline</u>
+```
+
+- m<sup>3</sup>
+- a<sub>i + 1</sub>
+- Log<sup>n</sup><sub>e</sub>
+- <mark>mark</mark>
+- <u>underline</u>
+
+## 链接
+
+```md
+[github](https://github.com)
+```
+
+[github](https://github.com)
+
+## 图片
+
+```md
+![](https://github.githubassets.com/favicons/favicon.png)
+```
+
+![](https://github.githubassets.com/favicons/favicon.png)
+
+## 内联代码
+
+```md
+`inline code`
+```
 
 # 标题
 
+```md
 # 一级标题
 
 ## 二级标题
 
+### 三级标题
+
+#### 四级标题
+```
+
+# 分隔线
+
+```md
+---
+```
+
+---
+
 # 引用
 
-> 只需要在文本前加入 \> 即可
+```md
+> quote
+```
 
-# 斜体/粗体/分隔线
+> quote
 
-- \*斜体\*
-- \*\* 粗体 \*\*
-- \*\*\*
+# 代码
 
-# 代码框
+<pre>
+  <code>```lang
+write your code here
+```</code>
+</pre>
 
-- \`\`\`
-- \`\`\`language-name(eg:css, html, js ...)
+```js
+console.log('markdown')
+```
 
 # 列表
 
-- 无序列表 1
-- 无序列表 2
+## 无序列表
 
----
+```md
+- item1
+- item2
+- item3
 
-- 无序列表 1
-- 无序列表 2
+* item1
+* item2
+* item3
 
----
+- item1
+- item2
+- item3
+```
 
-1. 有序列表 1
-2. 有序列表 2
+- item1
+- item2
+- item3
 
----
+* item1
+* item2
+* item3
+
+- item1
+- item2
+- item3
+
+## 有序列表
+
+```md
+1. item1
+2. item2
+3. item3
+```
+
+1. item1
+2. item2
+3. item3
+
+# 任务列表
+
+```md
+[x] task 1
+[] task 2
+```
+
+- [x] task 1
+- [ ] task 2
 
 # 表格
 
-```text
-|Tables|Are|Cool|
-|-|:-:|-:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+```md
+| Tables        |      Are      |   Cool |
+| ------------- | :-----------: | -----: |
+| col 3 is      | right-aligned | \$1600 |
+| col 2 is      |   centered    |   \$12 |
+| zebra stripes |   are neat    |    \$1 |
 ```
 
 | Tables        |      Are      |   Cool |
@@ -57,19 +177,9 @@
 | col 2 is      |   centered    |   \$12 |
 | zebra stripes |   are neat    |    \$1 |
 
-# 反斜杠
+# Referrence
 
-```text
-\   反斜线
-`   反引号
-*   星号
-_   底线
-{}  花括号
-[]  方括号
-()  括弧
-#   井字号
-+   加号
--   减号
-.   英文句点
-!   惊叹号
-```
+- https://github.github.com/gfm
+- https://www.markdownguide.org
+- http://commonmark.org
+- https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting

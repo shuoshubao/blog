@@ -147,6 +147,7 @@
 - log-update
 - elegant-spinner
 - chalk
+- boxen
 - opn (调用系统应用打开指定文件, 还可以监听程序的退出)
 - open
 - opener
