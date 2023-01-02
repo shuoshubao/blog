@@ -1,9 +1,3 @@
-```js
-const app = () => {
-  return <div />
-}
-```
-
 # 格式
 
 ## 斜体
