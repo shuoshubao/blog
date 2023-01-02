@@ -1,3 +1,9 @@
+```js
+const app = () => {
+  return <div />
+}
+```
+
 # 格式
 
 ## 斜体
@@ -99,11 +105,9 @@ _italic_
 
 # 代码
 
-<pre>
-  <code>```lang
+<pre><code>```lang
 write your code here
-```</code>
-</pre>
+```</code></pre>
 
 ```js
 console.log('markdown')
