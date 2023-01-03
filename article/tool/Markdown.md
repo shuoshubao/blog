@@ -120,22 +120,28 @@ console.log('markdown')
 * item2
 * item3
 
-- item1
-- item2
-- item3
++ item1
++ item2
++ item3
 ```
+
+### -
 
 - item1
 - item2
 - item3
+
+### *
 
 * item1
 * item2
 * item3
 
-- item1
-- item2
-- item3
+### +
+
++ item1
++ item2
++ item3
 
 ## 有序列表
 
@@ -175,9 +181,15 @@ console.log('markdown')
 | col 2 is      |   centered    |   \$12 |
 | zebra stripes |   are neat    |    \$1 |
 
+# markdown-it
+
+- markdown-it-task-lists
+- markdown-it-attrs
+
 # Referrence
 
 - https://github.github.com/gfm
 - https://www.markdownguide.org
 - http://commonmark.org
 - https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting
+- https://github.blog/2022-05-19-math-support-in-markdown
