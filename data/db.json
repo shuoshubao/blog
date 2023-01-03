@@ -1,40 +1,4 @@
 {
-  "html": [
-    {
-      "name": "HtmlElement",
-      "title": "HTML 标签"
-    },
-    {
-      "name": "HtmlEntity",
-      "title": "HTML 字符实体"
-    },
-    {
-      "name": "Html5",
-      "title": "HTML5"
-    },
-    {
-      "name": "Event",
-      "title": "HTML 事件属性"
-    },
-    {
-      "name": "Meta",
-      "title": "Meta"
-    }
-  ],
-  "css": [
-    {
-      "name": "Total",
-      "title": "CSS"
-    },
-    {
-      "name": "Selector",
-      "title": "CSS选择器"
-    },
-    {
-      "name": "Flex",
-      "title": "Flex"
-    }
-  ],
   "js": [
     {
       "name": "ES2022",
@@ -269,24 +233,12 @@
   ],
   "tool": [
     {
-      "name": "Git",
-      "title": "Git使用介绍"
+      "name": "Markdown",
+      "title": "Markdown"
     },
     {
-      "name": "CodeGuide",
-      "title": "代码规范"
-    },
-    {
-      "name": "Terminal",
-      "title": "Terminal"
-    },
-    {
-      "name": "SQL",
-      "title": "SQL"
-    },
-    {
-      "name": "Mongodb",
-      "title": "Mongodb"
+      "name": "Sublime",
+      "title": "Sublime"
     },
     {
       "name": "Emmet",
@@ -313,16 +265,28 @@
       "title": "Mac"
     },
     {
-      "name": "Markdown",
-      "title": "Markdown"
+      "name": "Git",
+      "title": "Git使用介绍"
+    },
+    {
+      "name": "CodeGuide",
+      "title": "代码规范"
+    },
+    {
+      "name": "Terminal",
+      "title": "Terminal"
+    },
+    {
+      "name": "SQL",
+      "title": "SQL"
+    },
+    {
+      "name": "Mongodb",
+      "title": "Mongodb"
     },
     {
       "name": "Smarty",
       "title": "Smarty"
-    },
-    {
-      "name": "Sublime",
-      "title": "Sublime"
     }
   ],
   "assemble": [
@@ -341,6 +305,42 @@
     {
       "name": "About",
       "title": "关于我"
+    }
+  ],
+  "html": [
+    {
+      "name": "HtmlElement",
+      "title": "HTML 标签"
+    },
+    {
+      "name": "HtmlEntity",
+      "title": "HTML 字符实体"
+    },
+    {
+      "name": "Html5",
+      "title": "HTML5"
+    },
+    {
+      "name": "Event",
+      "title": "HTML 事件属性"
+    },
+    {
+      "name": "Meta",
+      "title": "Meta"
+    }
+  ],
+  "css": [
+    {
+      "name": "Total",
+      "title": "CSS"
+    },
+    {
+      "name": "Selector",
+      "title": "CSS选择器"
+    },
+    {
+      "name": "Flex",
+      "title": "Flex"
     }
   ]
 }
