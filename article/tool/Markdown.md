@@ -69,6 +69,8 @@ _italic_
 `inline code`
 ```
 
+我是内联 `inline code` 标签
+
 # 标题
 
 ```md
@@ -120,28 +122,22 @@ console.log('markdown')
 * item2
 * item3
 
-+ item1
-+ item2
-+ item3
+- item1
+- item2
+- item3
 ```
-
-### -
 
 - item1
 - item2
 - item3
 
-### *
-
 * item1
 * item2
 * item3
 
-### +
-
-+ item1
-+ item2
-+ item3
+- item1
+- item2
+- item3
 
 ## 有序列表
 
@@ -185,11 +181,13 @@ console.log('markdown')
 
 - markdown-it-task-lists
 - markdown-it-attrs
+- markdown-it-anchor
 
 # Referrence
 
-- https://github.github.com/gfm
-- https://www.markdownguide.org
-- http://commonmark.org
-- https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting
-- https://github.blog/2022-05-19-math-support-in-markdown
+- [GFM: GitHub Flavored Markdown](https://github.github.com/gfm)
+- [Markdown Guide](https://www.markdownguide.org)
+- [commonmark](http://commonmark.org)
+- [working with advanced formatting](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting)
+- [basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+- [math support in markdown](https://github.blog/2022-05-19-math-support-in-markdown)
