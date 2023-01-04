@@ -11,7 +11,7 @@
 - link
 - script
 
-# DIV
+# Div
 
 - div
 - article
@@ -24,7 +24,7 @@
 - footer
 - dialog
 
-# SPAN
+# Span
 
 - a
 - p
@@ -45,7 +45,7 @@
 - select,optgroup,option
 - fieldset,legend（没啥用）
 
-# TABLE
+# Table
 
 - table
 - caption
@@ -58,7 +58,7 @@
 - colgroup
 - col
 
-# LIST
+# List
 
 - ul
 - ol
