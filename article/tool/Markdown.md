@@ -177,6 +177,92 @@ console.log('markdown')
 | col 2 is      |   centered    |   \$12 |
 | zebra stripes |   are neat    |    \$1 |
 
+# Mermaid
+
+[About Mermaid](https://mermaid.js.org/intro/)
+
+## Flowcharts
+
+<pre><code>```mermaid
+flowchart TD
+  Start --> Stop
+```</code></pre>
+
+```mermaid
+flowchart TD
+  Start --> Stop
+```
+
+<pre><code>```mermaid
+flowchart LR
+  Start --> Stop
+```</code></pre>
+
+```mermaid
+flowchart LR
+  Start --> Stop
+```
+
+<pre><code>```mermaid
+flowchart LR
+  id1(This is the text in the box)
+```</code></pre>
+
+```mermaid
+flowchart LR
+  id1(This is the text in the box)
+```
+
+<pre><code>```mermaid
+flowchart LR
+  id1[(Database)]
+```</code></pre>
+
+```mermaid
+flowchart LR
+  id1[(Database)]
+```
+
+## Sequence Diagrams
+
+<pre><code>```mermaid
+sequenceDiagram
+  Alice->>John: Hello John, how are you?
+  John-->>Alice: Great!
+  Alice-)John: See you later!
+```</code></pre>
+
+```mermaid
+sequenceDiagram
+  Alice->>John: Hello John, how are you?
+  John-->>Alice: Great!
+  Alice-)John: See you later!
+```
+
+## State Diagrams
+
+<pre><code>```mermaid
+stateDiagram-v2
+  [*] --> Still
+  Still --> [*]
+
+  Still --> Moving
+  Moving --> Still
+  Moving --> Crash
+  Crash --> [*]
+```</code></pre>
+
+```mermaid
+stateDiagram-v2
+  [*] --> Still
+  Still --> [*]
+
+  Still --> Moving
+  Moving --> Still
+  Moving --> Crash
+  Crash --> [*]
+```
+
 # markdown-it
 
 - markdown-it-task-lists
