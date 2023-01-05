@@ -265,9 +265,9 @@ stateDiagram-v2
 
 # Math
 
-[KaTeX](https://katex.org)
-[LaTeX](https://www.latex-project.org)
-[MathJax](https://www.mathjax.org)
+- [KaTeX](https://katex.org)
+- [LaTeX](https://www.latex-project.org)
+- [MathJax](https://www.mathjax.org)
 
 ```
 $E = mc^2$
