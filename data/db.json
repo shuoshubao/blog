@@ -41,8 +41,8 @@
       "title": "ES3"
     },
     {
-      "name": "Strict-Mode",
-      "title": "严格模式"
+      "name": "React",
+      "title": "React"
     },
     {
       "name": "Vue",
@@ -51,10 +51,6 @@
     {
       "name": "Vue-vnode",
       "title": "Vue-vnode"
-    },
-    {
-      "name": "React",
-      "title": "React"
     },
     {
       "name": "Redux",
@@ -69,24 +65,16 @@
       "title": "Angular"
     },
     {
+      "name": "Strict-Mode",
+      "title": "严格模式"
+    },
+    {
       "name": "Reduce",
       "title": "Reduce的应用"
     },
     {
-      "name": "Npm",
-      "title": "Npm"
-    },
-    {
-      "name": "Yarn",
-      "title": "Yarn"
-    },
-    {
       "name": "RegExp",
       "title": "RegExp"
-    },
-    {
-      "name": "History",
-      "title": "Javascript的历史"
     },
     {
       "name": "Code",
@@ -175,6 +163,10 @@
     {
       "name": "Console",
       "title": "Console"
+    },
+    {
+      "name": "History",
+      "title": "Javascript的历史"
     }
   ],
   "node": [
@@ -235,6 +227,14 @@
     {
       "name": "Markdown",
       "title": "Markdown"
+    },
+    {
+      "name": "Npm",
+      "title": "Npm"
+    },
+    {
+      "name": "Yarn",
+      "title": "Yarn"
     },
     {
       "name": "Sublime",
