@@ -282,14 +282,16 @@ $$ a^2 + b^2 = c^2 $$
 $$ a^2 + b^2 = c^2 $$
 
 ```
-$$ sqrt{3x-1}+(1+x)^2 $$
+$$ {f(x)=a_nx^n+a_{n-1}x^{n-1}+a_{n-2}x^{n-2}}+\cdots $$
 ```
 
+$$ {f(x) = a_nx^n + a_{n-1}x^{n-1} + a_{n-2}x^{n-2}} + \cdots $$
+
 ```
-$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
+$$ {f(x) = a_nx^n + a_{n-1}x^{n-1} + a_{n-2}x^{n-2}} + \cdots $$
 ```
 
-$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a + 1} $$
+$$ x = {-b \pm \sqrt{b^2 - 4ac} \over 2a + 1} $$
 
 # markdown-it
 
