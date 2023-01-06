@@ -233,6 +233,10 @@
       "title": "Markdown"
     },
     {
+      "name": "Test",
+      "title": "单元测试"
+    },
+    {
       "name": "Npm",
       "title": "Npm"
     },
