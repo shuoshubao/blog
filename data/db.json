@@ -65,6 +65,10 @@
       "title": "Angular"
     },
     {
+      "name": "prefers-color-scheme",
+      "title": "暗黑模式"
+    },
+    {
       "name": "Strict-Mode",
       "title": "严格模式"
     },
