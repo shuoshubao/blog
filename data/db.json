@@ -179,44 +179,44 @@
       "title": "overview"
     },
     {
-      "name": "global",
-      "title": "global"
-    },
-    {
-      "name": "console",
-      "title": "console"
-    },
-    {
-      "name": "buffer",
-      "title": "buffer"
+      "name": "fs",
+      "title": "fs"
     },
     {
       "name": "path",
       "title": "path"
     },
     {
-      "name": "querystring",
-      "title": "querystring"
-    },
-    {
       "name": "url",
       "title": "url"
-    },
-    {
-      "name": "stream",
-      "title": "stream"
-    },
-    {
-      "name": "fs",
-      "title": "fs"
     },
     {
       "name": "os",
       "title": "os"
     },
     {
+      "name": "querystring",
+      "title": "querystring"
+    },
+    {
+      "name": "global",
+      "title": "global"
+    },
+    {
+      "name": "buffer",
+      "title": "buffer"
+    },
+    {
+      "name": "stream",
+      "title": "stream"
+    },
+    {
       "name": "readline",
       "title": "readline"
+    },
+    {
+      "name": "console",
+      "title": "console"
     },
     {
       "name": "packages-awesome",

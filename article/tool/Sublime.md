@@ -46,59 +46,13 @@
 
 # [Package Control](https://packagecontrol.io/installation)
 
-### sublime text 2
-
-```py
-import urllib2,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')
-```
-
-### sublime text 3
-
 ```py
 import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)
 ```
 
-# 注册码
-
-### sublime text 3 [new!!!]
-
-```text
-—– BEGIN LICENSE —–
-TwitterInc
-200 User License
-EA7E-890007
-1D77F72E 390CDD93 4DCBA022 FAF60790
-61AA12C0 A37081C5 D0316412 4584D136
-94D7F7D4 95BC8C1C 527DA828 560BB037
-D1EDDD8C AE7B379F 50C9D69D B35179EF
-2FE898C4 8E4277A8 555CE714 E1FB0E43
-D5D52613 C3D12E98 BC49967F 7652EED2
-9D2D2E61 67610860 6D338B72 5CF95C69
-E36B85CC 84991F19 7575D828 470A92AB
-—— END LICENSE ——
-```
-
-### sublime text 3
-
-```
-—– BEGIN LICENSE —–
-Michael Barnes
-Single User License
-EA7E-821385
-8A353C41 872A0D5C DF9B2950 AFF6F667
-C458EA6D 8EA3C286 98D1D650 131A97AB
-AA919AEC EF20E143 B361B1E7 4C8B7F04
-B085E65E 2F5F5360 8489D422 FB8FC1AA
-93F6323C FD7F7544 3F39C318 D95E6480
-FCCC7561 8A4A1741 68FA4223 ADCEDE07
-200C25BE DBBC4855 C4CFB774 C5EC138C
-0FEC1CEF D9DCECEC D3A5DAD1 01316C36
-—— END LICENSE ——
-```
-
 # 插件
 
-- [Emmet](http://shuoshubao.github.io/tool/emmet.html)
+- Emmet
 - A File Icon
 - CSS3
 - jQuery
@@ -163,12 +117,18 @@ FCCC7561 8A4A1741 68FA4223 ADCEDE07
 - ctrl+shift+k 删除行
 - cmd+j 合并行
 
-### 注释 / 缩进 / 大小写
+### 注释
 
 - cmd+/
 - cmd+shift+/
+
+### 缩进
+
 - cmd+[
 - cmd+]
+
+## 大小写
+
 - cmd+k,u 大写
 - cmd+k,l 小写
 
@@ -195,7 +155,7 @@ FCCC7561 8A4A1741 68FA4223 ADCEDE07
 - cmd+k,t 折叠标签属性
 - cmd+k,数字 折叠 n 层
 
-### 排序（卵用）
+### 排序
 
 - f9 行按升序排
 - ctrl+f9 行按升序排，区分大小写

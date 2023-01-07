@@ -1,4 +1,8 @@
-> const url = require('url')
+# api
+
+- url.format(urlObject)
+- url.parse(urlString[, parseQueryString[, slashesDenoteHost]])
+- url.resolve(from, to)
 
 # urlObject
 
@@ -15,12 +19,6 @@
 - urlObject.query
 - urlObject.hash
 
-# url
+# Reference
 
-- url.format(urlObject)
-- url.parse(urlString[, parseQueryString[, slashesDenoteHost]])
-- url.resolve(from, to)
-
-# Escaped Characters
-
-> < > " ` \r \n \t { } | \ ^ ' 空格
+- [https://nodejs.org/api/url.html](https://nodejs.org/api/url.html)

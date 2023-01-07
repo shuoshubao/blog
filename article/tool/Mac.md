@@ -1,4 +1,4 @@
-# 1. 终端自动补全忽略大小写
+# 终端自动补全忽略大小写
 
 ### 输入
 
@@ -22,7 +22,7 @@ TAB: menu-complete
 
 - 重启终端生效
 
-# 2. 关闭/开启 Spotlight
+# 关闭/开启 Spotlight
 
 ### 关闭
 
@@ -32,7 +32,7 @@ TAB: menu-complete
 
 > sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist
 
-# 3. 快捷键
+# 快捷键
 
 - cmd+, 打开当前 app 的设置
 - cmd+w 关闭当前标签页
@@ -45,7 +45,7 @@ TAB: menu-complete
 - cmd+上下 顶/底部
 - fn+上下 翻页
 
-# 4. 关闭/开启 自动生成 .DS_Store 文件
+# 关闭/开启 自动生成 .DS_Store 文件
 
 ### 关闭
 
@@ -55,7 +55,7 @@ TAB: menu-complete
 
 > defaults delete com.apple.desktopservices DSDontWriteNetworkStores
 
-# 5. 显示/隐藏 隐藏文件(夹)
+# 显示/隐藏 隐藏文件(夹)
 
 ### 显示
 
@@ -65,11 +65,11 @@ TAB: menu-complete
 
 > defaults write com.apple.Finder AppleShowAllFiles NO
 
-# 6. 删除所有的 .DS_Store 文件
+# 删除所有的 .DS_Store 文件
 
 > sudo find / -name ".DS_Store" -depth -exec rm {} \;
 
-# 7. Alias
+# Alias
 
 > vim \~/.bash_profile
 

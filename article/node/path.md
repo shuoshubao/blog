@@ -1,38 +1,28 @@
-> const path = require('path')
+# api
 
-- path.basename(path[, ext])
-- path.delimiter
-- path.sep
-- path.dirname(path)
-- path.extname(path)
-- path.format(pathObject)
+```js
+path.resolve(...args)
+path.join(...args)
+path.relative(from, to)
+path.isAbsolute(path)
+path.basename(path, ext)
+path.dirname(path)
+path.extname(path)
+path.format()
+path.parse(path)
+path.normalize(path)
+```
 
-```text
+```js
 pathObject: {
-    root,
-    dir,
-    base,
-    name,
-    ext
+    root: string,
+    dir: string,
+    base: string,
+    name: string,
+    ext: string,
 }
 ```
 
-- path.isAbsolute(path)
-- path.join([...paths])
-- path.normalize(path)
-- path.parse(path)
+# Reference
 
-```text
-Returns: {
-    root,
-    dir,
-    base,
-    name,
-    ext
-}
-```
-
-- path.posix
-- path.win32
-- path.relative(from, to)
-- path.resolve([...paths])
+- [https://nodejs.org/api/fs.html](https://nodejs.org/api/fs.html)
