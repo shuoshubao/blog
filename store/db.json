@@ -41,8 +41,8 @@
       "title": "ES3"
     },
     {
-      "name": "Strict-Mode",
-      "title": "严格模式"
+      "name": "React",
+      "title": "React"
     },
     {
       "name": "Vue",
@@ -51,10 +51,6 @@
     {
       "name": "Vue-vnode",
       "title": "Vue-vnode"
-    },
-    {
-      "name": "React",
-      "title": "React"
     },
     {
       "name": "Redux",
@@ -69,24 +65,20 @@
       "title": "Angular"
     },
     {
+      "name": "prefers-color-scheme",
+      "title": "暗黑模式"
+    },
+    {
+      "name": "Strict-Mode",
+      "title": "严格模式"
+    },
+    {
       "name": "Reduce",
       "title": "Reduce的应用"
     },
     {
-      "name": "Npm",
-      "title": "Npm"
-    },
-    {
-      "name": "Yarn",
-      "title": "Yarn"
-    },
-    {
       "name": "RegExp",
       "title": "RegExp"
-    },
-    {
-      "name": "History",
-      "title": "Javascript的历史"
     },
     {
       "name": "Code",
@@ -175,6 +167,10 @@
     {
       "name": "Console",
       "title": "Console"
+    },
+    {
+      "name": "History",
+      "title": "Javascript的历史"
     }
   ],
   "node": [
@@ -183,44 +179,44 @@
       "title": "overview"
     },
     {
-      "name": "global",
-      "title": "global"
-    },
-    {
-      "name": "console",
-      "title": "console"
-    },
-    {
-      "name": "buffer",
-      "title": "buffer"
+      "name": "fs",
+      "title": "fs"
     },
     {
       "name": "path",
       "title": "path"
     },
     {
-      "name": "querystring",
-      "title": "querystring"
-    },
-    {
       "name": "url",
       "title": "url"
-    },
-    {
-      "name": "stream",
-      "title": "stream"
-    },
-    {
-      "name": "fs",
-      "title": "fs"
     },
     {
       "name": "os",
       "title": "os"
     },
     {
+      "name": "querystring",
+      "title": "querystring"
+    },
+    {
+      "name": "global",
+      "title": "global"
+    },
+    {
+      "name": "buffer",
+      "title": "buffer"
+    },
+    {
+      "name": "stream",
+      "title": "stream"
+    },
+    {
       "name": "readline",
       "title": "readline"
+    },
+    {
+      "name": "console",
+      "title": "console"
     },
     {
       "name": "packages-awesome",
@@ -235,6 +231,18 @@
     {
       "name": "Markdown",
       "title": "Markdown"
+    },
+    {
+      "name": "Test",
+      "title": "单元测试"
+    },
+    {
+      "name": "Npm",
+      "title": "Npm"
+    },
+    {
+      "name": "Yarn",
+      "title": "Yarn"
     },
     {
       "name": "Sublime",
