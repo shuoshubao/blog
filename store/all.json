@@ -268,8 +268,8 @@
       "content": "> const readline = require('readline')\n\n- readline.Interface\n\n  - rl.on('close', ())\n  - rl.on('line', (input))\n  - rl.on('line', (input))\n  - rl.on('pause', ())\n  - rl.on('resume', ())\n  - rl.on('SIGCONT', ())\n  - rl.on('SIGTSTP', ())\n  - rl.close()\n  - rl.pause()\n  - rl.prompt([preserveCursor])\n  - rl.question(query, callback)\n  - rl.write(data[, key])\n\n- readline.clearLine(stream, dir)\n- readline.clearScreenDown(stream)\n- readline.createInterface(options)\n- readline.cursorTo(stream, x, y)\n- readline.moveCursor(stream, dx, dy)\n- readline.emitKeypressEvents(stream[, interface])\n"
     },
     {
-      "name": "console",
-      "title": "console",
+      "name": "Console",
+      "title": "Console",
       "content": "- new Console(stdout[, stderr])\n- console.log([data][, ...args])\n- console.info([data][, ...args])\n- console.warn([data][, ...args])\n- console.error([data][, ...args])\n- console.time(label)\n- console.timeEnd(label)\n- console.dir(obj[, options])\n- console.assert(value[, message][, ...args])\n- console.trace(message[, ...args])\n"
     },
     {

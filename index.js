@@ -1,9 +1,7 @@
-const { readFileSync, writeFileSync, copyFileSync } = require('fs')
+const { readFileSync, writeFileSync } = require('fs')
 const { resolve } = require('path')
 
 const data = JSON.parse(readFileSync('./data/db.json').toString())
-
-copyFileSync('./data/db.json', './store/db.json')
 
 Object.entries(data).forEach(([k, v]) => {
   v.forEach(v2 => {
