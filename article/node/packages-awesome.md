@@ -90,6 +90,7 @@
 - minimatch
 - anymatch
 - micromatch
+- picomatch
 
 # 工具
 
