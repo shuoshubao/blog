@@ -1,5 +1,6 @@
 const { readFileSync, writeFileSync, lstatSync } = require('fs')
 const { resolve } = require('path')
+const { execSync } = require('child_process')
 
 const data = JSON.parse(readFileSync('./data/db.json').toString())
 
@@ -11,12 +12,22 @@ Object.entries(data).forEach(([k, v]) => {
     const { name, title } = v2
     const filepath = resolve(__dirname, 'article', k, `${name}.md`)
     const content = readFileSync(filepath).toString()
-    const { size, ctime, mtime } = lstatSync(filepath)
+
+    const ctime = execSync(`git log --diff-filter=A --pretty=format:"%ad" ${filepath}`).toString()
+    const mtime = execSync(`git log -1 --pretty=format:"%ad" ${filepath}`).toString()
+
+    const { size } = lstatSync(filepath)
+
     ContentData[[k, name].join('/')] = {
       title,
       content
     }
-    Object.assign(CategoryData[k][i2], { size, ctime, mtime })
+
+    Object.assign(CategoryData[k][i2], {
+      size,
+      ctime: new Date(ctime).getTime(),
+      mtime: new Date(mtime).getTime()
+    })
   })
 })
 
