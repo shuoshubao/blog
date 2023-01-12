@@ -16,7 +16,7 @@ Object.entries(data).forEach(([k, v]) => {
       title,
       content
     }
-    Object.assign(CategoryData[k][i2], { content, size, ctime, mtime })
+    Object.assign(CategoryData[k][i2], { size, ctime, mtime })
   })
 })
 
