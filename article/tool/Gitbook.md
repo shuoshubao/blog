@@ -1,18 +1,26 @@
 # 安装
 
-> npm install gitbook-cli -g
+```sh
+npm i -g gitbook-cli
+```
 
 # 初始化
 
-> gitbook init
+```sh
+gitbook init
+```
 
 # 服务
 
-> gitbook serve
+```sh
+gitbook serve
+```
 
 # 构建
 
-> gitbook build
+```sh
+gitbook build
+```
 
 # book.json 书的信息
 
@@ -52,7 +60,7 @@
 
 # SUMMARY.md 目录
 
-```text
+```md
 Summary
 
 [Chapter 1](chapter1.md)

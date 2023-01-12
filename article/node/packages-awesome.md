@@ -53,6 +53,7 @@
 - write-json-file
 - formidable (form data 解析器, 文件上传)
 - uuid
+- nanoid
 - winston
 - package (读取 package.json 数据)
 - config
