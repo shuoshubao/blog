@@ -237,6 +237,10 @@
       "title": "编辑器"
     },
     {
+      "name": "Github",
+      "title": "Github"
+    },
+    {
       "name": "Test",
       "title": "单元测试"
     },
