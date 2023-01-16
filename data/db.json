@@ -233,6 +233,10 @@
       "title": "Markdown"
     },
     {
+      "name": "Editor",
+      "title": "编辑器"
+    },
+    {
       "name": "Test",
       "title": "单元测试"
     },
