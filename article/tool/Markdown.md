@@ -58,10 +58,14 @@ _italic_
 ## 图片
 
 ```md
-![](https://github.githubassets.com/favicons/favicon.png)
+![](图片地址)
+
+![alt 文本](图片地址)
 ```
 
 ![](https://github.githubassets.com/favicons/favicon.png)
+
+![github icon](https://github.githubassets.com/favicons/favicon.jpg)
 
 ## 内联代码
 
@@ -299,11 +303,13 @@ $$ x = {-b \pm \sqrt{b^2 - 4ac} \over 2a + 1} $$
 - markdown-it-attrs
 - markdown-it-anchor
 
+[commonmark](https://github.com/commonmark/commonmark.js)
+
 # Referrence
 
 - [GFM: GitHub Flavored Markdown](https://github.github.com/gfm)
 - [Markdown Guide](https://www.markdownguide.org)
-- [commonmark](http://commonmark.org)
+- [commonmark](https://commonmark.org)
 - [working with advanced formatting](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting)
 - [basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 - [math support in markdown](https://github.blog/2022-05-19-math-support-in-markdown)
