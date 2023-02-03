@@ -65,6 +65,10 @@
       "title": "Angular"
     },
     {
+      "name": "Base64",
+      "title": "base64"
+    },
+    {
       "name": "prefers-color-scheme",
       "title": "暗黑模式"
     },
@@ -307,6 +311,16 @@
     {
       "name": "Smarty",
       "title": "Smarty"
+    }
+  ],
+  "awesome": [
+    {
+      "name": "React",
+      "title": "React 生态"
+    },
+    {
+      "name": "Docs",
+      "title": "文档"
     }
   ],
   "assemble": [

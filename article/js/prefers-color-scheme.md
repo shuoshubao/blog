@@ -33,6 +33,6 @@ export const addListenerPrefersColorScheme = callback => {
 }
 ```
 
-# References
+# Reference
 
 - [MDN matchMedia](https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia)

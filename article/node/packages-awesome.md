@@ -252,6 +252,7 @@
 - stylus
 - autoprefixer
 - postcss
+- styled-jsx
 - css-unit-converter
 - css-what
 - css-select

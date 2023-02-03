@@ -33,3 +33,7 @@ module.exports = {
 [https://npmtrends.com](https://npmtrends.com)
 
 比较一段时间内的 npm 包下载数量, 也可查询单个 npm 包
+
+# npm badges
+
+[https://nodei.co](https://nodei.co)
