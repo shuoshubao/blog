@@ -344,5 +344,3 @@ JavaScript 作为一门在 7 天内设计成的语言，存在许多糟糕的设
 写代码，其实说白了就是在做翻译，先将需求用人类的语音描述清楚，再通过 JavaScript 语言将人类语言翻译成浏览器编译器能识别的代码。在实际工作中，是需要和别的翻译一起协同工作，因此我们翻译的语言，不止要机器能识别，自己能看懂，还要其他同事也能看懂。代码的**可维护性**高于一切。
 
 另外，我们要相信开源的力量，相信业界标准的力量。**prettier** 和 **eslint** (以及 airbnb 的各种 eslint 规范)、**sonar** 都是非常成熟的工具，能在代码层面分析出我们的代码存在的各种问题，并给出推荐的写法。
-
-最后，安利下 贝壳-交易 FE 团队 在 **prettier+eslint+sonar** 方面的沉淀: [@jiaoyi/config](https://git.lianjia.com/transaction/fe-tect/-/tree/master/packages/config)
