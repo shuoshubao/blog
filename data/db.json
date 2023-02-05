@@ -321,6 +321,18 @@
     {
       "name": "Docs",
       "title": "文档"
+    },
+    {
+      "name": "Editor",
+      "title": "编辑器"
+    },
+    {
+      "name": "Table",
+      "title": "表格"
+    },
+    {
+      "name": "Form",
+      "title": "表单"
     }
   ],
   "assemble": [
