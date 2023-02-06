@@ -27,7 +27,6 @@ md.use(MarkdownItCustomBlock, {
 
 # markdown-it-container
 
-
 ```md
 ::: success 提示文案
 
@@ -65,7 +64,6 @@ Error Text
 Success Text
 
 :::
-
 
 ::: info 提示文案
 

@@ -297,7 +297,6 @@ $$ {f(x) = a_nx^n + a_{n-1}x^{n-1} + a_{n-2}x^{n-2}} + \cdots $$
 
 $$ x = {-b \pm \sqrt{b^2 - 4ac} \over 2a + 1} $$
 
-
 # Packages
 
 - markdown-it
