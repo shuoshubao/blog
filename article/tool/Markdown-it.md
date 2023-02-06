@@ -28,62 +28,62 @@ md.use(MarkdownItCustomBlock, {
 # markdown-it-container
 
 ```md
-::: success 提示文案
+:::success 提示文案
 
 Success Text
 
 :::
 
-::: info 提示文案
+:::info 提示文案
 
 Info Text
 
 :::
 
-::: warning 提示文案
+:::warning 提示文案
 
 Warning Text
 
 :::
 
-::: error 提示文案
+:::error 提示文案
 
 Error Text
 
 :::
 
-::: error
+:::error
 
 没有标题, 默认使用 type
 
 :::
 ```
 
-::: success 提示文案
+:::success 提示文案
 
 Success Text
 
 :::
 
-::: info 提示文案
+:::info 提示文案
 
 Info Text
 
 :::
 
-::: warning 提示文案
+:::warning 提示文案
 
 Warning Text
 
 :::
 
-::: error 提示文案
+:::error 提示文案
 
 Error Text
 
 :::
 
-::: error
+:::error
 
 没有标题, 默认使用 type
 
