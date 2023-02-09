@@ -69,6 +69,13 @@ const decode = binary => {
 }
 ```
 
+# Packages
+
+- js-base64
+- base64-js
+- base-64
+- crypto-js
+
 # Reference
 
 [MDN atob](https://developer.mozilla.org/zh-CN/docs/Web/API/atob)
