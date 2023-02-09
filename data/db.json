@@ -237,10 +237,6 @@
       "title": "Markdown"
     },
     {
-      "name": "Markdown-it",
-      "title": "markdown-it"
-    },
-    {
       "name": "Editor",
       "title": "编辑器"
     },
@@ -337,6 +333,10 @@
     {
       "name": "Form",
       "title": "表单"
+    },
+    {
+      "name": "MarkdownIt",
+      "title": "markdown-it"
     }
   ],
   "assemble": [
