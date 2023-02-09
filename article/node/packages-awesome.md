@@ -223,6 +223,7 @@
 - parse5
 - cheerio (nodejs 端的 jq)
 - entities
+- he
 - html-entities
 - htmlparser
 - htmlparser2
@@ -230,6 +231,7 @@
 - domify
 - is-dom
 - domutils
+- dompurify
 - domhandler
 - dom-helpers
 - polished

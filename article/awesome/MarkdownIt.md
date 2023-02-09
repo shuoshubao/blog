@@ -89,6 +89,11 @@ Error Text
 
 :::
 
+# markdown-it-emoji
+
+- :tada:
+- :100:
+
 # Packages
 
 - markdown-it-container
@@ -97,16 +102,16 @@ Error Text
 - markdown-it-attrs
 - markdown-it-link-attributes
 - markdown-it-custom-block
-- markdown-it-deflist
+- markdown-it-emoji
+- linkify-it
+- markdown-it-footnote
+- markdown-it-cjk-breaks
+- markdown-it-for-inline
 - markdown-it-sup
 - markdown-it-sub
 - markdown-it-ins
 - markdown-it-mark
-- markdown-it-footnote
-- markdown-it-emoji
-- markdown-it-cjk-breaks
-- markdown-it-for-inline
-- linkify-it
+- markdown-it-deflist
 
 # Referrence
 
