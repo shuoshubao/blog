@@ -237,26 +237,6 @@
       "title": "Markdown"
     },
     {
-      "name": "Editor",
-      "title": "编辑器"
-    },
-    {
-      "name": "Github",
-      "title": "Github"
-    },
-    {
-      "name": "Playground",
-      "title": "Playground"
-    },
-    {
-      "name": "Test",
-      "title": "单元测试"
-    },
-    {
-      "name": "Npm",
-      "title": "Npm"
-    },
-    {
       "name": "Yarn",
       "title": "Yarn"
     },
@@ -323,8 +303,24 @@
       "title": "文档"
     },
     {
+      "name": "Playground",
+      "title": "Playground"
+    },
+    {
       "name": "Editor",
       "title": "编辑器"
+    },
+    {
+      "name": "Github",
+      "title": "Github"
+    },
+    {
+      "name": "Test",
+      "title": "单元测试"
+    },
+    {
+      "name": "Npm",
+      "title": "Npm"
     },
     {
       "name": "Table",

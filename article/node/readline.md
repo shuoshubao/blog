@@ -1,4 +1,6 @@
-> const readline = require('readline')
+```js
+const readline = require('readline')
+```
 
 - readline.Interface
 

@@ -1,4 +1,6 @@
-> const os = require('os')
+```js
+const os = require('os')
+```
 
 - os.EOL
 - os.arch()

@@ -1,7 +1,0 @@
-- [monaco-editor](https://microsoft.github.io/monaco-editor/)
-- [slate.js](https://www.slatejs.org/)
-- [Draft.js](https://draftjs.org/)
-- [codemirror](https://codemirror.net/)
-- [quill](https://quilljs.com/)
-- [ProseMirror](https://prosemirror.net/)
-- [Editor.js](https://editorjs.io/)
