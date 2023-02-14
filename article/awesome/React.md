@@ -49,7 +49,7 @@
 # 脚手架
 
 - [create-react-app](https://github.com/facebook/create-react-app) - 无需构建配置即可创建 React 应用程序。 ![](https://img.shields.io/github/stars/facebook/create-react-app.svg?style=social&label=Star)
-- [Vite](https://vitejs.dev/) - 下一代的前端工具链。 ![](https://img.shields.io/github/stars/vitejs/vite.svg?style=social&label=Star)
+- [Vite](https://vitejs.dev) - 下一代的前端工具链。 ![](https://img.shields.io/github/stars/vitejs/vite.svg?style=social&label=Star)
 
 # UI 组件
 

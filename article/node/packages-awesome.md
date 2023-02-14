@@ -98,6 +98,8 @@
 - lodash
 - classnames
 - qs、querystring、querystringify (querystring 解析器)
+- pako
+- jszip
 - url-parse
 - blueimp-md5
 - crypto-js
@@ -213,7 +215,7 @@
 - remark-gfm
 - remark-mdx
 - markdown-table
-- [@mdx-js/mdx](https://mdxjs.com/)
+- [@mdx-js/mdx](https://mdxjs.com)
 - gray-matter
 - micromark
 

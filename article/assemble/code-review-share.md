@@ -333,8 +333,6 @@ JavaScript 作为一门在 7 天内设计成的语言，存在许多糟糕的设
 
 感谢阅读到这里~ 看完后，可以想下自己是否也正在写着这样的代码，项目中是否也有大量的`bad-code`。
 
-以上仅是浓缩版的代码片段，更多内容请移步 wiki 上的总结(仅公司内网可见): [http://wiki.lianjia.com/pages/viewpage.action?pageId=679921171](http://wiki.lianjia.com/pages/viewpage.action?pageId=679921171)
-
 针对此次大幅度的代码优化，我整理了下 bad-code 中反应的一些认知误区：
 
 1. 代码越少，代码就越优雅，代码水平越高
