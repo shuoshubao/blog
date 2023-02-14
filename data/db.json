@@ -85,10 +85,6 @@
       "title": "RegExp"
     },
     {
-      "name": "Code",
-      "title": "JS代码片段"
-    },
-    {
       "name": "Canvas",
       "title": "Canvas"
     },
@@ -235,6 +231,10 @@
     {
       "name": "Markdown",
       "title": "Markdown"
+    },
+    {
+      "name": "CodeSnippet",
+      "title": "代码片段"
     },
     {
       "name": "Yarn",
