@@ -273,25 +273,25 @@ stateDiagram-v2
 - [LaTeX](https://www.latex-project.org)
 - [MathJax](https://www.mathjax.org)
 
-```
+```md
 $E = mc^2$
 ```
 
 质能方程 $E = mc^2$ ，E 表示能量，m 代表质量，而 c 则表示光速（常量，c=299792458m/s）。 由阿尔伯特·爱因斯坦提出。 该方程主要用来解释核变反应中的质量亏损和计算高能物理中粒子的能量。
 
-```
+```md
 $$ a^2 + b^2 = c^2 $$
 ```
 
 $$ a^2 + b^2 = c^2 $$
 
-```
+```md
 $$ {f(x)=a_nx^n+a_{n-1}x^{n-1}+a_{n-2}x^{n-2}}+\cdots $$
 ```
 
 $$ {f(x) = a_nx^n + a_{n-1}x^{n-1} + a_{n-2}x^{n-2}} + \cdots $$
 
-```
+```md
 $$ {f(x) = a_nx^n + a_{n-1}x^{n-1} + a_{n-2}x^{n-2}} + \cdots $$
 ```
 

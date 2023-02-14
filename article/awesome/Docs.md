@@ -3,7 +3,7 @@
 - [storybook](https://storybook.js.org)
 - [gitbook](https://gitbook.com)
 - [docz](https://www.docz.site)
-- [mdxjs](https://www.mdxjs.cn)
+- [mdxjs](https://mdxjs.com)
 - [docsify](https://docsify.js.org)
 - [tsdoc](https://tsdoc.org)
 - [react-styleguidist](https://react-styleguidist.js.org)
