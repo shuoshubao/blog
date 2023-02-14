@@ -12,4 +12,5 @@
 - [hexo](https://hexo.io)
 - [jekyll](https://jekyllrb.com)
 - [gatsby](https://www.gatsbyjs.com)
+- [astro](https://astro.build)
 - [ydoc](https://hellosean1025.github.io/ydoc)
