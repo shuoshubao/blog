@@ -218,3 +218,10 @@ npm publish --tag beta
 # 第一次发包
 npm publish --access=public
 ```
+
+# git
+
+```sh
+# 只下载最新源码
+git clone --depth=1
+```

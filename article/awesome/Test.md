@@ -42,6 +42,10 @@
 
 [Codecov](https://about.codecov.io)
 
+# Coveralls
+
+[Coveralls](https://coveralls.io)
+
 # UVU
 
 [UVU](https://github.com/lukeed/uvu)

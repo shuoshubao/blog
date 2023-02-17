@@ -160,3 +160,7 @@ GitHub 仓库的 star、fork、sponsor 和 follow 按钮展示, 也可展示数�
 <!-- Place this tag in your head or just before your close body tag. -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 ```
+
+# ghchart
+
+[https://ghchart.rshah.org](https://ghchart.rshah.org)
