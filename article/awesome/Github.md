@@ -164,3 +164,14 @@ GitHub 仓库的 star、fork、sponsor 和 follow 按钮展示, 也可展示数�
 # ghchart
 
 [https://ghchart.rshah.org](https://ghchart.rshah.org)
+
+# packages
+
+- github-url-to-object
+- parse-github-url
+- github-slugger
+- gh-pages
+- octokit
+  - @octokit/auth-token
+  - @octokit/core
+  - @octokit/rest

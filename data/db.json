@@ -233,6 +233,10 @@
       "title": "Markdown"
     },
     {
+      "name": "CodeQuality",
+      "title": "代码质量"
+    },
+    {
       "name": "CodeSnippet",
       "title": "代码片段"
     },
