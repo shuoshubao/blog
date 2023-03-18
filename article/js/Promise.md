@@ -8,3 +8,11 @@
 
 - .then()
 - .catch()
+
+# packages
+
+- p-limit
+- p-queue
+- p-all
+- p-timeout
+- promise-queue

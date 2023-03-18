@@ -225,3 +225,21 @@ npm publish --access=public
 # 只下载最新源码
 git clone --depth=1
 ```
+
+# 其他
+
+## 语雀
+
+> 管理员已开启禁止复制功能，如有疑问，请联系管理员
+
+点击代码框复制代码到粘贴板
+
+```js
+document.querySelectorAll('.cm-content').forEach(node => {
+  node.addEventListener('click', () => {
+    const { innerText } = node
+    console.log(innerText)
+    window.navigator.clipboard.writeText(innerText)
+  })
+})
+```

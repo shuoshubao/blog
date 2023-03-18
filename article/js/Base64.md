@@ -80,3 +80,5 @@ const decode = binary => {
 
 [MDN atob](https://developer.mozilla.org/zh-CN/docs/Web/API/atob)
 [MDN btoa](https://developer.mozilla.org/zh-CN/docs/Web/API/btoa)
+
+https://stackoverflow.com/questions/21797299/convert-base64-string-to-arraybuffer

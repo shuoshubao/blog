@@ -27,6 +27,10 @@
 - promise
 - q
 - co
+- asap
+- p-limit
+- p-queue
+- p-all
 
 # AST
 
@@ -98,6 +102,7 @@
 - lodash
 - classnames
 - qs、querystring、querystringify (querystring 解析器)
+- zlib
 - pako
 - jszip
 - url-parse
@@ -116,21 +121,28 @@
 - ms (时间戳与时间格式相互转换)
 - filesize (将数字转化为 B Kb)
 - dotenv
+- tiny-case
 
 # Highlight
 
 - highlight.js
 - prismjs
 
-# 图像处理
+# 图片处理
 
 - gm (GraphicsMagick + ImageMagick)
 - sharp
 - pngquant (图片压缩)
 - imagemin
+- imagemin-jpegtran
+- imagemin-pngquant
+- jimp
 - image-size
 - tinify (Tinypng)
 - upng-js
+- png-js
+- jpeg-js
+- [tinycolor2](https://bgrins.github.io/TinyColor)
 
 # 命令行 cli
 
@@ -281,17 +293,20 @@
 
 # Validator
 
+- async-validator
 - json5
 - joi
 - ajv
 - ajv-keywords
 - ajv-errors
-- async-validator
 - schema-utils
+- jsonschema
 - json-stringify-safe
 - fast-json-stringify
 - fast-json-parse
 - json-parse-better-errors
+- yup
+- validator
 
 # git
 

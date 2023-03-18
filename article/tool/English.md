@@ -145,4 +145,11 @@
 | terminal       | 终端         |
 | misc           | 其他         |
 | roadmap        | 规划图       |
-| nested        | 嵌套       |
+| nested         | 嵌套         |
+| shallow        | 浅           |
+| decoder        | 解码器       |
+| decode         | 解码         |
+| encode         | 编码         |
+| encoder        | 编码器       |
+| lossy          | 有损         |
+| lossless       | 无损         |
