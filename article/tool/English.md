@@ -26,6 +26,7 @@
 | execute        | 执行         |
 | generator      | 生成器       |
 | scheduler      | 调度器       |
+| reconcilation  | 协调         |
 | shortcut       | 快捷方式     |
 | browser        | 浏览器       |
 | compatibility  | 兼容性       |
@@ -44,6 +45,7 @@
 | specify        | 指定         |
 | generally      | 一般         |
 | release        | 发布         |
+| capture        | 捕获         |
 | candidate      | 候选人       |
 | tutorial       | 教程         |
 | redirect       | 重定向       |
@@ -66,7 +68,6 @@
 | multiple       | 多个         |
 | simultaneously | 同时         |
 | locally        | 本地的       |
-| execute        | 执行         |
 | request        | 请求         |
 | assume         | 假设         |
 | recursive      | 递归         |
@@ -75,6 +76,8 @@
 | polling        | 轮询         |
 | deploy         | 部署         |
 | proxy          | 代理         |
+| delegation     | 委托         |
+| synthetic      | 合成         |
 | interface      | 接口，关键字 |
 | interactive    | 交互式的     |
 | caution        | 警告         |
@@ -100,6 +103,7 @@
 | inflate        | 充气         |
 | compress       | 压缩         |
 | restore        | 恢复         |
+| composite      | 组合         |
 | lifecycle      | 生命周期     |
 | chunk          | 模块         |
 | concat         | 连接         |
@@ -153,3 +157,5 @@
 | encoder        | 编码器       |
 | lossy          | 有损         |
 | lossless       | 无损         |
+| mutable        | 可变的       |
+| immutable      | 不可变的     |

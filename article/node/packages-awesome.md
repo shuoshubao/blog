@@ -142,6 +142,8 @@
 - upng-js
 - png-js
 - jpeg-js
+- is-jpg
+- jpegtran-bin
 - [tinycolor2](https://bgrins.github.io/TinyColor)
 
 # 命令行 cli
@@ -353,6 +355,7 @@
 
 - puppeteer
 - phantomjs
+- web-vitals
 
 # 数据库
 

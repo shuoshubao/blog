@@ -243,3 +243,17 @@ document.querySelectorAll('.cm-content').forEach(node => {
   })
 })
 ```
+
+## 检测页面中的自定义全局变量
+
+```js
+const iframe = document.createElement('iframe')
+iframe.onload = () => {
+  const customGlobalKeys = Object.keys(window).filter(v => {
+    return !Object.keys(iframe.contentWindow).includes(v)
+  })
+  console.log(customGlobalKeys.sort())
+}
+iframe.src = 'about:blank'
+document.body.appendChild(iframe)
+```
