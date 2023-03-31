@@ -345,6 +345,10 @@
   ],
   "assemble": [
     {
+      "name": "Optimize",
+      "title": "优化"
+    },
+    {
       "name": "code-review-share",
       "title": "前端code-review经验总结"
     },
