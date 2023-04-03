@@ -105,6 +105,7 @@
 - zlib
 - pako
 - jszip
+- reusify
 - url-parse
 - blueimp-md5
 - crypto-js

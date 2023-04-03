@@ -11,6 +11,7 @@
 
 # packages
 
+- async-limiter
 - p-limit
 - p-queue
 - p-all

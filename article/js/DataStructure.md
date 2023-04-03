@@ -1,0 +1,11 @@
+- queue
+- denque
+- yocto-queue
+- js-sdsl
+- mnemonist
+- obliterator
+- functional-red-black-tree
+- treeify
+- object-treeify
+- fastq
+- p-queue
