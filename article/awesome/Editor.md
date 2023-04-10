@@ -5,3 +5,4 @@
 - [quill](https://quilljs.com)
 - [ProseMirror](https://prosemirror.net)
 - [Editor.js](https://editorjs.io)
+- [Lexical](https://lexical.dev)

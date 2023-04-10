@@ -159,3 +159,5 @@
 | lossless       | 无损         |
 | mutable        | 可变的       |
 | immutable      | 不可变的     |
+| microtask      | 微任务       |
+| macrotask      | 宏任务       |

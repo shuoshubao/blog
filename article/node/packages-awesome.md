@@ -123,6 +123,7 @@
 - filesize (将数字转化为 B Kb)
 - dotenv
 - tiny-case
+- platform
 
 # Highlight
 
