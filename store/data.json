@@ -413,7 +413,7 @@
     {
       "name": "Markdown",
       "title": "Markdown",
-      "size": 4519,
+      "size": 4527,
       "ctime": 1502073694000,
       "mtime": 1676371241000
     },
@@ -490,13 +490,27 @@
     {
       "name": "Mac",
       "title": "Mac",
-      "size": 1450,
+      "size": 1210,
       "ctime": 1502073694000,
       "mtime": 1673076755000
     },
     {
+      "name": "Bash",
+      "title": "Bash",
+      "size": 1074,
+      "ctime": null,
+      "mtime": null
+    },
+    {
+      "name": "Brew",
+      "title": "Brew",
+      "size": 894,
+      "ctime": null,
+      "mtime": null
+    },
+    {
       "name": "Git",
-      "title": "Git使用介绍",
+      "title": "Git",
       "size": 6294,
       "ctime": 1502073694000,
       "mtime": 1672318349000
@@ -657,7 +671,7 @@
     {
       "name": "HtmlEntity",
       "title": "HTML 字符实体",
-      "size": 373,
+      "size": 370,
       "ctime": 1668328307000,
       "mtime": 1668328307000
     },

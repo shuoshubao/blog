@@ -285,8 +285,16 @@
       "title": "Mac"
     },
     {
+      "name": "Bash",
+      "title": "Bash"
+    },
+    {
+      "name": "Brew",
+      "title": "Brew"
+    },
+    {
       "name": "Git",
-      "title": "Git使用介绍"
+      "title": "Git"
     },
     {
       "name": "CodeGuide",

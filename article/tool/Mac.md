@@ -1,36 +1,32 @@
 # 终端自动补全忽略大小写
 
-### 输入
-
 ```sh
-nano .inputrc
-```
+vim ~/.inputrc
 
-### 粘贴
+# 粘贴配置
+
+souce ~/.inputrc
+```
 
 ```text
 set completion-ignore-case on
 set show-all-if-ambiguous on
-TAB: menu-complete
+Tab: menu-complete
 ```
-
-### 保存
-
-- Control+O，回车保存
-
-### 重启
-
-- 重启终端生效
 
 # 关闭/开启 Spotlight
 
-### 关闭
+## 关闭
 
-> sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist
+```bash
+sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist
+```
 
-### 开启
+## 开启
 
-> sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist
+```bash
+sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist
+```
 
 # 快捷键
 
@@ -47,35 +43,28 @@ TAB: menu-complete
 
 # 关闭/开启 自动生成 .DS_Store 文件
 
-### 关闭
+## 关闭
 
-> defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE
+```bash
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE
+```
 
-### 开启
+## 开启
 
-> defaults delete com.apple.desktopservices DSDontWriteNetworkStores
+```bash
+defaults delete com.apple.desktopservices DSDontWriteNetworkStores
+```
 
 # 显示/隐藏 隐藏文件(夹)
 
-### 显示
+## 显示
 
-> defaults write com.apple.Finder AppleShowAllFiles YES
+```bash
+defaults write com.apple.Finder AppleShowAllFiles YES
+```
 
-### 隐藏
+## 隐藏
 
-> defaults write com.apple.Finder AppleShowAllFiles NO
-
-# 删除所有的 .DS_Store 文件
-
-> sudo find / -name ".DS_Store" -depth -exec rm {} \;
-
-# Alias
-
-> vim \~/.bash_profile
-
-```sh
-alias dev = ssh root@172.34.56
-alias gst = git status
-alias gpl = git pull
-alias gps = git push
+```bash
+defaults write com.apple.Finder AppleShowAllFiles NO
 ```
