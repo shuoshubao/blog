@@ -3,6 +3,8 @@ const { resolve } = require('path')
 const { execSync } = require('child_process')
 const { chunk } = require('lodash')
 
+console.time('generate')
+
 const data = JSON.parse(readFileSync('./data/db.json').toString())
 
 const CategoryData = JSON.parse(JSON.stringify(data))
@@ -24,10 +26,7 @@ Object.entries(data).forEach(([k, v]) => {
 
     const { size } = lstatSync(filepath)
 
-    ContentData[[k, name].join('/')] = {
-      title,
-      content: encodeText(content)
-    }
+    ContentData[btoa([k, name].join('/'))] = encodeText(content)
 
     Object.assign(CategoryData[k][i2], {
       size,
@@ -37,5 +36,7 @@ Object.entries(data).forEach(([k, v]) => {
   })
 })
 
-writeFileSync('./store/data.json', JSON.stringify(CategoryData, ' ', 2) + '\n')
-writeFileSync('./store/all.json', JSON.stringify(ContentData, ' ', 2) + '\n')
+writeFileSync('./store/data.json', JSON.stringify(CategoryData) + '\n')
+writeFileSync('./store/all.json', JSON.stringify(ContentData) + '\n')
+
+console.timeEnd('generate')
