@@ -415,6 +415,10 @@
     {
       "name": "Flex",
       "title": "Flex"
+    },
+    {
+      "name": "Fillet",
+      "title": "内圆角"
     }
   ]
 }
