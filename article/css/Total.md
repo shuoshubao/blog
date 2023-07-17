@@ -77,3 +77,7 @@
 - -webkit-tap-highlight-color: transparent
 - ::-webkit-scrollbar
 - ::-webkit-full-screen
+
+# new
+
+- will-change

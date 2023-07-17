@@ -9,7 +9,13 @@
 - object-treeify
 - fastq
 - p-queue
+- bintrees
 
 
 - immediate 微任务
 - when
+
+- lru-cache
+- quick-lru
+- cacache
+- flat-cache

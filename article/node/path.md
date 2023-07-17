@@ -25,4 +25,4 @@ pathObject: {
 
 # Reference
 
-- [https://nodejs.org/api/fs.html](https://nodejs.org/api/fs.html)
+- [https://nodejs.org/api/fs.html](https://nodejs.org/api/path.html)

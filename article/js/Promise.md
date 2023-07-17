@@ -17,3 +17,4 @@
 - p-all
 - p-timeout
 - promise-queue
+- asap
