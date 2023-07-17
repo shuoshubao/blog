@@ -25,7 +25,7 @@
   }
 
   .container div:nth-child(2)::before,
-  .container div:nth-child(2)::after{
+  .container div:nth-child(2)::after {
     content: ' ';
     position: absolute;
     width: 12px;
@@ -74,7 +74,7 @@
   }
 
   .container div:nth-child(2)::before,
-  .container div:nth-child(2)::after{
+  .container div:nth-child(2)::after {
     content: ' ';
     position: absolute;
     width: 12px;
