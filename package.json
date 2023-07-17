@@ -4,5 +4,8 @@
   "private": true,
   "scripts": {
     "deploy": "node ."
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }

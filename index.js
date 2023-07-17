@@ -1,11 +1,19 @@
 const { readFileSync, writeFileSync, lstatSync } = require('fs')
 const { resolve } = require('path')
 const { execSync } = require('child_process')
+const { chunk } = require('lodash')
+
+console.time('generate')
 
 const data = JSON.parse(readFileSync('./data/db.json').toString())
 
 const CategoryData = JSON.parse(JSON.stringify(data))
 const ContentData = {}
+
+const encodeText = text => {
+  const list = new TextEncoder().encode(text)
+  return chunk(list, 100).map(v => v.toString())
+}
 
 Object.entries(data).forEach(([k, v]) => {
   v.forEach((v2, i2) => {
@@ -18,10 +26,7 @@ Object.entries(data).forEach(([k, v]) => {
 
     const { size } = lstatSync(filepath)
 
-    ContentData[[k, name].join('/')] = {
-      title,
-      content
-    }
+    ContentData[btoa([k, name].join('/'))] = encodeText(content)
 
     Object.assign(CategoryData[k][i2], {
       size,
@@ -31,5 +36,7 @@ Object.entries(data).forEach(([k, v]) => {
   })
 })
 
-writeFileSync('./store/data.json', JSON.stringify(CategoryData, ' ', 2) + '\n')
-writeFileSync('./store/all.json', JSON.stringify(ContentData, ' ', 2) + '\n')
+writeFileSync('./store/data.json', JSON.stringify(CategoryData) + '\n')
+writeFileSync('./store/all.json', JSON.stringify(ContentData) + '\n')
+
+console.timeEnd('generate')

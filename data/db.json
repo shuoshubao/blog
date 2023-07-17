@@ -249,6 +249,10 @@
       "title": "代码片段"
     },
     {
+      "name": "Note",
+      "title": "小记"
+    },
+    {
       "name": "Yarn",
       "title": "Yarn"
     },
@@ -281,8 +285,16 @@
       "title": "Mac"
     },
     {
+      "name": "Bash",
+      "title": "Bash"
+    },
+    {
+      "name": "Brew",
+      "title": "Brew"
+    },
+    {
       "name": "Git",
-      "title": "Git使用介绍"
+      "title": "Git"
     },
     {
       "name": "CodeGuide",
@@ -403,6 +415,10 @@
     {
       "name": "Flex",
       "title": "Flex"
+    },
+    {
+      "name": "Fillet",
+      "title": "内圆角"
     }
   ]
 }
