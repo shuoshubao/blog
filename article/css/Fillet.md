@@ -19,7 +19,7 @@
     background: #1677ff;
     color: #fff;
     padding: 5px 12px;
-    cusor: pointer;
+    cursor: pointer;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
   }
@@ -68,7 +68,7 @@
     background: #1677ff;
     color: #fff;
     padding: 5px 12px;
-    cusor: pointer;
+    cursor: pointer;
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
   }
