@@ -37,3 +37,12 @@ module.exports = {
 # npm badges
 
 [https://nodei.co](https://nodei.co)
+
+# npm.io
+
+[https://npm.io](https://npm.io)
+
+# API
+
+https://github.com/npm/registry/blob/master/docs/REGISTRY-API.md
+https://github.com/npm/registry/blob/master/docs/REPLICATE-API.md
