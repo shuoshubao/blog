@@ -81,15 +81,15 @@
 # 横向
 
 ```playround
-<body>
+<template>
   <div class="container">
     <div>Tab1</div>
     <div>Tab2</div>
     <div>Tab3</div>
   </div>
-</body>
+</template>
 
-<style>
+<style type="text/less">
   .container {
     display: flex;
     gap: 12px;
@@ -127,15 +127,15 @@
 # 纵向
 
 ```playround
-<body>
+<template>
   <div class="container">
     <div>Tab1</div>
     <div>Tab2</div>
     <div>Tab3</div>
   </div>
-</body>
+</template>
 
-<style>
+<style type="text/less">
   .container {
     display: flex;
     flex-direction: column;
