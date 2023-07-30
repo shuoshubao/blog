@@ -419,6 +419,10 @@
     {
       "name": "Fillet",
       "title": "内圆角"
+    },
+    {
+      "name": "Gradient",
+      "title": "渐变"
     }
   ]
 }
