@@ -1,4 +1,4 @@
-```playround
+```playground
 <template>
   <div class="white-grad">Some text here</div>
 
@@ -24,7 +24,7 @@
 </style>
 ```
 
-```playround
+```playground
 <template>
   <div class="white-grad"></div>
 

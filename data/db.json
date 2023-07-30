@@ -361,6 +361,10 @@
   ],
   "assemble": [
     {
+      "name": "Playground",
+      "title": "Playground"
+    },
+    {
       "name": "Optimize",
       "title": "优化"
     },

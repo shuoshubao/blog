@@ -1,6 +1,6 @@
 # 横向
 
-```playround
+```playground
 <template>
   <div class="container">
     <div>Tab1</div>
@@ -46,7 +46,7 @@
 
 # 纵向
 
-```playround
+```playground
 <template>
   <div class="container">
     <div>Tab1</div>
