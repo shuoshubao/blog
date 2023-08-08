@@ -81,6 +81,10 @@
       "title": "暗黑模式"
     },
     {
+      "name": "ForAwaitOf",
+      "title": "for await of"
+    },
+    {
       "name": "Strict-Mode",
       "title": "严格模式"
     },
