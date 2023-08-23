@@ -431,6 +431,10 @@
     {
       "name": "Gradient",
       "title": "渐变"
+    },
+    {
+      "name": "Square",
+      "title": "正方形"
     }
   ]
 }
