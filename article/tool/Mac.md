@@ -5,7 +5,7 @@ vim ~/.inputrc
 
 # 粘贴配置
 
-souce ~/.inputrc
+bind -f ~/.inputrc
 ```
 
 ```text
