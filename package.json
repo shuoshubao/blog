@@ -1,9 +1,9 @@
 {
-  "name": "blog",
-  "version": "1.0.0",
-  "private": true,
+  "name": "@nbfe/blog",
+  "version": "0.1.1",
   "scripts": {
-    "deploy": "node ."
+    "build": "node .",
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "lodash": "^4.17.21"
